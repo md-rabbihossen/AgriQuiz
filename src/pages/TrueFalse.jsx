@@ -10,6 +10,7 @@ function TrueFalse() {
   const [selectedAnswer, setSelectedAnswer] = useState(null)
   const [score, setScore] = useState(0)
   const [showResult, setShowResult] = useState(false)
+  const [wrongAnswers, setWrongAnswers] = useState([])
 
   // Sample True/False questions
   const questions = {
@@ -65,11 +66,19 @@ function TrueFalse() {
   const currentQuestion = shuffledQuestions[currentQuestionIndex]
 
   const handleAnswer = (answer) => {
-    if (selectedAnswer !== null) return // Prevent changing answer
+    if (selectedAnswer !== null) return
     
     setSelectedAnswer(answer)
     if (answer === currentQuestion.answer) {
       setScore(prev => prev + 1)
+    } else {
+      // Store wrong answers
+      setWrongAnswers(prev => [...prev, {
+        question: currentQuestion.question,
+        yourAnswer: answer ? 'True' : 'False',
+        correctAnswer: currentQuestion.answer ? 'True' : 'False',
+        explanation: currentQuestion.explanation
+      }])
     }
   }
 
@@ -93,6 +102,22 @@ function TrueFalse() {
           <div className="result-container">
             <h2>Quiz Complete!</h2>
             <p className="score">Your Score: {score} out of {shuffledQuestions.length}</p>
+            
+            {/* Add wrong answers review section */}
+            {wrongAnswers.length > 0 && (
+              <div className="wrong-answers-review">
+                <h3>Review Wrong Answers:</h3>
+                {wrongAnswers.map((item, index) => (
+                  <div key={index} className="wrong-answer-item">
+                    <p className="review-question">{item.question}</p>
+                    <p className="your-answer">Your Answer: <span className="incorrect">{item.yourAnswer}</span></p>
+                    <p className="correct-answer">Correct Answer: <span className="correct">{item.correctAnswer}</span></p>
+                    <p className="explanation">{item.explanation}</p>
+                  </div>
+                ))}
+              </div>
+            )}
+
             <button 
               className="nav-button"
               onClick={() => navigate(`/course/${courseName}/chapter/${chapterName}`)}

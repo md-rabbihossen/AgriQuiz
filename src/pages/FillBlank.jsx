@@ -11,6 +11,7 @@ function FillBlank() {
   const [isAnswered, setIsAnswered] = useState(false)
   const [score, setScore] = useState(0)
   const [showResult, setShowResult] = useState(false)
+  const [wrongAnswers, setWrongAnswers] = useState([])
 
   // Sample Fill in the Blank questions
   const questions = {
@@ -67,11 +68,18 @@ function FillBlank() {
   const currentQuestion = shuffledQuestions[currentQuestionIndex]
 
   const checkAnswer = () => {
-    if (!userAnswer.trim()) return // Don't accept empty answers
+    if (!userAnswer.trim()) return
     
     const isCorrect = currentQuestion.acceptableAnswers.includes(userAnswer.trim())
     if (isCorrect) {
       setScore(prev => prev + 1)
+    } else {
+      // Store wrong answers
+      setWrongAnswers(prev => [...prev, {
+        question: currentQuestion.question,
+        yourAnswer: userAnswer.trim(),
+        correctAnswer: currentQuestion.answer
+      }])
     }
     setIsAnswered(true)
   }
@@ -103,6 +111,21 @@ function FillBlank() {
           <div className="result-container">
             <h2>Quiz Complete!</h2>
             <p className="score">Your Score: {score} out of {shuffledQuestions.length}</p>
+            
+            {/* Add wrong answers review section */}
+            {wrongAnswers.length > 0 && (
+              <div className="wrong-answers-review">
+                <h3>Review Wrong Answers:</h3>
+                {wrongAnswers.map((item, index) => (
+                  <div key={index} className="wrong-answer-item">
+                    <p className="review-question">{item.question}</p>
+                    <p className="your-answer">Your Answer: <span className="incorrect">{item.yourAnswer}</span></p>
+                    <p className="correct-answer">Correct Answer: <span className="correct">{item.correctAnswer}</span></p>
+                  </div>
+                ))}
+              </div>
+            )}
+
             <button 
               className="nav-button"
               onClick={() => navigate(`/course/${courseName}/chapter/${chapterName}`)}

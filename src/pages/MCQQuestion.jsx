@@ -10,6 +10,7 @@ function MCQQuestion() {
   const [selectedAnswer, setSelectedAnswer] = useState(null)
   const [score, setScore] = useState(0)
   const [showResult, setShowResult] = useState(false)
+  const [wrongAnswers, setWrongAnswers] = useState([])
 
   // Sample MCQ data
   const questions = {
@@ -69,11 +70,18 @@ function MCQQuestion() {
   const currentQuestion = shuffledQuestions[currentQuestionIndex]
 
   const handleOptionClick = (option) => {
-    if (selectedAnswer) return // Prevent changing answer after selection
+    if (selectedAnswer) return
     
     setSelectedAnswer(option)
     if (option === currentQuestion.correctAnswer) {
       setScore(prev => prev + 1)
+    } else {
+      // Store wrong answers
+      setWrongAnswers(prev => [...prev, {
+        question: currentQuestion.question,
+        yourAnswer: option,
+        correctAnswer: currentQuestion.correctAnswer
+      }])
     }
   }
 
@@ -108,6 +116,20 @@ function MCQQuestion() {
           <div className="result-container">
             <h2>Quiz Complete!</h2>
             <p className="score">Your Score: {score} out of {shuffledQuestions.length}</p>
+            
+            {wrongAnswers.length > 0 && (
+              <div className="wrong-answers-review">
+                <h3>Review Wrong Answers:</h3>
+                {wrongAnswers.map((item, index) => (
+                  <div key={index} className="wrong-answer-item">
+                    <p className="review-question">{item.question}</p>
+                    <p className="your-answer">Your Answer: <span className="incorrect">{item.yourAnswer}</span></p>
+                    <p className="correct-answer">Correct Answer: <span className="correct">{item.correctAnswer}</span></p>
+                  </div>
+                ))}
+              </div>
+            )}
+
             <button 
               className="nav-button"
               onClick={() => navigate(`/course/${courseName}/chapter/${chapterName}`)}
