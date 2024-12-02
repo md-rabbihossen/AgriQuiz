@@ -12,6 +12,7 @@ function FillBlank() {
   const [score, setScore] = useState(0)
   const [showResult, setShowResult] = useState(false)
   const [wrongAnswers, setWrongAnswers] = useState([])
+  const [skippedQuestions, setSkippedQuestions] = useState([])
 
   // Sample Fill in the Blank questions
   const questions = {
@@ -100,6 +101,23 @@ function FillBlank() {
     }
   }
 
+  const handleSkipQuestion = () => {
+    // Store skipped question
+    setSkippedQuestions(prev => [...prev, {
+      question: currentQuestion.question,
+      correctAnswer: currentQuestion.answer
+    }])
+    
+    // Move to next question
+    if (currentQuestionIndex < shuffledQuestions.length - 1) {
+      setCurrentQuestionIndex(prev => prev + 1)
+      setUserAnswer('')
+      setIsAnswered(false)
+    } else {
+      setShowResult(true)
+    }
+  }
+
   return (
     <div className="question-page">
       <Navbar />
@@ -112,14 +130,27 @@ function FillBlank() {
             <h2>Quiz Complete!</h2>
             <p className="score">Your Score: {score} out of {shuffledQuestions.length}</p>
             
-            {/* Add wrong answers review section */}
+            {/* Wrong answers section */}
             {wrongAnswers.length > 0 && (
               <div className="wrong-answers-review">
                 <h3>Review Wrong Answers:</h3>
                 {wrongAnswers.map((item, index) => (
-                  <div key={index} className="wrong-answer-item">
+                  <div key={`wrong-${index}`} className="review-item">
                     <p className="review-question">{item.question}</p>
                     <p className="your-answer">Your Answer: <span className="incorrect">{item.yourAnswer}</span></p>
+                    <p className="correct-answer">Correct Answer: <span className="correct">{item.correctAnswer}</span></p>
+                  </div>
+                ))}
+              </div>
+            )}
+
+            {/* Add skipped questions section */}
+            {skippedQuestions.length > 0 && (
+              <div className="skipped-answers-review">
+                <h3>Skipped Questions:</h3>
+                {skippedQuestions.map((item, index) => (
+                  <div key={`skipped-${index}`} className="review-item">
+                    <p className="review-question">{item.question}</p>
                     <p className="correct-answer">Correct Answer: <span className="correct">{item.correctAnswer}</span></p>
                   </div>
                 ))}
@@ -150,13 +181,21 @@ function FillBlank() {
                 disabled={isAnswered}
               />
               {!isAnswered ? (
-                <button 
-                  className="nav-button submit-button"
-                  onClick={checkAnswer}
-                  disabled={!userAnswer.trim()}
-                >
-                  Submit
-                </button>
+                <div className="button-group">
+                  <button 
+                    className="nav-button submit-button"
+                    onClick={checkAnswer}
+                    disabled={!userAnswer.trim()}
+                  >
+                    Submit
+                  </button>
+                  <button 
+                    className="nav-button skip-button"
+                    onClick={handleSkipQuestion}
+                  >
+                    Skip
+                  </button>
+                </div>
               ) : (
                 <div className="answer-feedback">
                   <p className={currentQuestion.acceptableAnswers.includes(userAnswer.trim()) ? 'correct' : 'incorrect'}>
