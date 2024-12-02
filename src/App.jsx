@@ -6,6 +6,8 @@ import QuestionAnswer from './pages/QuestionAnswer'
 import MCQQuestion from './pages/MCQQuestion'
 import FillBlank from './pages/FillBlank'
 import TrueFalse from './pages/TrueFalse'
+import About from './pages/About'
+import Contact from './pages/Contact'
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
           <Route path="/course/:courseName/chapter/:chapterName/mcq" element={<MCQQuestion />} />
           <Route path="/course/:courseName/chapter/:chapterName/fill-blank" element={<FillBlank />} />
           <Route path="/course/:courseName/chapter/:chapterName/true-false" element={<TrueFalse />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
     </BrowserRouter>
