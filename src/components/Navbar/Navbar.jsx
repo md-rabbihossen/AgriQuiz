@@ -29,6 +29,7 @@ function Navbar() {
 
       <ul className={`navbar-menu ${isMenuOpen ? 'active' : ''}`}>
         <li><Link to="/" onClick={() => setIsMenuOpen(false)}>Home</Link></li>
+        <li><Link to="/resources" onClick={() => setIsMenuOpen(false)}>Resources</Link></li>
         <li><Link to="/about" onClick={() => setIsMenuOpen(false)}>About</Link></li>
         <li><Link to="/contact" onClick={() => setIsMenuOpen(false)}>Contact</Link></li>
       </ul>

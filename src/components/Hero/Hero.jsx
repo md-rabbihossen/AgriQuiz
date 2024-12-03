@@ -8,7 +8,8 @@ function Hero() {
     { id: 2, name: 'AGRO' },
     { id: 3, name: 'SOIL' },
     { id: 4, name: 'AFES' },
-    { id: 5, name: 'ENTO' }
+    { id: 5, name: 'ENTO' },
+    { id: 6, name: 'HORT(ELECTIVE)' }
   ]
 
   return (
