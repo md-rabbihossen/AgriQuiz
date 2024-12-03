@@ -1736,3 +1736,11 @@ body {
     max-width: 200px;
   }
 }
+
+.old-sheet-button {
+  background-color: #FF5722;  /* Different color to distinguish it */
+}
+
+.old-sheet-button:hover {
+  background-color: #F4511E;
+}

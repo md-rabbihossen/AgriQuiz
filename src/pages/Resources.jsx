@@ -23,6 +23,10 @@ function Resources() {
     document.body.removeChild(link)
   }
 
+  const handleOldSheetClick = () => {
+    window.open('https://drive.google.com/drive/u/0/folders/1M0-1K81fjA9AH7y8Dom0SEZw5-kM5ydt', '_blank')
+  }
+
   return (
     <div className="resources-page">
       <Navbar />
@@ -49,6 +53,12 @@ function Resources() {
               {course.name}
             </button>
           ))}
+          <button 
+            className="course-button old-sheet-button"
+            onClick={handleOldSheetClick}
+          >
+            OLD SHEET
+          </button>
         </div>
       </section>
       <Footer />
