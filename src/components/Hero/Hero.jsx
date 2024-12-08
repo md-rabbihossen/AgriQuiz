@@ -10,7 +10,6 @@ function Hero() {
     { id: 4, name: "AFES" },
     { id: 5, name: "ENTO" },
     { id: 6, name: "HORT(ELECTIVE)" },
-    { id: 7, name: "RESOURCES(PDF)", path: "/resources" },
   ];
 
   const handleClick = (course) => {
@@ -34,6 +33,13 @@ function Hero() {
             {course.name}
           </button>
         ))}
+        <div className="resources-spacer"></div>
+        <button
+          className="course-button resources-button"
+          onClick={() => handleClick({ name: "RESOURCES(PDF)", path: "/resources" })}
+        >
+          RESOURCES(PDF)
+        </button>
       </div>
     </section>
   );

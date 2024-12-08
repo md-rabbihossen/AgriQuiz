@@ -14,16 +14,16 @@ function ChapterList() {
       { id: 4, name: 'Plant Anatomy' }
     ],
     agro: [
-      { id: 1, name: 'Crop Production' },
-      { id: 2, name: 'Soil Management' },
-      { id: 3, name: 'Irrigation Systems' },
-      { id: 4, name: 'Pest Control' }
+      { id: 1, name: 'Concept of Seed' },
+      { id: 2, name: 'Seed Quality' },
+      { id: 3, name: 'Germination' }
     ],
     soil: [
-      { id: 1, name: 'Soil Formation' },
-      { id: 2, name: 'Soil Properties' },
-      { id: 3, name: 'Soil Chemistry' },
-      { id: 4, name: 'Soil Conservation' }
+      { id: 1, name: 'Soil Organic Matter' },
+      { id: 2, name: 'Land Evaluation' }
+    ],
+    afes: [
+      { id: 1, name: 'Introduction to Agroforestry' }
     ],
     hort: [
       { id: 1, name: 'Plant Propagation' },

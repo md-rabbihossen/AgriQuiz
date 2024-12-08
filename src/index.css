@@ -125,10 +125,12 @@ body {
 }
 
 .course-list {
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
 }
 
 .course-button {
@@ -145,6 +147,18 @@ body {
 
 .course-button:hover {
   background-color: #45a049;
+}
+
+/* Add styles for resources button */
+.resources-button {
+  grid-column: 1 / -1; /* Make the button span both columns */
+  width: 50%; /* Make the button width half of the grid */
+  margin: 0 auto; /* Center the button horizontally */
+  background-color: #4caf50; /* You can use a different color to distinguish it */
+}
+
+.resources-spacer {
+  display: none; /* Hide spacer in desktop view */
 }
 
 /* Chapter List styles */
@@ -250,12 +264,17 @@ body {
   }
 
   .hero {
-    padding: 1.5rem 1rem;
+    padding: 2.5rem 1rem;
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
   .hero h2 {
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    margin-bottom: 2.7rem;
+
   }
 
   .course-list {
@@ -265,7 +284,11 @@ body {
 
   .course-button {
     width: 100%;
-    max-width: 200px;
+    max-width: 250px;
+  }
+
+  .resources-button {
+    margin-top: 1rem;
   }
 
   .chapter-container {
@@ -1738,9 +1761,89 @@ body {
 }
 
 .old-sheet-button {
-  background-color: #FF5722;  /* Different color to distinguish it */
+  background-color: #ff5722; /* Different color to distinguish it */
 }
 
 .old-sheet-button:hover {
-  background-color: #F4511E;
+  background-color: #f4511e;
+}
+
+.resources-spacer {
+  height: 1rem; /* Adds extra space above the resources button */
+}
+
+/* Modal styles */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.submit-modal {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  max-width: 400px;
+  width: 90%;
+  text-align: center;
+}
+
+.submit-modal h3 {
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.submit-modal p {
+  margin-bottom: 1rem;
+  color: #666;
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.modal-buttons button {
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.modal-buttons button:first-child {
+  background-color: #ccc;
+}
+
+.modal-buttons button:last-child {
+  background-color: #4caf50;
+  color: white;
+}
+
+.modal-buttons button:hover {
+  opacity: 0.9;
+}
+
+.submit-early {
+  background-color: #4caf50 !important;
+}
+
+@media (max-width: 480px) {
+  .submit-modal {
+    padding: 1.5rem;
+    width: 95%;
+  }
+
+  .modal-buttons {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
 }

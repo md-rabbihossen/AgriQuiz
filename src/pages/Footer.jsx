@@ -17,8 +17,9 @@ function CustomFooter() {
           <div className="footer-section">
             <h3>About</h3>
             <p className="footer-about">
-              AgriQuiz is an interactive platform designed to help agriculture students
-              prepare for their exams effectively. Created by students, for students.
+              AgriQuiz is an interactive platform designed to help agriculture
+              students prepare for their exams effectively. Created by students,
+              for students.
             </p>
           </div>
 
