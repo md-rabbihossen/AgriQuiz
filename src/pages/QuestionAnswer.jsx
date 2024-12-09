@@ -11,6 +11,148 @@ function QuestionAnswer() {
 
   // Sample Q&A data - later this can be moved to a separate data file or fetched from Supabase
   const questions = {
+    'introduction to agroforestry': [
+      {
+        question: "What are the key characteristics of Agroforestry systems?",
+        answer: "The key characteristics of Agroforestry systems are:\n1. Multiple components, with at least one being woody perennial\n2. High level of interaction between woody and non-woody components\n3. All components are in the same unit of land\n4. Supply multiple products (food, fuel, fodder, furniture etc.)\n5. The cycle of Agroforestry system is more than one year\n6. More complex than mono-cropping"
+      },
+      {
+        question: "What are the three major components of an Agroforestry system?",
+        answer: "The three major components in an agroforestry system are:\n1. Tree or woody perennials\n2. Crops\n3. Animals"
+      },
+      {
+        question: "Explain the key features that distinguish Agroforestry from other farming or forestry practices.",
+        answer: "The key features that distinguish Agroforestry include:\n\n1. Intentional: Combinations of trees, crops and/or animals are intentionally designed and managed as a whole unit, rather than as individual elements\n\n2. Intensive: Practices are intensively managed to maintain productive and protective functions, involving annual operations like cultivation and fertilization\n\n3. Interactive: Management actively manipulates biological and physical interactions between tree, crop and animal components\n\n4. Integrated: The components are structurally and functionally combined into a single, integrated management unit, either horizontally or vertically, above or below ground"
+      },
+      {
+        question: "What are the three main attributes of Agroforestry systems?",
+        answer: "The three main attributes of Agroforestry systems are:\n\n1. Productivity: Aims to maintain or increase production and land productivity through:\n   - Increased output of tree products\n   - Improved yields of associated crops\n   - Reduction of cropping system inputs\n   - Better soil management\n   - Increased labor efficiency\n\n2. Sustainability: Conserves production potential of the resource base through beneficial effects of woody perennials on soils, achieving and maintaining conservation and fertility goals\n\n3. Adoptability: Refers to acceptance by the farming community. New Agroforestry technologies should conform to local farming practices"
+      },
+      {
+        question: "What are the main objectives of Agroforestry?",
+        answer: "The main objectives of Agroforestry are:\n1. Maximum utilization of land\n2. Diversified production on same unit of land\n3. Fulfillment of family demands (fund, financial, nutrition, happiness)\n4. Soil and water conservation\n5. Reduced risks of hurricane damages\n6. Long-term improvement of soil fertility & microclimate\n7. Reduction of external inputs (fertilizer, pesticides)\n8. Maintenance of landscape beauty and natural diversity"
+      },
+      {
+        question: "What is the historical development and origin of the concept of Agroforestry?",
+        answer: "The concept of Agroforestry originated from understanding trees' vital role in protecting land's long-term interests and making agriculture economically viable. It emerged primarily due to the need to maximize soil resource utilization by combining forest and agriculture (PCARRD, 1983). The term 'Agroforestry' was derived from 'Agrisilviculture', coined by Kenneth King in 1968. While the concept first emerged in temperate zones due to small family farms, it wasn't a new invention but rather a traditional practice where farmers historically raised trees, crops, and animals together on the same land unit. Modern agroforestry has evolved as an interface between agriculture and forestry, specifically addressing the needs of tropical developing countries."
+      },
+      {
+        question: "What is Agroforestry? Explain its comprehensive definition according to different scientists.",
+        answer: "Agroforestry has been defined by various scientists over time:\n1. Bene et al. (1977) provided the first definition: 'A sustainable management system for land that increases overall production, combines agricultural crops, tree crops, and forest plants and/or animals simultaneously/or sequentially and applies management practices compatible with local population's cultural patterns.'\n\n2. Nair (1979) defined it as: 'A land use system that integrates trees, crops and/or animals in a way that is scientifically sound, ecologically desirable, practically feasible and socially acceptable to the farmers.'\n\n3. Lundgren and Raintree (1982) at ICRAF defined it as: 'A collective name for land-use systems and technologies in which woody perennials (trees, shrubs, bamboos) are deliberately grown on the same land-management unit with herbaceous crops and/or animals, either in spatial arrangement or temporal sequence.'\n\nIn simple terms, it's an efficient land-use system where trees or shrubs are grown with arable crops to enhance productivity sustainably."
+      },
+      {
+        question: "What are the two components that form the word 'Agroforestry'?",
+        answer: "Agroforestry comes from two different words: 'agriculture' and 'forestry'."
+      },
+      {
+        question: "Who coined the term 'Agrisilviculture' and in which year?",
+        answer: "Kenneth King coined the term 'Agrisilviculture' in 1968."
+      },
+      {
+        question: "Why has Agroforestry become increasingly important in modern times?",
+        answer: "Agroforestry has become crucial because human population is increasing in geometric progression while land resources remain limited. This necessitates growing food, fuel, fodder, and fiber in an integrated manner on the same unit of land."
+      },
+      {
+        question: "What are the key characteristics of Agroforestry according to modern definitions?",
+        answer: "The key characteristics include:\n- Integration of trees, crops, and/or animals\n- Scientific soundness\n- Ecological desirability\n- Practical feasibility\n- Social acceptability\n- Sustainable land management\n- Increased overall production"
+      },
+      {
+        question: "What are the environmental/ecological benefits of Agroforestry?",
+        answer: "The environmental/ecological benefits of Agroforestry include:\n1. Better protection of crops and lives from environmental hazards (flood, drought, cyclone)\n2. Conserved biodiversity\n3. Improved microclimate (reduced soil temperature, reduced evaporation of soil moisture)\n4. Purification of air and water\n5. Reduced use of chemical fertilizer\n6. Reduced pressure on forests\n7. Protection of lands through reduction of surface run-off and soil erosion\n8. Increased soil nutrients through decomposition of litter fall"
+      },
+      {
+        question: "Explain the economic benefits of Agroforestry systems.",
+        answer: "The economic benefits of Agroforestry include:\n1. Diversified outputs from a given area of land\n2. Reduced incidence of total crop failure compared to mono-cropping systems\n3. Spread of labor inputs more evenly through the year\n4. Productive use of underutilized land, labour and capital\n5. Increased farm incomes due to improved and sustained productivity"
+      },
+      {
+        question: "What are the social and biological benefits of Agroforestry?",
+        answer: "Social Benefits:\n1. Improved rural living standards\n2. Improved nutrition and health\n3. Stabilization and improvement of upland communities\n\nBiological Benefits:\n1. Increased crop productivity\n2. Production of diversified foods\n3. Increased forest productivity\n4. Decreased weed infection"
+      },
+      {
+        question: "How does Agroforestry improve soil conditions? Explain the various ways.",
+        answer: "Agroforestry improves soil conditions in several ways:\n1. Reduction of soil loss by reducing surface run-off\n2. Addition of carbon through decomposable biomass\n3. Enrichment of soil through biological nitrogen fixation\n4. Improvement of soil physical conditions by increasing water holding capacity\n5. Assistance in nutrient recycling that conserves soil\n6. Protection of natural flora and fauna within the soil"
+      },
+      {
+        question: "What are the main limitations of Agroforestry systems?",
+        answer: "The limitations of Agroforestry can be categorized into two aspects:\n\nEnvironmental Aspects:\n1. Competition of trees with food crops may reduce crop yield\n2. Damage to food crop during tree harvest operation\n3. Trees sometimes serve as hosts to insect pests\n4. Rapid regeneration by prolific trees, which may displace food crops and take over entire fields\n\nSocioeconomic Aspects:\n1. Labor scarcity\n2. Long time required to get economic value from trees\n3. Resistance by farmers to displace food crops with trees\n4. More complex, less well understood and more difficult to apply compared to single-crop farming"
+      },
+      {
+        question: "What are the key characteristics of Agroforestry according to modern definitions?",
+        answer: "The key characteristics include:\n- Integration of trees, crops, and/or animals\n- Scientific soundness\n- Ecological desirability\n- Practical feasibility\n- Social acceptability\n- Sustainable land management\n- Increased overall production"
+      },
+      {
+        question: "What was the historical practice of Agroforestry in Europe?",
+        answer: "In Europe, it was common to clear-fell degraded forests and burn the slash to cultivate food crops. They would plant or sow trees before, alongside, or after sowing agricultural crops. This practice was prevalent in Finland until the end of the 19th century but is no longer popular in Europe."
+      },
+      {
+        question: "How was Agroforestry practiced in Asia, particularly in the Philippines?",
+        answer: "In Asia, particularly in the Philippines, a complex and sophisticated type of shifting cultivation was practiced, involving the clearing of forests for agricultural use."
+      },
+      {
+        question: "Describe the Agroforestry practices in Africa, especially in Southern Nigeria.",
+        answer: "In Southern Nigeria, people grew yams, maize, pumpkins, and beans together under the shade of scattered trees, demonstrating an early form of Agroforestry."
+      },
+      {
+        question: "What was the significance of the 'Taungya' method introduced in Myanmar?",
+        answer: "The 'Taungya' method, established by the British U. Pan Hle in 1806, involved growing annual agricultural crops alongside forest species during the early years of forest plantation establishment. This method was significant in integrating agriculture with forestry."
+      },
+      {
+        question: "What role did the International Development Research Centre (IDRC) play in Agroforestry?",
+        answer: "Due to overexploitation of natural resources and serious deforestation in the tropics, the IDRC in Ottawa, Canada, appointed a commission to formulate sustainable forestry research programs, leading to the establishment of the International Council for Research in Agroforestry (ICRAF) in 1977 with financial support from the World Bank."
+      },
+      {
+        question: "Outline the historical development of Agroforestry in Bangladesh.",
+        answer: "Agroforestry has been practiced in various forms across Bangladesh, with significant milestones including:\n1. Establishment of the forest department and management activities in 1862.\n2. Introduction of the Taungya system by Jhum farmers in 1912.\n3. The Betagi-Pomora Community Forestry Project in 1979 was the first Agroforestry program initiated under social forestry.\n4. The Jhoomia Rehabilitation program in the 1980s aimed to rehabilitate families in the Chittagong Hill Tracts.\n5. Establishment of the Agroforestry Department at Bangladesh Agricultural University in 1988.\n6. Formation of the National Agroforestry Working Group (NAWG) in 1997 to support Agroforestry initiatives."
+      },
+      {
+        question: "What are the key characteristics of Agroforestry according to modern definitions?",
+        answer: "The key characteristics include:\n- Integration of trees, crops, and/or animals\n- Scientific soundness\n- Ecological desirability\n- Practical feasibility\n- Social acceptability\n- Sustainable land management\n- Increased overall production"
+      },
+      {
+        question: "What are the prospective areas for Agroforestry in Bangladesh?",
+        answer: "The prospective areas for Agroforestry in Bangladesh include:\n1. Hilly areas: 10-15% of the total land area.\n2. Homestead and surrounding areas: 28.5 million homesteads covering 0.3 million hectares.\n3. Crop land: High land - about 29% situated above normal flood level.\n4. Fallow and marginal land: 0.39 million hectares of current fallow land, of which 0.27 million hectares is cultivable.\n5. Coastal areas: Length of coastal areas is 710 km.\n6. Degraded and encroached public forest lands: About 15.5% of land is suitable for public forest, with a current status of less than 7%.\n7. Roads, railways, and embankments: Total road length is 14,759 km, railway is 2,818 km, and larger embankments are 80,000 km.\n8. Water bodies: 1.77 million ponds covering 0.92 million hectares, and 700 rivers totaling 22,155 km.\n9. Other areas: Schools, mosques, playgrounds, markets, tea gardens, etc."
+      },
+      {
+        question: "What qualities are needed for good Agroforestry trees?",
+        answer: "The qualities needed for good Agroforestry trees include:\n1. Deep roots to avoid competition with crops for water and nutrients.\n2. Leaves that allow light to pass through for crop growth.\n3. Ability to survive regular pruning and cutting back.\n4. Small canopy size.\n5. Small and narrow leaves.\n6. Straight and long trunks.\n7. Ability to add nutrients to the soil.\n8. Leaves that provide animal fodder or soil mulch."
+      },
+      {
+        question: "What types of products can be derived from Agroforestry systems?",
+        answer: "Agroforestry systems support the production of a wide range of products, including:\n1. Food: arable crops, vegetables, animal products, fruits, mushrooms, oils, nuts, and leaves.\n2. Fuel: willow or hazel coppice, charcoal, and fuelwood.\n3. Fodder and forage.\n4. Fibre: pulp for paper, rubber, cork, bark, and woodchip mulch.\n5. Timber: for construction and furniture making.\n6. Gums and resins.\n7. Thatching and hedging materials: spars, binders, and stakes.\n8. Gardening materials: pea sticks, bean poles, fencing, hurdles.\n9. Medicinal products: ginseng, goldenseal, witch hazel.\n10. Craft products: natural dyes, basketry, floral arrangements.\n11. Recreation: agritourism, sport, hunting.\n12. Ecological services."
+      },
+      {
+        question: "What are the key characteristics of Agroforestry according to modern definitions?",
+        answer: "The key characteristics include:\n- Integration of trees, crops, and/or animals\n- Scientific soundness\n- Ecological desirability\n- Practical feasibility\n- Social acceptability\n- Sustainable land management\n- Increased overall production"
+      },
+      {
+        question: "What was the historical practice of Agroforestry in Europe?",
+        answer: "In Europe, it was common to clear-fell degraded forests and burn the slash to cultivate food crops. They would plant or sow trees before, alongside, or after sowing agricultural crops. This practice was prevalent in Finland until the end of the 19th century but is no longer popular in Europe."
+      },
+      {
+        question: "How was Agroforestry practiced in Asia, particularly in the Philippines?",
+        answer: "In Asia, particularly in the Philippines, a complex and sophisticated type of shifting cultivation was practiced, involving the clearing of forests for agricultural use."
+      },
+      {
+        question: "Describe the Agroforestry practices in Africa, especially in Southern Nigeria.",
+        answer: "In Southern Nigeria, people grew yams, maize, pumpkins, and beans together under the shade of scattered trees, demonstrating an early form of Agroforestry."
+      },
+      {
+        question: "What was the significance of the 'Taungya' method introduced in Myanmar?",
+        answer: "The 'Taungya' method, established by the British U. Pan Hle in 1806, involved growing annual agricultural crops alongside forest species during the early years of forest plantation establishment. This method was significant in integrating agriculture with forestry."
+      },
+      {
+        question: "What role did the International Development Research Centre (IDRC) play in Agroforestry?",
+        answer: "Due to overexploitation of natural resources and serious deforestation in the tropics, the IDRC in Ottawa, Canada, appointed a commission to formulate sustainable forestry research programs, leading to the establishment of the International Council for Research in Agroforestry (ICRAF) in 1977 with financial support from the World Bank."
+      },
+      {
+        question: "Outline the historical development of Agroforestry in Bangladesh.",
+        answer: "Agroforestry has been practiced in various forms across Bangladesh, with significant milestones including:\n1. Establishment of the forest department and management activities in 1862.\n2. Introduction of the Taungya system by Jhum farmers in 1912.\n3. The Betagi-Pomora Community Forestry Project in 1979 was the first Agroforestry program initiated under social forestry.\n4. The Jhoomia Rehabilitation program in the 1980s aimed to rehabilitate families in the Chittagong Hill Tracts.\n5. Establishment of the Agroforestry Department at Bangladesh Agricultural University in 1988.\n6. Formation of the National Agroforestry Working Group (NAWG) in 1997 to support Agroforestry initiatives."
+      },
+      {
+        question: "What are the key characteristics of Agroforestry according to modern definitions?",
+        answer: "The key characteristics include:\n- Integration of trees, crops, and/or animals\n- Scientific soundness\n- Ecological desirability\n- Practical feasibility\n- Social acceptability\n- Sustainable land management\n- Increased overall production"
+      }
+    ],
     'pollination': [
       {
         question: "What is pollination?",
@@ -152,7 +294,7 @@ function QuestionAnswer() {
       },
       {
         question: "What are the major and ordinary subclasses in Bangladesh's LCC system?",
-        answer: "Bangladesh's LCC Subclasses:\n\nMajor Subclasses (based on flooding):\n1. D - soils lying above normal flood level\n2. W - soils subject to flooding for part or all the year\n\nOrdinary Subclasses:\n- d: restricted use due to droughtiness in dry season\n- e: restricted use due to erosion hazards\n- r: irregular relief hindering irrigation, drainage and tillage\n- s: excess soluble salts\n- t: toxic or potentially toxic chemicals to plants\n- w: restricted use due to excess water\n- x: fresh alluvium or very young alluvial soils\n- z: hazards of crop loss due to rapid rise or flow of flood water"
+        answer: "Bangladesh's LCC Subclasses:\n\nMajor Subclasses (based on flooding):\n1. D - soils lying above normal flood level\n2. W - soils subject to flooding for part or all the year\n\nOrdinary Subclasses:\n- d: restricted use due to droughtiness in dry season\n- e: restricted use due to erosion hazards\n- r: irregular relief hindering irrigation, drainage and tillage\n- s: excess soluble salts\n- t: toxic or potentially toxic chemicals to plants\n- w: restricted use due to excess water\n- x: fresh alluvium or very young alluvial soils\n- z: hazards of crop loss due to rapid rise of flood water"
       },
       {
         question: "What are the main differences between USDA's LCC and Bangladesh's LCC systems?",
@@ -203,10 +345,12 @@ function QuestionAnswer() {
     return shuffled
   }
 
-  // Initialize shuffled questions when component mounts or chapter changes
+  // Get the questions for current chapter
   useEffect(() => {
-    const currentQuestions = questions[chapterName.toLowerCase()] || []
-    setShuffledQuestions(shuffleArray(currentQuestions))
+    const chapterQuestions = questions[chapterName.toLowerCase()] || []
+    // Shuffle the questions
+    const shuffled = [...chapterQuestions].sort(() => Math.random() - 0.5)
+    setShuffledQuestions(shuffled)
     setCurrentQuestionIndex(0)
     setShowAnswer(false)
   }, [chapterName])

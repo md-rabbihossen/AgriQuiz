@@ -188,6 +188,254 @@ function MCQQuestion() {
         ],
         correctAnswer: "Severe salinity or toxicity hazards"
       }
+    ],
+    'introduction to agroforestry': [
+      {
+        question: "What is the primary purpose of Agroforestry?",
+        options: [
+          'To increase the number of trees',
+          'To maximize the utilization of soil resources',
+          'To reduce agricultural practices',
+          'To eliminate the use of fertilizers'
+        ],
+        correctAnswer: 'To maximize the utilization of soil resources'
+      },
+      {
+        question: "Who coined the term 'Agrisilviculture'?",
+        options: [
+          'Nair',
+          'Bene et al.',
+          'Kenneth King',
+          'Lundgren and Raintree'
+        ],
+        correctAnswer: 'Kenneth King'
+      },
+      {
+        question: "Which of the following is NOT a component of Agroforestry?",
+        options: [
+          'Trees',
+          'Crops',
+          'Animals',
+          'Machinery'
+        ],
+        correctAnswer: 'Machinery'
+      },
+      {
+        question: "Agroforestry is primarily practiced in which type of land?",
+        options: [
+          'Urban areas',
+          'Industrial zones',
+          'Agricultural land',
+          'Desert land'
+        ],
+        correctAnswer: 'Agricultural land'
+      },
+      {
+        question: "What is a key characteristic of Agroforestry systems?",
+        options: [
+          'Multiple components, at least one of which must be a woody perennial.',
+          'Only crops are grown.',
+          'It only involves animal husbandry.',
+          'It requires large machinery.'
+        ],
+        correctAnswer: 'Multiple components, at least one of which must be a woody perennial.'
+      },
+      {
+        question: "Which of the following is NOT a major component of Agroforestry?",
+        options: [
+          'Trees or woody perennials',
+          'Crops',
+          'Animals',
+          'Machinery'
+        ],
+        correctAnswer: 'Machinery'
+      },
+      {
+        question: "Agroforestry practices are described as being:",
+        options: [
+          'Intentional, intensive, interactive, and integrated.',
+          'Random and unplanned.',
+          'Only focused on tree planting.',
+          'Solely for timber production.'
+        ],
+        correctAnswer: 'Intentional, intensive, interactive, and integrated.'
+      },
+      {
+        question: "What is one of the main objectives of Agroforestry?",
+        options: [
+          'To maximize land wastage.',
+          'To reduce biodiversity.',
+          'To fulfill family demands for nutrition and happiness.',
+          'To eliminate the use of animals in farming.'
+        ],
+        correctAnswer: 'To fulfill family demands for nutrition and happiness.'
+      },
+      {
+        question: "What is one of the environmental benefits of Agroforestry?",
+        options: [
+          'Better protection of crops from environmental hazards.',
+          'Increased use of chemical fertilizers.',
+          'Decreased biodiversity.',
+          'Increased soil erosion.'
+        ],
+        correctAnswer: 'Better protection of crops from environmental hazards.'
+      },
+      {
+        question: "Which of the following is an economic benefit of Agroforestry?",
+        options: [
+          'Increased incidence of total crop failure.',
+          'Diversified outputs from a given area of land.',
+          'Reduced productivity.',
+          'Increased reliance on external inputs.'
+        ],
+        correctAnswer: 'Diversified outputs from a given area of land.'
+      },
+      {
+        question: "What social benefit is associated with Agroforestry?",
+        options: [
+          'Decreased rural living standards.',
+          'Improved nutrition and health.',
+          'Increased labor scarcity.',
+          'Reduced community stability.'
+        ],
+        correctAnswer: 'Improved nutrition and health.'
+      },
+      {
+        question: "Which of the following is NOT a biological benefit of Agroforestry?",
+        options: [
+          'Increased crop productivity.',
+          'Production of diversified foods.',
+          'Decreased forest productivity.',
+          'Decreased weed infection.'
+        ],
+        correctAnswer: 'Decreased forest productivity.'
+      }
+    ],
+    'history of agroforestry': [
+      {
+        question: "Which method was used in Myanmar for establishing teak plantations?",
+        options: [
+          'Taungya method',
+          'Shifting cultivation',
+          'Slash-and-burn',
+          'Agroforestry'
+        ],
+        correctAnswer: 'Taungya method'
+      },
+      {
+        question: "What year did the International Centre for Research in Agroforestry (ICRAF) get established?",
+        options: [
+          '1970',
+          '1977',
+          '1980',
+          '1991'
+        ],
+        correctAnswer: '1977'
+      },
+      {
+        question: "Which country practiced a complex type of shifting cultivation?",
+        options: [
+          'India',
+          'Philippines',
+          'Nigeria',
+          'Myanmar'
+        ],
+        correctAnswer: 'Philippines'
+      },
+      {
+        question: "What was the first Agroforestry program started by the Forest Department in Bangladesh?",
+        options: [
+          'Jhoomia Rehabilitation program',
+          'Betagi-Pomora Community Forestry Project',
+          'Village and Farm Forestry Program',
+          'National Agroforestry Working Group'
+        ],
+        correctAnswer: 'Betagi-Pomora Community Forestry Project'
+      }
+    ],
+    'scope of agroforestry': [
+      {
+        question: "What is the primary benefit of Agroforestry for rural poor people?",
+        options: [
+          'Food security',
+          'Increased unemployment',
+          'Urban migration',
+          'Industrial development'
+        ],
+        correctAnswer: 'Food security'
+      },
+      {
+        question: "Which type of land is targeted for Agroforestry practices?",
+        options: [
+          'Fertile plains',
+          'Highly erodible and flood-prone lands',
+          'Urban areas',
+          'Coastal regions'
+        ],
+        correctAnswer: 'Highly erodible and flood-prone lands'
+      },
+      {
+        question: "What is a unique feature of rural homesteads in Bangladesh?",
+        options: [
+          'Monoculture farming',
+          'Combination of trees, shrubs, vegetables, and livestock',
+          'High-rise buildings',
+          'Industrial farms'
+        ],
+        correctAnswer: 'Combination of trees, shrubs, vegetables, and livestock'
+      },
+      {
+        question: "What is one of the ecological benefits of Agroforestry?",
+        options: [
+          'Increased soil erosion',
+          'Soil and water conservation',
+          'Deforestation',
+          'Urban heat island effect'
+        ],
+        correctAnswer: 'Soil and water conservation'
+      }
+    ],
+    'prospective areas of agroforestry in bangladesh': [
+      {
+        question: "What percentage of the total land area of Bangladesh is classified as hilly areas?",
+        options: [
+          '5-10%',
+          '10-15%',
+          '15-20%',
+          '20-25%'
+        ],
+        correctAnswer: '10-15%'
+      },
+      {
+        question: "How many homesteads are estimated to be in Bangladesh?",
+        options: [
+          '25 million',
+          '28.5 million',
+          '30 million',
+          '32 million'
+        ],
+        correctAnswer: '28.5 million'
+      },
+      {
+        question: "What is the total length of the coastal areas in Bangladesh?",
+        options: [
+          '500 km',
+          '710 km',
+          '1000 km',
+          '1500 km'
+        ],
+        correctAnswer: '710 km'
+      },
+      {
+        question: "Which of the following is NOT a product supported by Agroforestry systems?",
+        options: [
+          'Food',
+          'Fuel',
+          'Industrial machinery',
+          'Timber'
+        ],
+        correctAnswer: 'Industrial machinery'
+      }
     ]
   }
 

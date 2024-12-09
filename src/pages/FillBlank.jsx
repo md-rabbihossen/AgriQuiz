@@ -170,6 +170,146 @@ function FillBlank() {
         answer: "level",
         acceptableAnswers: ["level", "Level", "LEVEL"]
       }
+    ],
+    'introduction to agroforestry': [
+      {
+        question: "Agroforestry combines agriculture and _______ technologies to create integrated land-use systems.",
+        answer: "forestry",
+        acceptableAnswers: ["forestry", "Forestry", "FORESTRY"]
+      },
+      {
+        question: "The term 'Agroforestry' was coined in the early _______.",
+        answer: "seventies",
+        acceptableAnswers: ["seventies", "Seventies", "SEVENTIES"]
+      },
+      {
+        question: "The concept of Agroforestry originated from the realization that trees play an important role in protecting the long-range interests of _______.",
+        answer: "land",
+        acceptableAnswers: ["land", "Land", "LAND"]
+      },
+      {
+        question: "The first definition of Agroforestry was proposed by _______ in 1977.",
+        answer: "Bene et al.",
+        acceptableAnswers: ["Bene et al.", "Bene et al", "BENE ET AL."]
+      },
+      {
+        question: "Agroforestry systems aim to maintain or increase __________ (of preferred commodities) as well as productivity (of the land).",
+        answer: "production",
+        acceptableAnswers: ["production", "Production", "PRODUCTION"]
+      },
+      {
+        question: "The three attributes of Agroforestry systems are productivity, sustainability, and __________.",
+        answer: "adoptability",
+        acceptableAnswers: ["adoptability", "Adoptability", "ADOPTABILITY"]
+      },
+      {
+        question: "Agroforestry practices are __________ managed to maintain their productive and protective functions.",
+        answer: "intensively",
+        acceptableAnswers: ["intensively", "Intensively", "INTENSIVELY"]
+      },
+      {
+        question: "To be called Agroforestry, a land-use practice must satisfy certain criteria, including being __________.",
+        answer: "intentional",
+        acceptableAnswers: ["intentional", "Intentional", "INTENTIONAL"]
+      },
+      {
+        question: "One of the main objectives of Agroforestry is to maximize __________ of land.",
+        answer: "utilization",
+        acceptableAnswers: ["utilization", "Utilization", "UTILIZATION"]
+      }
+    ],
+    'benefits and limitations of agroforestry': [
+      {
+        question: "Agroforestry can provide better protection of crops and lives from environmental hazards such as __________, drought, and cyclone.",
+        answer: "flood",
+        acceptableAnswers: ["flood", "Flood", "FLOOD"]
+      },
+      {
+        question: "One of the economic benefits of Agroforestry is that it reduces the incidence of total crop __________ compared to mono-cropping systems.",
+        answer: "failure",
+        acceptableAnswers: ["failure", "Failure", "FAILURE"]
+      },
+      {
+        question: "Agroforestry improves rural living standards and enhances __________ and health.",
+        answer: "nutrition",
+        acceptableAnswers: ["nutrition", "Nutrition", "NUTRITION"]
+      },
+      {
+        question: "Agroforestry systems help in the __________ of soil by reducing surface run-off.",
+        answer: "protection",
+        acceptableAnswers: ["protection", "Protection", "PROTECTION"]
+      },
+      {
+        question: "Agroforestry can increase soil nutrients through __________ of litter fall.",
+        answer: "decomposition",
+        acceptableAnswers: ["decomposition", "Decomposition", "DECOMPOSITION"]
+      }
+    ],
+    'history of agroforestry': [
+      {
+        question: "The Taungya method, used in Myanmar, involves growing annual agricultural crops along with __________ species during the early years of forest plantation establishment.",
+        answer: "forest",
+        acceptableAnswers: ["forest", "Forest", "FOREST"]
+      },
+      {
+        question: "The establishment of the forest department in Bangladesh began in __________.",
+        answer: "1862",
+        acceptableAnswers: ["1862"]
+      },
+      {
+        question: "The first Agroforestry program in Bangladesh was initiated in __________.",
+        answer: "1979",
+        acceptableAnswers: ["1979"]
+      },
+      {
+        question: "The __________ was established in 1994 to offer an MS course in Agroforestry.",
+        answer: "Department of Agroforestry and Environment",
+        acceptableAnswers: ["Department of Agroforestry and Environment"]
+      }
+    ],
+    'scope of agroforestry': [
+      {
+        question: "Agroforestry is recognized as the best productive system from which rural poor people can meet their requirement of food, fuel, fodder, and other __________.",
+        answer: "necessities",
+        acceptableAnswers: ["necessities"]
+      },
+      {
+        question: "The estimated number of homesteads in Bangladesh is __________ million, occupying about 0.3 million hectares of land.",
+        answer: "16.7",
+        acceptableAnswers: ["16.7"]
+      },
+      {
+        question: "Agroforestry can help in maintaining __________ balance.",
+        answer: "ecological",
+        acceptableAnswers: ["ecological", "Ecological"]
+      },
+      {
+        question: "The system has the potential to generate __________.",
+        answer: "employment",
+        acceptableAnswers: ["employment"]
+      }
+    ],
+    'prospective areas of agroforestry in bangladesh': [
+      {
+        question: "The total number of ponds in Bangladesh is __________ million, covering an area of 0.92 million hectares.",
+        answer: "1.77",
+        acceptableAnswers: ["1.77"]
+      },
+      {
+        question: "The length of total roads in Bangladesh is __________ km.",
+        answer: "14,759",
+        acceptableAnswers: ["14,759"]
+      },
+      {
+        question: "The best trees to grow in Agroforestry systems are those with __________ roots to avoid competition with crops.",
+        answer: "deep",
+        acceptableAnswers: ["deep"]
+      },
+      {
+        question: "Agroforestry systems support the production of a wide range of products, including __________, fuel, fodder, and timber.",
+        answer: "food",
+        acceptableAnswers: ["food"]
+      }
     ]
   }
 
@@ -205,7 +345,7 @@ function FillBlank() {
     } else {
       // Store wrong answers
       setWrongAnswers(prev => [...prev, {
-        question: currentQuestion.question,
+        question: currentQuestion.question || currentQuestion.statement,
         yourAnswer: userAnswer.trim(),
         correctAnswer: currentQuestion.answer
       }])
@@ -232,7 +372,7 @@ function FillBlank() {
   const handleSkipQuestion = () => {
     // Store skipped question
     setSkippedQuestions(prev => [...prev, {
-      question: currentQuestion.question,
+      question: currentQuestion.question || currentQuestion.statement,
       correctAnswer: currentQuestion.answer
     }])
     
@@ -305,7 +445,7 @@ function FillBlank() {
         ) : currentQuestion ? (
           <div className="fill-blank-container">
             <div className="question-box">
-              <p className="question">{currentQuestion.question}</p>
+              <p className="question">{currentQuestion.question || currentQuestion.statement}</p>
             </div>
 
             <div className="answer-section">
@@ -386,4 +526,4 @@ function FillBlank() {
   )
 }
 
-export default FillBlank 
+export default FillBlank

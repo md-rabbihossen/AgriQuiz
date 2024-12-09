@@ -193,6 +193,174 @@ function TrueFalse() {
         answer: false,
         explanation: "Class-II land is specifically described as being easy to cultivate."
       }
+    ],
+    'introduction to agroforestry': [
+      {
+        question: "Agroforestry is a new concept that was invented in the 21st century.",
+        answer: false,
+        explanation: "Agroforestry is an ancient practice that has been used for centuries, long before the 21st century."
+      },
+      {
+        question: "Agroforestry systems only include agricultural crops and do not involve trees or animals.",
+        answer: false,
+        explanation: "Agroforestry systems integrate trees, crops, and/or animals to create a diverse and sustainable farming system."
+      },
+      {
+        question: "The integration of trees into agricultural systems is known as Agroforestry.",
+        answer: true,
+        explanation: "Agroforestry is a farming practice that intentionally integrates trees into agricultural landscapes to promote ecological interactions and synergies."
+      },
+      {
+        question: "Agroforestry practices are not influenced by local cultural patterns.",
+        answer: false,
+        explanation: "Agroforestry practices are often shaped by local cultural patterns, traditions, and knowledge systems, which play a crucial role in their adoption and success."
+      },
+      {
+        question: "Agroforestry systems are less complex than mono-cropping.",
+        answer: false,
+        explanation: "Agroforestry systems are more complex than mono-cropping as they involve multiple components and interactions."
+      },
+      {
+        question: "All components of Agroforestry must be in the same unit of land.",
+        answer: true,
+        explanation: "Agroforestry involves the integration of multiple components, such as trees, crops, and animals, within the same unit of land."
+      },
+      {
+        question: "Agroforestry can help in soil and water conservation.",
+        answer: true,
+        explanation: "Agroforestry practices can help conserve soil and water by reducing erosion, increasing soil organic matter, and promoting efficient water use."
+      },
+      {
+        question: "The main objective of Agroforestry is to maximize land wastage.",
+        answer: false,
+        explanation: "The main objective of Agroforestry is to promote sustainable land use, increase biodiversity, and improve ecosystem services, not to maximize land wastage."
+      },
+      {
+        question: "Agroforestry practices are only focused on tree planting.",
+        answer: false,
+        explanation: "Agroforestry practices involve the integration of multiple components, including trees, crops, and animals, to create a diverse and sustainable farming system."
+      },
+      {
+        question: "Agroforestry systems can lead to increased soil nutrients through the decomposition of litter fall.",
+        answer: true,
+        explanation: "Agroforestry systems can lead to increased soil nutrients through the decomposition of litter fall."
+      },
+      {
+        question: "One limitation of Agroforestry is that it can lead to increased competition between trees and food crops.",
+        answer: true,
+        explanation: "One limitation of Agroforestry is that it can lead to increased competition between trees and food crops."
+      },
+      {
+        question: "Agroforestry only provides environmental benefits and does not contribute to economic or social improvements.",
+        answer: false,
+        explanation: "Agroforestry provides environmental, economic, and social benefits."
+      },
+      {
+        question: "The use of Agroforestry can lead to a reduction in the pressure on forests.",
+        answer: true,
+        explanation: "The use of Agroforestry can lead to a reduction in the pressure on forests."
+      },
+      {
+        question: "Agroforestry practices are only focused on tree planting.",
+        answer: false,
+        explanation: "Agroforestry practices involve the integration of multiple components, including trees, crops, and animals, to create a diverse and sustainable farming system."
+      }
+    ],
+    'scope of agroforestry': [
+      {
+        question: "Agroforestry is only applicable to urban areas.",
+        answer: false,
+        explanation: "Agroforestry can be applied to both rural and urban areas."
+      },
+      {
+        question: "Agroforestry practices can help meet the needs of a growing population.",
+        answer: true,
+        explanation: "Agroforestry can help increase food production, improve livelihoods, and promote sustainable land use, which can help meet the needs of a growing population."
+      },
+      {
+        question: "Agroforestry is not effective on economically marginal lands.",
+        answer: false,
+        explanation: "Agroforestry can be particularly effective on economically marginal lands, as it can help improve soil fertility, increase biodiversity, and promote sustainable land use."
+      },
+      {
+        question: "The homesteads in Bangladesh are solely for agricultural crops and do not include any trees or livestock.",
+        answer: false,
+        explanation: "Homesteads in Bangladesh often include a mix of agricultural crops, trees, and livestock, which is a form of agroforestry."
+      },
+      {
+        question: "Homesteads in rural areas of Bangladesh typically include a combination of trees, shrubs, and livestock.",
+        answer: true,
+        explanation: "Homesteads in rural areas of Bangladesh often include a mix of trees, shrubs, and livestock, which is a form of agroforestry."
+      },
+      {
+        question: "Agroforestry is only applicable to rural areas.",
+        answer: false,
+        explanation: "Agroforestry can be applied to both rural and urban areas."
+      },
+      {
+        question: "Agroforestry practices can help meet the needs of a growing population.",
+        answer: true,
+        explanation: "Agroforestry can help increase food production, improve livelihoods, and promote sustainable land use, which can help meet the needs of a growing population."
+      },
+      {
+        question: "Agroforestry is not effective on economically marginal lands.",
+        answer: false,
+        explanation: "Agroforestry can be particularly effective on economically marginal lands, as it can help improve soil fertility, increase biodiversity, and promote sustainable land use."
+      },
+      {
+        question: "The homesteads in Bangladesh are solely for agricultural crops and do not include any trees or livestock.",
+        answer: false,
+        explanation: "Homesteads in Bangladesh often include a mix of agricultural crops, trees, and livestock, which is a form of agroforestry."
+      }
+    ],
+    'history of agroforestry': [
+      {
+        question: "The practice of clearing and burning forests for agriculture was common in Europe until the end of the 19th century.",
+        answer: true,
+        explanation: "This practice was indeed common in Europe until the end of the 19th century."
+      },
+      {
+        question: "The National Agroforestry Working Group (NAWG) was formed in 1990.",
+        answer: false,
+        explanation: "The National Agroforestry Working Group (NAWG) was formed in 1991."
+      },
+      {
+        question: "The German Forester Sir Dietrich Brandis was the first inspector general of forests in Bangladesh.",
+        answer: true,
+        explanation: "Sir Dietrich Brandis was indeed the first inspector general of forests in Bangladesh."
+      },
+      {
+        question: "Agroforestry has only been practiced in Bangladesh since the 1990s.",
+        answer: false,
+        explanation: "Agroforestry has been practiced in Bangladesh for centuries, long before the 1990s."
+      }
+    ],
+    'prospective areas of agroforestry in bangladesh': [
+      {
+        question: "Agroforestry is only applicable to urban areas.",
+        answer: false,
+        explanation: "Agroforestry can be applied to both rural and urban areas."
+      },
+      {
+        question: "Agroforestry practices can help meet the needs of a growing population.",
+        answer: true,
+        explanation: "Agroforestry can help increase food production, improve livelihoods, and promote sustainable land use, which can help meet the needs of a growing population."
+      },
+      {
+        question: "Agroforestry is not effective on economically marginal lands.",
+        answer: false,
+        explanation: "Agroforestry can be particularly effective on economically marginal lands, as it can help improve soil fertility, increase biodiversity, and promote sustainable land use."
+      },
+      {
+        question: "The homesteads in Bangladesh are solely for agricultural crops and do not include any trees or livestock.",
+        answer: false,
+        explanation: "Homesteads in Bangladesh often include a mix of agricultural crops, trees, and livestock, which is a form of agroforestry."
+      },
+      {
+        question: "Homesteads in rural areas of Bangladesh typically include a combination of trees, shrubs, and livestock.",
+        answer: true,
+        explanation: "Homesteads in rural areas of Bangladesh often include a mix of trees, shrubs, and livestock, which is a form of agroforestry."
+      }
     ]
   }
 
@@ -227,7 +395,7 @@ function TrueFalse() {
     } else {
       // Store wrong answers
       setWrongAnswers(prev => [...prev, {
-        question: currentQuestion.question,
+        question: currentQuestion.question || currentQuestion.statement,
         yourAnswer: answer ? 'True' : 'False',
         correctAnswer: currentQuestion.answer ? 'True' : 'False',
         explanation: currentQuestion.explanation
@@ -291,7 +459,7 @@ function TrueFalse() {
         ) : currentQuestion ? (
           <div className="true-false-container">
             <div className="question-box">
-              <p className="question">{currentQuestion.question}</p>
+              <p className="question">{currentQuestion.question || currentQuestion.statement}</p>
             </div>
 
             <div className="true-false-buttons">
