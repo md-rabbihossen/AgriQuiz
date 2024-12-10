@@ -9,7 +9,6 @@ function QuestionAnswer() {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0)
   const [shuffledQuestions, setShuffledQuestions] = useState([])
 
-  // Sample Q&A data - later this can be moved to a separate data file or fetched from Supabase
   const questions = {
     'introduction to agroforestry': [
       {
@@ -151,7 +150,7 @@ function QuestionAnswer() {
       {
         question: "What are the key characteristics of Agroforestry according to modern definitions?",
         answer: "The key characteristics include:\n- Integration of trees, crops, and/or animals\n- Scientific soundness\n- Ecological desirability\n- Practical feasibility\n- Social acceptability\n- Sustainable land management\n- Increased overall production"
-      }
+      }     
     ],
     'pollination': [
       {

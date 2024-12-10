@@ -13,7 +13,7 @@ function MCQQuestion() {
   const [wrongAnswers, setWrongAnswers] = useState([])
   const [isSubmitModalOpen, setIsSubmitModalOpen] = useState(false)
 
-  // Sample MCQ data
+  //MCQ data
   const questions = {
     'pollination': [
       {
@@ -191,252 +191,318 @@ function MCQQuestion() {
     ],
     'introduction to agroforestry': [
       {
-        question: "What is the primary purpose of Agroforestry?",
-        options: [
-          'To increase the number of trees',
-          'To maximize the utilization of soil resources',
-          'To reduce agricultural practices',
-          'To eliminate the use of fertilizers'
-        ],
-        correctAnswer: 'To maximize the utilization of soil resources'
-      },
-      {
         question: "Who coined the term 'Agrisilviculture'?",
-        options: [
-          'Nair',
-          'Bene et al.',
-          'Kenneth King',
-          'Lundgren and Raintree'
-        ],
-        correctAnswer: 'Kenneth King'
+        options: ["Kenneth King", "Nair", "Bene", "Lundgren and Raintree"],
+        correctAnswer: "Kenneth King"
       },
       {
-        question: "Which of the following is NOT a component of Agroforestry?",
-        options: [
-          'Trees',
-          'Crops',
-          'Animals',
-          'Machinery'
-        ],
-        correctAnswer: 'Machinery'
+        question: "Which organization proposed the first definition of agroforestry?",
+        options: ["PCARRD", "ICRAF", "FAO", "Bene et al."],
+        correctAnswer: "Bene et al."
       },
       {
-        question: "Agroforestry is primarily practiced in which type of land?",
+        question: "What is the main goal of agroforestry?",
         options: [
-          'Urban areas',
-          'Industrial zones',
-          'Agricultural land',
-          'Desert land'
+          "Maximize monocrop yield",
+          "Sustain natural vegetation",
+          "Create integrated, productive, and sustainable land-use systems",
+          "Eliminate the need for forestry"
         ],
-        correctAnswer: 'Agricultural land'
+        correctAnswer: "Create integrated, productive, and sustainable land-use systems"
       },
       {
-        question: "What is a key characteristic of Agroforestry systems?",
-        options: [
-          'Multiple components, at least one of which must be a woody perennial.',
-          'Only crops are grown.',
-          'It only involves animal husbandry.',
-          'It requires large machinery.'
-        ],
-        correctAnswer: 'Multiple components, at least one of which must be a woody perennial.'
+        question: "Which term best describes the relationship between forestry and agriculture in agroforestry?",
+        options: ["Invention", "Integration", "Separation", "Domination"],
+        correctAnswer: "Integration"
       },
       {
-        question: "Which of the following is NOT a major component of Agroforestry?",
+        question: "Agroforestry is most crucial in which type of countries?",
         options: [
-          'Trees or woody perennials',
-          'Crops',
-          'Animals',
-          'Machinery'
+          "Temperate developed countries",
+          "Tropical developing countries",
+          "Arctic countries",
+          "Urbanized countries"
         ],
-        correctAnswer: 'Machinery'
+        correctAnswer: "Tropical developing countries"
       },
       {
-        question: "Agroforestry practices are described as being:",
+        question: "What is a key feature of agroforestry as defined by Lundgren and Raintree?",
         options: [
-          'Intentional, intensive, interactive, and integrated.',
-          'Random and unplanned.',
-          'Only focused on tree planting.',
-          'Solely for timber production.'
+          "Only includes herbaceous crops",
+          "Woody perennials are deliberately grown with crops and/or animals",
+          "Animals are excluded",
+          "It is only applicable in urban areas"
         ],
-        correctAnswer: 'Intentional, intensive, interactive, and integrated.'
+        correctAnswer: "Woody perennials are deliberately grown with crops and/or animals"
       },
       {
-        question: "What is one of the main objectives of Agroforestry?",
+        question: "What triggered the emergence of agroforestry?",
         options: [
-          'To maximize land wastage.',
-          'To reduce biodiversity.',
-          'To fulfill family demands for nutrition and happiness.',
-          'To eliminate the use of animals in farming.'
+          "Decreasing urban population",
+          "Need to maximize soil resource utilization",
+          "Overuse of agricultural chemicals",
+          "Elimination of forests for agriculture"
         ],
-        correctAnswer: 'To fulfill family demands for nutrition and happiness.'
+        correctAnswer: "Need to maximize soil resource utilization"
       },
       {
-        question: "What is one of the environmental benefits of Agroforestry?",
-        options: [
-          'Better protection of crops from environmental hazards.',
-          'Increased use of chemical fertilizers.',
-          'Decreased biodiversity.',
-          'Increased soil erosion.'
-        ],
-        correctAnswer: 'Better protection of crops from environmental hazards.'
+        question: "Which of the following is NOT a component of agroforestry?",
+        options: ["Crops", "Trees", "Animals", "Pure forestry"],
+        correctAnswer: "Pure forestry"
       },
       {
-        question: "Which of the following is an economic benefit of Agroforestry?",
-        options: [
-          'Increased incidence of total crop failure.',
-          'Diversified outputs from a given area of land.',
-          'Reduced productivity.',
-          'Increased reliance on external inputs.'
-        ],
-        correctAnswer: 'Diversified outputs from a given area of land.'
+        question: "Which word is part of the etymology of 'agroforestry'?",
+        options: ["Ecology", "Agriculture", "Zoology", "Botany"],
+        correctAnswer: "Agriculture"
       },
       {
-        question: "What social benefit is associated with Agroforestry?",
+        question: "According to Nair (1979), agroforestry is:",
         options: [
-          'Decreased rural living standards.',
-          'Improved nutrition and health.',
-          'Increased labor scarcity.',
-          'Reduced community stability.'
+          "Scientifically unsound",
+          "Practically feasible and socially acceptable",
+          "Exclusive to forestry systems",
+          "Only applied to crops"
         ],
-        correctAnswer: 'Improved nutrition and health.'
+        correctAnswer: "Practically feasible and socially acceptable"
       },
       {
-        question: "Which of the following is NOT a biological benefit of Agroforestry?",
-        options: [
-          'Increased crop productivity.',
-          'Production of diversified foods.',
-          'Decreased forest productivity.',
-          'Decreased weed infection.'
-        ],
-        correctAnswer: 'Decreased forest productivity.'
-      }
-    ],
-    'history of agroforestry': [
-      {
-        question: "Which method was used in Myanmar for establishing teak plantations?",
-        options: [
-          'Taungya method',
-          'Shifting cultivation',
-          'Slash-and-burn',
-          'Agroforestry'
-        ],
-        correctAnswer: 'Taungya method'
+          question: "Which of the following is NOT a characteristic of agroforestry?",
+          options: [
+            "Multiple components, including a woody perennial",
+            "All components exist in different land units",
+            "High interaction between woody and non-woody components",
+            "A cycle of more than one year"
+          ],
+          correctAnswer: "All components exist in different land units"
+        },
+        {
+          question: "Which component is NOT part of the agroforestry system?",
+          options: ["Crops", "Animals", "Woody perennials", "Herbaceous-only plants"],
+          correctAnswer: "Herbaceous-only plants"
+        },
+        {
+          question: "Which feature ensures agroforestry systems are intentionally managed as a unit?",
+          options: ["Intensive", "Integrated", "Intentional", "Interactive"],
+          correctAnswer: "Intentional"
+        },
+        {
+          question: "What is a key attribute of agroforestry related to resource-based conservation?",
+          options: ["Productivity", "Adoptability", "Sustainability", "Diversity"],
+          correctAnswer: "Sustainability"
+        },
+        {
+          question: "Which of the following is an environmental benefit of agroforestry?",
+          options: [
+            "Diversified outputs",
+            "Improved nutrition and health",
+            "Reduction in soil erosion",
+            "Stabilization of upland communities"
+          ],
+          correctAnswer: "Reduction in soil erosion"
+        },
+        {
+          question: "Which agroforestry system is crop-dominant?",
+          options: ["Silvopasture", "Agrosilviculture", "Silvoagriculture", "Agrosilvipasture"],
+          correctAnswer: "Agrosilviculture"
+        },
+        {
+          question: "Which of the following is an economic benefit of agroforestry?",
+          options: [
+            "Improved microclimate",
+            "Diversified land outputs",
+            "Reduction of soil surface run-off",
+            "Reduction in weed infestation"
+          ],
+          correctAnswer: "Diversified land outputs"
+        },
+        {
+          question: "What type of interaction does agroforestry emphasize?",
+          options: [
+            "Competition between components",
+            "Separation of components",
+            "Active manipulation between components",
+            "Avoidance of physical interaction"
+          ],
+          correctAnswer: "Active manipulation between components"
+        },
+        {
+          question: "What is a limitation of agroforestry related to trees?",
+          options: [
+            "Increased soil fertility",
+            "Competition with food crops",
+            "Reduction in evaporation",
+            "Improved biodiversity"
+          ],
+          correctAnswer: "Competition with food crops"
+        },
+        {
+          question: "Which term describes the structural and functional combination of components in agroforestry?",
+          options: ["Intensive", "Interactive", "Integrated", "Intentional"],
+          correctAnswer: "Integrated"
+        },
+        {
+          question: "What agroforestry system was widely practiced in Finland until the late 19th century?",
+          options: [
+            "Slash-and-burn cultivation with tree planting",
+            "Taungya system",
+            "Shifting cultivation",
+            "Village forestry"
+            ],
+          correctAnswer: "Slash-and-burn cultivation with tree planting"
+        },
+        {
+          question: "Which country used the Taungya system first for forest plantations?",
+          options: ["India", "Myanmar", "Bangladesh", "Philippines"],
+          correctAnswer: "Myanmar"
+        },
+          {
+            question: "What organization was established in Nairobi, Kenya, in 1977 to lead agroforestry research?",
+            options: [
+              "International Development Research Centre (IDRC)",
+              "International Council for Research in Agroforestry (ICRAF)",
+              "World Agroforestry Centre",
+              "Bangladesh Forest Research Institute (BFRI)"
+            ],
+            correctAnswer: "International Council for Research in Agroforestry (ICRAF)"
+          },
+          {
+            question: "When was the Taungya system first introduced in Bangladesh?",
+            options: ["1862", "1912", "1979", "1988"],
+            correctAnswer: "1912"
+          },
+          {
+            question: "What was the first agroforestry program started by the Bangladesh Forest Department?",
+            options: [
+              "Jhoomia Rehabilitation Program",
+              "Betagi-Pomora Community Forestry Project",
+              "Village and Farm Forestry Program (VFFP)",
+              "On-Farm Research Division (OFRD)"
+            ],
+            correctAnswer: "Betagi-Pomora Community Forestry Project"
+          },
+          {
+            question: "Which year saw the introduction of Agroforestry as a degree course in the University of Chittagong?",
+            options: ["1987", "1988", "1990", "1994"],
+            correctAnswer: "1988"
+          },
+          {
+            question: "Which organization provided financial assistance to establish the Village and Farm Forestry Program (VFFP)?",
+            options: [
+              "World Bank",
+              "Swiss Agency for Development and Cooperation (SDC)",
+              "International Development Research Centre (IDRC)",
+              "UNESCO"
+            ],
+            correctAnswer: "Swiss Agency for Development and Cooperation (SDC)"
+          },
+          {
+            question: "What year was the Department of Agroforestry and Environment established at BSMRAU?",
+            options: ["1990", "1994", "1996", "1997"],
+            correctAnswer: "1994"
+          },
+          {
+            question: "Who led the establishment of the Department of Agroforestry at SAU?",
+            options: [
+              "Sir Dietrich Brandis",
+              "Professor M.A. Haque",
+              "Professor Abdul Haque",
+              "Professor Abdul Karim"
+            ],
+            correctAnswer: "Professor M.A. Haque"
+          },
+          {
+            question: "What was the primary focus of the Jhoomia Rehabilitation Program in 1980?",
+            options: [
+              "Afforestation with crop integration",
+              "Introduction of Taungya system",
+              "Wildlife conservation",
+              "Shifting cultivation practices"
+            ],
+        correctAnswer: "Afforestation with crop integration"
       },
       {
-        question: "What year did the International Centre for Research in Agroforestry (ICRAF) get established?",
+        question: "What is the primary focus of agroforestry in rural homesteads in Bangladesh?",
         options: [
-          '1970',
-          '1977',
-          '1980',
-          '1991'
-        ],
-        correctAnswer: '1977'
-      },
-      {
-        question: "Which country practiced a complex type of shifting cultivation?",
-        options: [
-          'India',
-          'Philippines',
-          'Nigeria',
-          'Myanmar'
-        ],
-        correctAnswer: 'Philippines'
-      },
-      {
-        question: "What was the first Agroforestry program started by the Forest Department in Bangladesh?",
-        options: [
-          'Jhoomia Rehabilitation program',
-          'Betagi-Pomora Community Forestry Project',
-          'Village and Farm Forestry Program',
-          'National Agroforestry Working Group'
-        ],
-        correctAnswer: 'Betagi-Pomora Community Forestry Project'
-      }
-    ],
-    'scope of agroforestry': [
-      {
-        question: "What is the primary benefit of Agroforestry for rural poor people?",
-        options: [
-          'Food security',
-          'Increased unemployment',
-          'Urban migration',
-          'Industrial development'
-        ],
-        correctAnswer: 'Food security'
-      },
-      {
-        question: "Which type of land is targeted for Agroforestry practices?",
-        options: [
-          'Fertile plains',
-          'Highly erodible and flood-prone lands',
-          'Urban areas',
-          'Coastal regions'
-        ],
-        correctAnswer: 'Highly erodible and flood-prone lands'
-      },
-      {
-        question: "What is a unique feature of rural homesteads in Bangladesh?",
-        options: [
-          'Monoculture farming',
-          'Combination of trees, shrubs, vegetables, and livestock',
-          'High-rise buildings',
-          'Industrial farms'
-        ],
-        correctAnswer: 'Combination of trees, shrubs, vegetables, and livestock'
-      },
-      {
-        question: "What is one of the ecological benefits of Agroforestry?",
-        options: [
-          'Increased soil erosion',
-          'Soil and water conservation',
-          'Deforestation',
-          'Urban heat island effect'
-        ],
-        correctAnswer: 'Soil and water conservation'
-      }
-    ],
-    'prospective areas of agroforestry in bangladesh': [
-      {
-        question: "What percentage of the total land area of Bangladesh is classified as hilly areas?",
-        options: [
-          '5-10%',
-          '10-15%',
-          '15-20%',
-          '20-25%'
-        ],
-        correctAnswer: '10-15%'
-      },
-      {
-        question: "How many homesteads are estimated to be in Bangladesh?",
-        options: [
-          '25 million',
-          '28.5 million',
-          '30 million',
-          '32 million'
-        ],
-        correctAnswer: '28.5 million'
-      },
-      {
-        question: "What is the total length of the coastal areas in Bangladesh?",
-        options: [
-          '500 km',
-          '710 km',
-          '1000 km',
-          '1500 km'
-        ],
-        correctAnswer: '710 km'
-      },
-      {
-        question: "Which of the following is NOT a product supported by Agroforestry systems?",
-        options: [
-          'Food',
-          'Fuel',
-          'Industrial machinery',
-          'Timber'
-        ],
-        correctAnswer: 'Industrial machinery'
-      }
+            "Industrial development",
+            "Providing food, fuel, fodder, and shelter",
+            "Urban afforestation",
+            "Export-oriented timber production"
+          ],
+          correctAnswer: "Providing food, fuel, fodder, and shelter"
+        },
+        {
+          question: "What percentage of Bangladesh's land area is estimated to be hilly?",
+          options: ["5-10%", "10-15%", "20-25%", "30-35%"],
+          correctAnswer: "10-15%"
+        },
+        {
+          question: "Which type of area is **NOT** mentioned as a prospective area for agroforestry in Bangladesh?",
+          options: [
+            "Crop land",
+            "Deserts",
+            "Coastal areas",
+            "Road and railway embankments"
+          ],
+          correctAnswer: "Deserts"
+        },
+        {
+          question: "Which tree quality is NOT preferred for agroforestry?",
+          options: [
+            "Deep-rooted trees",
+            "Trees with dense and wide canopies",
+            "Trees that survive pruning",
+            "Trees that provide nutrients to soil"
+          ],
+          correctAnswer: "Trees with dense and wide canopies"
+        },
+        {
+          question: "What is the length of Bangladesh's coastal area?",
+          options: ["500 km", "710 km", "1000 km", "1500 km"],
+          correctAnswer: "710 km"
+        },
+        {
+          question: "Which product is NOT commonly produced through agroforestry systems?",
+          options: [
+            "Medicinal plants",
+            "Charcoal",
+            "Fossil fuels",
+            "Craft materials"
+          ],
+          correctAnswer: "Fossil fuels"
+        },
+        {
+          question: "Which ecological benefit is associated with agroforestry?",
+          options: [
+            "Reduction of unemployment",
+            "Soil and water conservation",
+            "Reduction of export costs",
+            "Expansion of urban areas"
+          ],
+          correctAnswer: "Soil and water conservation"
+        },
+        {
+          question: "What is the approximate net cropper area in Bangladesh?",
+          options: ["5.5 million ha", "6.5 million ha", "8.0 million ha", "8.5 million ha"],
+          correctAnswer: "8.0 million ha"
+        },
+        {
+          question: "How much current fallow land is cultivable in Bangladesh?",
+          options: ["0.12 million ha", "0.27 million ha", "0.39 million ha", "0.45 million ha"],
+          correctAnswer: "0.27 million ha"
+        },
+        {
+          question: "Which of the following is a key feature of agroforestry in rural homesteads?",
+          options: [
+            "Large-scale monoculture farming",
+            "Combination of trees, crops, and livestock",
+            "Heavy industrial machinery",
+            "Use of inorganic fertilizers only"
+          ],
+          correctAnswer: "Combination of trees, crops, and livestock"
+        }                  
     ]
+    
+
   }
 
   // Fisher-Yates shuffle algorithm

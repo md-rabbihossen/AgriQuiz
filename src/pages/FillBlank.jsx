@@ -173,144 +173,206 @@ function FillBlank() {
     ],
     'introduction to agroforestry': [
       {
-        question: "Agroforestry combines agriculture and _______ technologies to create integrated land-use systems.",
+        question: "Agroforestry integrates trees, crops, and _______ in a single land management unit.",
+        answer: "animals",
+        acceptableAnswers: ["animals", "Animals", "ANIMALS"]
+      },
+      {
+        question: "Kenneth King coined the term _______ in 1968.",
+        answer: "Agrisilviculture",
+        acceptableAnswers: ["Agrisilviculture", "agrisilviculture", "AGRISILVICULTURE"]
+      },
+      {
+        question: "Agroforestry systems aim to achieve _______ productivity on a sustainable basis.",
+        answer: "enhanced",
+        acceptableAnswers: ["enhanced", "Enhanced", "ENHANCED"]
+      },
+      {
+        question: "Bene et al. proposed the first _______ of agroforestry in 1977.",
+        answer: "definition",
+        acceptableAnswers: ["definition", "Definition", "DEFINITION"]
+      },
+      {
+        question: "The practice of agroforestry combines agriculture and _______ technologies.",
         answer: "forestry",
         acceptableAnswers: ["forestry", "Forestry", "FORESTRY"]
       },
       {
-        question: "The term 'Agroforestry' was coined in the early _______.",
-        answer: "seventies",
-        acceptableAnswers: ["seventies", "Seventies", "SEVENTIES"]
+        question: "Natural vegetation is replaced by _______ systems in agroforestry.",
+        answer: "integrated",
+        acceptableAnswers: ["integrated", "Integrated", "INTEGRATED"]
       },
       {
-        question: "The concept of Agroforestry originated from the realization that trees play an important role in protecting the long-range interests of _______.",
-        answer: "land",
-        acceptableAnswers: ["land", "Land", "LAND"]
+        question: "Nair defined agroforestry as a land-use system that is _______ acceptable to farmers.",
+        answer: "socially",
+        acceptableAnswers: ["socially", "Socially", "SOCIALLY"]
       },
       {
-        question: "The first definition of Agroforestry was proposed by _______ in 1977.",
-        answer: "Bene et al.",
-        acceptableAnswers: ["Bene et al.", "Bene et al", "BENE ET AL."]
+        question: "ICRAF refined the definitions of agroforestry through _______ discussions.",
+        answer: "in-house",
+        acceptableAnswers: ["in-house", "In-house", "IN-HOUSE"]
       },
       {
-        question: "Agroforestry systems aim to maintain or increase __________ (of preferred commodities) as well as productivity (of the land).",
-        answer: "production",
-        acceptableAnswers: ["production", "Production", "PRODUCTION"]
+        question: "In agroforestry, woody perennials like trees and _______ are deliberately grown with crops.",
+        answer: "shrubs",
+        acceptableAnswers: ["shrubs", "Shrubs", "SHRUBS"]
       },
       {
-        question: "The three attributes of Agroforestry systems are productivity, sustainability, and __________.",
-        answer: "adoptability",
-        acceptableAnswers: ["adoptability", "Adoptability", "ADOPTABILITY"]
+        question: "The primary focus of agroforestry is on sustainable land-use _______.",
+        answer: "systems",
+        acceptableAnswers: ["systems", "Systems", "SYSTEMS"]
+      },
+        {
+          question: "Agroforestry must include at least one _______ perennial component.",
+          answer: "woody",
+          acceptableAnswers: ["woody", "Woody", "WOODY"]
+        },
+        {
+          question: "The cycle of agroforestry systems is generally more than _______ year.",
+          answer: "one",
+          acceptableAnswers: ["one", "One", "ONE"]
+        },
+        {
+          question: "The _______ of agroforestry ensures that trees, crops, and animals interact in a beneficial manner.",
+          answer: "intensiveness",
+          acceptableAnswers: ["intensiveness", "Intensiveness", "INTENSIVENESS"]
+        },
+        {
+          question: "Reduction of _______ run-off is a major benefit of agroforestry.",
+          answer: "surface",
+          acceptableAnswers: ["surface", "Surface", "SURFACE"]
+        },
+        {
+          question: "Agroforestry improves _______ recycling in soils.",
+          answer: "nutrient",
+          acceptableAnswers: ["nutrient", "Nutrient", "NUTRIENT"]
+        },
+        {
+          question: "Better soil management is a way agroforestry improves land _______.",
+          answer: "productivity",
+          acceptableAnswers: ["productivity", "Productivity", "PRODUCTIVITY"]
+        },
+        {
+          question: "Agroforestry helps protect lands by reducing soil _______.",
+          answer: "erosion",
+          acceptableAnswers: ["erosion", "Erosion", "EROSION"]
+        },
+        {
+          question: "Agroforestry integrates _______ diversity into farming systems.",
+          answer: "biological",
+          acceptableAnswers: ["biological", "Biological", "BIOLOGICAL"]
+        },
+        {
+          question: "One of the social benefits of agroforestry is improved _______ standards in rural areas.",
+          answer: "living",
+          acceptableAnswers: ["living", "Living", "LIVING"]
+        },
+        {
+          question: "The _______ of agroforestry technologies depends on their acceptance by local farmers.",
+          answer: "adoptability",
+          acceptableAnswers: ["adoptability", "Adoptability", "ADOPTABILITY"]
+        },    
+        {
+          question: "Agroforestry is widely recognized as the best _______ system for rural areas.",
+          answer: "productive",
+          acceptableAnswers: ["productive"]
+        },
+        {
+          question: "Bangladesh's net cropper area is approximately _______ million hectares.",
+          answer: "8.0",
+          acceptableAnswers: ["8.0", "8"]
+        },
+          {
+            question: "The length of embankments suitable for agroforestry in Bangladesh is approximately _______ km.",
+            answer: "80,000",
+            acceptableAnswers: ["80,000", "80000"]
+          },
+          {
+            question: "The preferred trees for agroforestry should have _______ roots to avoid competition with crops.",
+            answer: "deep",
+            acceptableAnswers: ["deep"]
+          },
+          {
+            question: "The coastal length of Bangladesh is _______ km.",
+            answer: "710",
+            acceptableAnswers: ["710"]
+          },
+          {
+            question: "Trees in agroforestry systems should allow light to pass through their _______.",
+            answer: "leaves",
+            acceptableAnswers: ["leaves"]
+          },
+          {
+            question: "The homestead area in Bangladesh under agroforestry covers about _______ million hectares.",
+            answer: "0.3",
+            acceptableAnswers: ["0.3"]
+          },
+          {
+            question: "Agroforestry can help in maintaining _______ balance.",
+            answer: "ecological",
+            acceptableAnswers: ["ecological"]
+          },
+          {
+            question: "The total number of ponds in Bangladesh is about _______ million.",
+            answer: "1.77",
+            acceptableAnswers: ["1.77"]
+          },
+          {
+            question: "Agroforestry supports the production of _______ materials for cottage industries.",
+            answer: "raw",
+        acceptableAnswers: ["raw"]
       },
       {
-        question: "Agroforestry practices are __________ managed to maintain their productive and protective functions.",
-        answer: "intensively",
-        acceptableAnswers: ["intensively", "Intensively", "INTENSIVELY"]
+        question: "The _______ method, also called hill cultivation, was first used by the British in Myanmar.",
+        answer: "Taungya",
+        acceptableAnswers: ["Taungya", "taungya", "TAUNGYA"]
       },
       {
-        question: "To be called Agroforestry, a land-use practice must satisfy certain criteria, including being __________.",
-        answer: "intentional",
-        acceptableAnswers: ["intentional", "Intentional", "INTENTIONAL"]
-      },
-      {
-        question: "One of the main objectives of Agroforestry is to maximize __________ of land.",
-        answer: "utilization",
-        acceptableAnswers: ["utilization", "Utilization", "UTILIZATION"]
-      }
-    ],
-    'benefits and limitations of agroforestry': [
-      {
-        question: "Agroforestry can provide better protection of crops and lives from environmental hazards such as __________, drought, and cyclone.",
-        answer: "flood",
-        acceptableAnswers: ["flood", "Flood", "FLOOD"]
-      },
-      {
-        question: "One of the economic benefits of Agroforestry is that it reduces the incidence of total crop __________ compared to mono-cropping systems.",
-        answer: "failure",
-        acceptableAnswers: ["failure", "Failure", "FAILURE"]
-      },
-      {
-        question: "Agroforestry improves rural living standards and enhances __________ and health.",
-        answer: "nutrition",
-        acceptableAnswers: ["nutrition", "Nutrition", "NUTRITION"]
-      },
-      {
-        question: "Agroforestry systems help in the __________ of soil by reducing surface run-off.",
-        answer: "protection",
-        acceptableAnswers: ["protection", "Protection", "PROTECTION"]
-      },
-      {
-        question: "Agroforestry can increase soil nutrients through __________ of litter fall.",
-        answer: "decomposition",
-        acceptableAnswers: ["decomposition", "Decomposition", "DECOMPOSITION"]
-      }
-    ],
-    'history of agroforestry': [
-      {
-        question: "The Taungya method, used in Myanmar, involves growing annual agricultural crops along with __________ species during the early years of forest plantation establishment.",
-        answer: "forest",
-        acceptableAnswers: ["forest", "Forest", "FOREST"]
-      },
-      {
-        question: "The establishment of the forest department in Bangladesh began in __________.",
+        question: "The first Forest Department in Bangladesh was established in _______.",
         answer: "1862",
         acceptableAnswers: ["1862"]
       },
-      {
-        question: "The first Agroforestry program in Bangladesh was initiated in __________.",
-        answer: "1979",
-        acceptableAnswers: ["1979"]
-      },
-      {
-        question: "The __________ was established in 1994 to offer an MS course in Agroforestry.",
-        answer: "Department of Agroforestry and Environment",
-        acceptableAnswers: ["Department of Agroforestry and Environment"]
-      }
-    ],
-    'scope of agroforestry': [
-      {
-        question: "Agroforestry is recognized as the best productive system from which rural poor people can meet their requirement of food, fuel, fodder, and other __________.",
-        answer: "necessities",
-        acceptableAnswers: ["necessities"]
-      },
-      {
-        question: "The estimated number of homesteads in Bangladesh is __________ million, occupying about 0.3 million hectares of land.",
-        answer: "16.7",
-        acceptableAnswers: ["16.7"]
-      },
-      {
-        question: "Agroforestry can help in maintaining __________ balance.",
-        answer: "ecological",
-        acceptableAnswers: ["ecological", "Ecological"]
-      },
-      {
-        question: "The system has the potential to generate __________.",
-        answer: "employment",
-        acceptableAnswers: ["employment"]
-      }
-    ],
-    'prospective areas of agroforestry in bangladesh': [
-      {
-        question: "The total number of ponds in Bangladesh is __________ million, covering an area of 0.92 million hectares.",
-        answer: "1.77",
-        acceptableAnswers: ["1.77"]
-      },
-      {
-        question: "The length of total roads in Bangladesh is __________ km.",
-        answer: "14,759",
-        acceptableAnswers: ["14,759"]
-      },
-      {
-        question: "The best trees to grow in Agroforestry systems are those with __________ roots to avoid competition with crops.",
-        answer: "deep",
-        acceptableAnswers: ["deep"]
-      },
-      {
-        question: "Agroforestry systems support the production of a wide range of products, including __________, fuel, fodder, and timber.",
-        answer: "food",
-        acceptableAnswers: ["food"]
-      }
-    ]
+        {
+          question: "ICRAF was renamed the International Centre for Research in Agroforestry in _______.",
+          answer: "1991",
+          acceptableAnswers: ["1991"]
+        },
+        {
+          question: "The Betagi-Pomora Community Forestry Project started in the year _______.",
+          answer: "1979",
+          acceptableAnswers: ["1979"]
+        },
+        {
+          question: "Village and Farm Forestry Program (VFFP) was initiated under the guidance of Prof. _______.",
+          answer: "Abdul Haque",
+          acceptableAnswers: ["Abdul Haque", "ABDUL HAQUE", "abdul haque"]
+        },
+        {
+          question: "Bangladesh Forest Research Institute conducted agroforestry research in areas like _______ of Rangunia.",
+          answer: "Ichamoti",
+          acceptableAnswers: ["Ichamoti", "ICHAMOTI", "ichamoti"]
+        },
+        {
+          question: "The National Agroforestry Working Group (NAWG) was formed in _______.",
+          answer: "1997",
+          acceptableAnswers: ["1997"]
+        },
+        {
+          question: "The Department of Agroforestry and Environment at BSMRAU was established to offer _______ courses.",
+          answer: "MS",
+          acceptableAnswers: ["MS", "ms", "M.S."]
+        },
+        {
+          question: "Shifting cultivation in the Philippines involved clearing forests for _______ use.",
+          answer: "agricultural",
+          acceptableAnswers: ["agricultural", "AGRICULTURAL", "Agricultural"]
+        },
+        {
+          question: "Sir _______ Brandis was the first Inspector General of Forests in Bangladesh.",
+          answer: "Dietrich",
+        acceptableAnswers: ["Dietrich", "DIETRICH", "dietrich"]
+      }    
+    ]    
   }
 
   // Fisher-Yates shuffle algorithm

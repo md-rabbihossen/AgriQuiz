@@ -196,172 +196,207 @@ function TrueFalse() {
     ],
     'introduction to agroforestry': [
       {
-        question: "Agroforestry is a new concept that was invented in the 21st century.",
+        question: "Agroforestry originated as a modern concept in tropical developed countries.",
         answer: false,
-        explanation: "Agroforestry is an ancient practice that has been used for centuries, long before the 21st century."
+        explanation: "Agroforestry originated in the temperate zone and is crucial in tropical developing countries."
       },
       {
-        question: "Agroforestry systems only include agricultural crops and do not involve trees or animals.",
-        answer: false,
-        explanation: "Agroforestry systems integrate trees, crops, and/or animals to create a diverse and sustainable farming system."
-      },
-      {
-        question: "The integration of trees into agricultural systems is known as Agroforestry.",
+        question: "The term agroforestry was coined in the 1970s.",
         answer: true,
-        explanation: "Agroforestry is a farming practice that intentionally integrates trees into agricultural landscapes to promote ecological interactions and synergies."
+        explanation: "The term was introduced in the early 1970s."
       },
       {
-        question: "Agroforestry practices are not influenced by local cultural patterns.",
-        answer: false,
-        explanation: "Agroforestry practices are often shaped by local cultural patterns, traditions, and knowledge systems, which play a crucial role in their adoption and success."
-      },
-      {
-        question: "Agroforestry systems are less complex than mono-cropping.",
-        answer: false,
-        explanation: "Agroforestry systems are more complex than mono-cropping as they involve multiple components and interactions."
-      },
-      {
-        question: "All components of Agroforestry must be in the same unit of land.",
+        question: "Kenneth King coined the term Agrisilviculture in 1968.",
         answer: true,
-        explanation: "Agroforestry involves the integration of multiple components, such as trees, crops, and animals, within the same unit of land."
+        explanation: "Kenneth King introduced the term to describe the integration of agriculture and forestry."
       },
       {
-        question: "Agroforestry can help in soil and water conservation.",
+        question: "Agroforestry excludes the use of animals.",
+        answer: false,
+        explanation: "Agroforestry integrates trees, crops, and animals in a sustainable manner."
+      },
+      {
+        question: "Bene et al. gave the first definition of agroforestry in 1983.",
+        answer: false,
+        explanation: "Bene et al. proposed the first definition in 1977."
+      },
+      {
+        question: "Agroforestry helps in sustainable management of land resources.",
         answer: true,
-        explanation: "Agroforestry practices can help conserve soil and water by reducing erosion, increasing soil organic matter, and promoting efficient water use."
+        explanation: "The primary aim of agroforestry is sustainable land use."
       },
       {
-        question: "The main objective of Agroforestry is to maximize land wastage.",
-        answer: false,
-        explanation: "The main objective of Agroforestry is to promote sustainable land use, increase biodiversity, and improve ecosystem services, not to maximize land wastage."
-      },
-      {
-        question: "Agroforestry practices are only focused on tree planting.",
-        answer: false,
-        explanation: "Agroforestry practices involve the integration of multiple components, including trees, crops, and animals, to create a diverse and sustainable farming system."
-      },
-      {
-        question: "Agroforestry systems can lead to increased soil nutrients through the decomposition of litter fall.",
+        question: "Agroforestry is based on the integration of forestry and agricultural technologies.",
         answer: true,
-        explanation: "Agroforestry systems can lead to increased soil nutrients through the decomposition of litter fall."
+        explanation: "It combines agriculture and forestry for sustainable land-use systems."
       },
       {
-        question: "One limitation of Agroforestry is that it can lead to increased competition between trees and food crops.",
+        question: "Agroforestry practices are scientifically sound and socially acceptable.",
         answer: true,
-        explanation: "One limitation of Agroforestry is that it can lead to increased competition between trees and food crops."
+        explanation: "This is one of the core principles as defined by Nair."
       },
       {
-        question: "Agroforestry only provides environmental benefits and does not contribute to economic or social improvements.",
+        question: "Agroforestry is a new invention in land management.",
         answer: false,
-        explanation: "Agroforestry provides environmental, economic, and social benefits."
+        explanation: "Agroforestry is a modern name for a set of traditional practices."
       },
       {
-        question: "The use of Agroforestry can lead to a reduction in the pressure on forests.",
+        question: "ICRAF refined the definitions of agroforestry through discussions.",
         answer: true,
-        explanation: "The use of Agroforestry can lead to a reduction in the pressure on forests."
+        explanation: "ICRAF refined and suggested definitions of agroforestry."
+      },
+        {
+          question: "Agroforestry includes at least one woody perennial component.",
+          answer: true,
+          explanation: "One of the defining characteristics of agroforestry is the inclusion of a woody perennial component."
+        },
+        {
+          question: "The cycle of agroforestry systems is less than a year.",
+          answer: false,
+          explanation: "The cycle of agroforestry systems is typically more than one year."
+        },
+        {
+          question: "Trees in agroforestry systems improve soil nutrients through litter decomposition.",
+          answer: true,
+          explanation: "Decomposition of litterfall enriches soil nutrients."
+        },
+        {
+          question: "Agroforestry decreases weed infestation.",
+          answer: true,
+          explanation: "Agroforestry reduces weed competition due to integrated management practices."
+        },
+        {
+          question: "Agroforestry systems cannot reduce crop failure risks.",
+          answer: false,
+          explanation: "Agroforestry diversifies outputs, reducing the risk of total crop failure."
+        },
+        {
+          question: "In agroforestry, components are managed independently.",
+          answer: false,
+          explanation: "Agroforestry components are managed as an integrated unit."
+        },
+        {
+          question: "Agroforestry enhances soil physical properties like water holding capacity.",
+          answer: true,
+          explanation: "It improves soil structure and water retention through organic matter."
+        },
+        {
+          question: "Agroforestry always guarantees immediate economic value.",
+          answer: false,
+          explanation: "Economic benefits from agroforestry often take time, particularly for tree growth."
+        },
+        {
+          question: "Agroforestry is more complex than mono-cropping.",
+          answer: true,
+          explanation: "The integration of multiple components adds complexity to agroforestry systems."
+        },
+        {
+          question: "Agroforestry contributes to biodiversity conservation.",
+          answer: true,
+        explanation: "By integrating diverse species, agroforestry conserves biodiversity."
+      }, 
+      {
+        question: "The Taungya method involves growing annual agricultural crops alongside forest species.",
+            answer: true,
+            explanation: "Taungya is a system combining forest species and agricultural crops during the early years of plantation establishment."
+          },
+          {
+            question: "ICRAF was established in Ottawa, Canada, in 1977.",
+            answer: false,
+            explanation: "ICRAF was established in Nairobi, Kenya, in 1977."
+          },
+          {
+            question: "The Betagi-Pomora Community Forestry Project rehabilitated families by allotting land for tree planting and crops.",
+            answer: true,
+            explanation: "Families were given land to plant trees and cultivate crops as part of the rehabilitation program."
+          },
+          {
+            question: "Agroforestry research in Bangladesh began with the establishment of the Forest Department in 1862.",
+            answer: false,
+            explanation: "Forest management started in 1862, but agroforestry research began later, particularly in the 1980s."
+          },
+          {
+            question: "The Village and Farm Forestry Program was funded by the World Bank.",
+            answer: false,
+            explanation: "The program was funded by the Swiss Agency for Development and Cooperation (SDC)."
+          },
+          {
+            question: "The University of Chittagong introduced Agroforestry courses in 1988.",
+            answer: true,
+            explanation: "Agroforestry became part of the B.Sc. (Hons) Forestry curriculum at the University of Chittagong in 1988."
+          },
+          {
+            question: "The National Agroforestry Working Group (NAWG) was formed in 1990.",
+            answer: false,
+            explanation: "NAWG was formed in 1997."
+          },
+          {
+            question: "The Jhoomia Rehabilitation Program in 1980 focused on afforestation.",
+            answer: true,
+            explanation: "The program aimed to rehabilitate Jhoomia families with afforestation and crop integration."
+          },
+          {
+            question: "The mid-1980s saw the establishment of the On-Farm Research Division in BARI for evaluating agroforestry systems.",
+            answer: true,
+            explanation: "The On-Farm Research Division (OFRD) was established during this period for agroforestry evaluation."
+          },
+          {
+            question: "Agroforestry in Bangladesh has been shaped primarily by socio-economic and ecological considerations.",
+            answer: true,
+        explanation: "Local environments, farmer resources, and social needs have strongly influenced agroforestry practices in Bangladesh."
       },
       {
-        question: "Agroforestry practices are only focused on tree planting.",
-        answer: false,
-        explanation: "Agroforestry practices involve the integration of multiple components, including trees, crops, and animals, to create a diverse and sustainable farming system."
-      }
-    ],
-    'scope of agroforestry': [
-      {
-        question: "Agroforestry is only applicable to urban areas.",
-        answer: false,
-        explanation: "Agroforestry can be applied to both rural and urban areas."
-      },
-      {
-        question: "Agroforestry practices can help meet the needs of a growing population.",
+        question: "Agroforestry focuses on integrating trees with crops and livestock.",
         answer: true,
-        explanation: "Agroforestry can help increase food production, improve livelihoods, and promote sustainable land use, which can help meet the needs of a growing population."
+        explanation: "Agroforestry systems combine trees, crops, and livestock for sustainable land use."
       },
-      {
-        question: "Agroforestry is not effective on economically marginal lands.",
-        answer: false,
-        explanation: "Agroforestry can be particularly effective on economically marginal lands, as it can help improve soil fertility, increase biodiversity, and promote sustainable land use."
-      },
-      {
-        question: "The homesteads in Bangladesh are solely for agricultural crops and do not include any trees or livestock.",
-        answer: false,
-        explanation: "Homesteads in Bangladesh often include a mix of agricultural crops, trees, and livestock, which is a form of agroforestry."
-      },
-      {
-        question: "Homesteads in rural areas of Bangladesh typically include a combination of trees, shrubs, and livestock.",
-        answer: true,
-        explanation: "Homesteads in rural areas of Bangladesh often include a mix of trees, shrubs, and livestock, which is a form of agroforestry."
-      },
-      {
-        question: "Agroforestry is only applicable to rural areas.",
-        answer: false,
-        explanation: "Agroforestry can be applied to both rural and urban areas."
-      },
-      {
-        question: "Agroforestry practices can help meet the needs of a growing population.",
-        answer: true,
-        explanation: "Agroforestry can help increase food production, improve livelihoods, and promote sustainable land use, which can help meet the needs of a growing population."
-      },
-      {
-        question: "Agroforestry is not effective on economically marginal lands.",
-        answer: false,
-        explanation: "Agroforestry can be particularly effective on economically marginal lands, as it can help improve soil fertility, increase biodiversity, and promote sustainable land use."
-      },
-      {
-        question: "The homesteads in Bangladesh are solely for agricultural crops and do not include any trees or livestock.",
-        answer: false,
-        explanation: "Homesteads in Bangladesh often include a mix of agricultural crops, trees, and livestock, which is a form of agroforestry."
-      }
-    ],
-    'history of agroforestry': [
-      {
-        question: "The practice of clearing and burning forests for agriculture was common in Europe until the end of the 19th century.",
-        answer: true,
-        explanation: "This practice was indeed common in Europe until the end of the 19th century."
-      },
-      {
-        question: "The National Agroforestry Working Group (NAWG) was formed in 1990.",
-        answer: false,
-        explanation: "The National Agroforestry Working Group (NAWG) was formed in 1991."
-      },
-      {
-        question: "The German Forester Sir Dietrich Brandis was the first inspector general of forests in Bangladesh.",
-        answer: true,
-        explanation: "Sir Dietrich Brandis was indeed the first inspector general of forests in Bangladesh."
-      },
-      {
-        question: "Agroforestry has only been practiced in Bangladesh since the 1990s.",
-        answer: false,
-        explanation: "Agroforestry has been practiced in Bangladesh for centuries, long before the 1990s."
-      }
-    ],
-    'prospective areas of agroforestry in bangladesh': [
-      {
-        question: "Agroforestry is only applicable to urban areas.",
-        answer: false,
-        explanation: "Agroforestry can be applied to both rural and urban areas."
-      },
-      {
-        question: "Agroforestry practices can help meet the needs of a growing population.",
-        answer: true,
-        explanation: "Agroforestry can help increase food production, improve livelihoods, and promote sustainable land use, which can help meet the needs of a growing population."
-      },
-      {
-        question: "Agroforestry is not effective on economically marginal lands.",
-        answer: false,
-        explanation: "Agroforestry can be particularly effective on economically marginal lands, as it can help improve soil fertility, increase biodiversity, and promote sustainable land use."
-      },
-      {
-        question: "The homesteads in Bangladesh are solely for agricultural crops and do not include any trees or livestock.",
-        answer: false,
-        explanation: "Homesteads in Bangladesh often include a mix of agricultural crops, trees, and livestock, which is a form of agroforestry."
-      },
-      {
-        question: "Homesteads in rural areas of Bangladesh typically include a combination of trees, shrubs, and livestock.",
-        answer: true,
-        explanation: "Homesteads in rural areas of Bangladesh often include a mix of trees, shrubs, and livestock, which is a form of agroforestry."
-      }
+        {
+          question: "Homesteads in Bangladesh play a significant role in bio-fuel production.",
+          answer: true,
+          explanation: "Rural homesteads provide a substantial share of the country's bio-fuel needs."
+        },
+        {
+          question: "Trees in agroforestry systems should have wide and dense canopies.",
+          answer: false,
+          explanation: "Trees with small and narrow canopies are preferred to allow sunlight for crops."
+        },
+        {
+          question: "Bangladesh has no cultivable fallow land suitable for agroforestry.",
+          answer: false,
+          explanation: "Bangladesh has 0.27 million ha of cultivable fallow land suitable for agroforestry."
+        },
+        {
+          question: "Agroforestry contributes to soil improvement and water conservation.",
+          answer: true,
+          explanation: "The system supports ecological benefits, including soil and water conservation."
+        },
+        {
+          question: "Agroforestry systems can support agritourism and recreation.",
+          answer: true,
+          explanation: "Agroforestry offers recreational opportunities such as agritourism and hunting."
+        },
+        {
+          question: "Agroforestry products include both food and non-food items.",
+          answer: true,
+          explanation: "Agroforestry systems produce a wide range of products, from food to timber and craft materials."
+        },
+        {
+          question: "Agroforestry has no role in employment generation.",
+          answer: false,
+          explanation: "Agroforestry has significant potential to generate employment opportunities."
+        },
+        {
+          question: "Agroforestry can be practiced on railway embankments and roadside lands.",
+          answer: true,
+          explanation: "Roads, railways, and embankments are identified as prospective areas for agroforestry."
+        },
+        {
+          question: "Agroforestry trees should compete with crops for water and nutrients.",
+          answer: false,
+          explanation: "Preferred agroforestry trees have deep roots to avoid competition with crops."
+        }      
     ]
+    
   }
 
   // Fisher-Yates shuffle algorithm
