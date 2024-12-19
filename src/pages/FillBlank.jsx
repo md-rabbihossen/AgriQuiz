@@ -372,6 +372,108 @@ function FillBlank() {
           answer: "Dietrich",
         acceptableAnswers: ["Dietrich", "DIETRICH", "dietrich"]
       }    
+    ],
+    'concept of seed': [
+      {
+        "question": "The embryo in Recurrent Apomixis originates from the _______.",
+        "answer": "egg mother cell",
+        "acceptableAnswers": ["egg mother cell", "Egg mother cell"]
+      },
+      {
+        "question": "In Adventitious Embryony, the embryo originates from the _______.",
+        "answer": "nucellus",
+        "acceptableAnswers": ["nucellus", "Nucellus"]
+      },
+      {
+        "question": "Botanical seeds are fertilized and mature _______.",
+        "answer": "ovules",
+        "acceptableAnswers": ["ovules", "Ovules"]
+      },
+      {
+        "question": "Agricultural seeds can be _______ parts of a plant.",
+        "answer": "vegetative",
+        "acceptableAnswers": ["vegetative", "Vegetative"]
+      },
+      {
+        "question": "High-yielding varieties are abbreviated as _______.",
+        "answer": "HYV",
+        "acceptableAnswers": ["HYV", "hyv", "Hyv"]
+      },
+      {
+        "question": "Seeds used in industries produce _______ and beverages.",
+        "answer": "chemicals",
+        "acceptableAnswers": ["chemicals", "Chemicals"]
+      },
+      {
+        "question": "Seeds can spread _______ and diseases.",
+        "answer": "insects",
+        "acceptableAnswers": ["insects", "Insects"]
+      },
+      {
+        "question": "The seed protects the _______ during germination.",
+        "answer": "embryo",
+        "acceptableAnswers": ["embryo", "Embryo"]
+      },
+      {
+        "question": "Botanical seeds are a _______ method of propagation.",
+        "answer": "reproductive",
+        "acceptableAnswers": ["reproductive", "Reproductive"]
+      },
+      {
+        "question": "Seeds provide _______ to food items like curry and polaw.",
+        "answer": "flavor",
+        "acceptableAnswers": ["flavor", "Flavor"]
+      },
+      {
+        "question": "The fertilized and mature ovule containing an embryo in a dormant state is called _______.",
+        "answer": "botanical seed",
+        "acceptableAnswers": ["botanical seed", "Botanical seed"]
+      },
+      {
+        "question": "Seeds that lack a seed coat are called _______.",
+        "answer": "naked seeds",
+        "acceptableAnswers": ["naked seeds", "Naked seeds"]
+      },
+      {
+        "question": "Endospermic seeds contain _______ or albumin.",
+        "answer": "endosperm",
+        "acceptableAnswers": ["endosperm", "Endosperm"]
+      },
+      {
+        "question": "Polycot seeds contain more than two _______.",
+        "answer": "cotyledons",
+        "acceptableAnswers": ["cotyledons", "Cotyledons"]
+      },
+      {
+        "question": "Non-fertilized seeds are produced through _______ propagation.",
+        "answer": "asexual",
+        "acceptableAnswers": ["asexual", "Asexual"]
+      },
+      {
+        "question": "Monoembryonic seeds contain only one _______.",
+        "answer": "embryo",
+        "acceptableAnswers": ["embryo", "Embryo"]
+      },
+      {
+        "question": "Seeds that are produced without fertilization are _______ seeds.",
+        "answer": "non-fertilized",
+        "acceptableAnswers": ["non-fertilized", "Non-fertilized"]
+      },
+      {
+        "question": "On the basis of cotyledon, rice seed is classified as a _______ seed.",
+        "answer": "monocot",
+        "acceptableAnswers": ["monocot", "Monocot"]
+      },
+      {
+        "question": "A naked seed lacks a _______.",
+        "answer": "seed coat",
+        "acceptableAnswers": ["seed coat", "Seed coat"]
+      },
+      {
+        "question": "Rice, wheat, and maize seeds are classified as _______ seeds based on the seed coat.",
+        "answer": "covered",
+        "acceptableAnswers": ["covered", "Covered"]
+      }
     ]    
   }
 

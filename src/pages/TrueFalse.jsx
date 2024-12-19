@@ -395,7 +395,109 @@ function TrueFalse() {
           answer: false,
           explanation: "Preferred agroforestry trees have deep roots to avoid competition with crops."
         }      
-    ]
+    ],
+    'concept of seed': [
+      {
+        "question": "Recurrent Apomixis is a process where the embryo originates without meiosis.",
+        "answer": true,
+        "explanation": "Recurrent Apomixis involves embryo development without meiosis."
+      },
+      {
+        "question": "Vegetative apomixis is a sexual reproduction method.",
+        "answer": false,
+        "explanation": "Vegetative apomixis is an asexual reproduction method involving vegetative buds or bulbils."
+      },
+      {
+        "question": "All agricultural seeds are botanical seeds.",
+        "answer": false,
+        "explanation": "Not all agricultural seeds are botanical seeds; some involve vegetative parts."
+      },
+      {
+        "question": "Botanical seeds include rice and wheat.",
+        "answer": true,
+        "explanation": "Rice and wheat are examples of botanical seeds."
+      },
+      {
+        "question": "Seeds are vehicles for spreading life.",
+        "answer": true,
+        "explanation": "Seeds help spread plant species by being carried by animals, wind, or humans."
+      },
+      {
+        "question": "Non-recurrent Apomixis involves embryo formation directly from the egg nucleolus.",
+        "answer": true,
+        "explanation": "Non-recurrent Apomixis results in embryos forming from the egg nucleolus without fertilization."
+      },
+      {
+        "question": "Seeds provide food for animals and humans.",
+        "answer": true,
+        "explanation": "Seeds are a primary source of food, including cereals and pulses."
+      },
+      {
+        "question": "Adventitious Embryony occurs in sugarcane.",
+        "answer": false,
+        "explanation": "Adventitious Embryony typically occurs in Citrus and Opuntia."
+      },
+      {
+        "question": "HYV seeds are used for increasing crop yield.",
+        "answer": true,
+        "explanation": "High-Yielding Varieties (HYV) are developed for higher agricultural productivity."
+      },
+      {
+        "question": "Seeds contribute to plant improvement through hybridization.",
+        "answer": true,
+        "explanation": "Seeds play a crucial role in plant improvement by enabling hybridization and genetic diversity."
+      },
+      {
+        "question": "Seeds are the media used to sustain and multiply plant species.",
+        "answer": true,
+        "explanation": "This is the fundamental definition of seeds in plant propagation."
+      },
+      {
+        "question": "Agricultural seeds can include vegetative parts of a plant.",
+        "answer": true,
+        "explanation": "Agricultural seeds include parts like banana suckers and pineapple crowns capable of propagation."
+      },
+      {
+        "question": "Naked seeds are found in higher classes of plants.",
+        "answer": false,
+        "explanation": "Naked seeds are not found in higher plants; they are typical of gymnosperms like pine."
+      },
+      {
+        "question": "Polycot seeds contain more than two cotyledons.",
+        "answer": true,
+        "explanation": "Polycot seeds, such as pine seeds, have more than two cotyledons."
+      },
+      {
+        "question": "Non-endospermic seeds contain endosperm or albumin.",
+        "answer": false,
+        "explanation": "Non-endospermic seeds lack endosperm or albumin."
+      },
+      {
+        "question": "Monoembryonic seeds contain only one embryo.",
+        "answer": true,
+        "explanation": "Monoembryonic seeds, such as rice and wheat, contain a single embryo."
+      },
+      {
+        "question": "Non-fertilized seeds are produced through meiosis and fertilization.",
+        "answer": false,
+        "explanation": "Non-fertilized seeds are produced through asexual propagation, bypassing meiosis and fertilization."
+      },
+      {
+        "question": "Rice and wheat seeds are classified as monocots.",
+        "answer": true,
+        "explanation": "Rice and wheat are monocot seeds because they contain a single cotyledon."
+      },
+      {
+        "question": "Endospermic seeds are also called albuminous seeds.",
+        "answer": true,
+        "explanation": "Endospermic seeds contain endosperm or albumin, hence the name albuminous."
+      },
+      {
+        "question": "Covered seeds have no seed coat.",
+        "answer": false,
+        "explanation": "Covered seeds, like rice and maize, have a seed coat, distinguishing them from naked seeds."
+      }
+    ] 
     
   }
 

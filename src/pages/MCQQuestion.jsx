@@ -500,6 +500,208 @@ function MCQQuestion() {
           ],
           correctAnswer: "Combination of trees, crops, and livestock"
         }                  
+    ],
+    'concept of seed': [
+      {
+        "question": "What is a key feature of Recurrent Apomixis?",
+        "options": [
+          "Embryo originates directly from the egg nucleolus",
+          "Embryo originates from the nucellus or integument",
+          "Embryo originates from the egg mother cell without meiosis",
+          "Embryo forms in vegetative buds"
+        ],
+        "correctAnswer": "Embryo originates from the egg mother cell without meiosis"
+      },
+      {
+        "question": "Which type of seed originates from the nucellus or integument?",
+        "options": [
+          "Recurrent Apomixis",
+          "Adventitious Embryony",
+          "Non-recurrent Apomixis",
+          "Vegetative Apomixis"
+        ],
+        "correctAnswer": "Adventitious Embryony"
+      },
+      {
+        "question": "What is the key distinction of Non-recurrent Apomixis?",
+        "options": [
+          "Embryo forms from vegetative buds",
+          "Embryo originates from egg nucleolus directly",
+          "Embryo originates from the nucellus",
+          "Embryo is fertilized through meiosis"
+        ],
+        "correctAnswer": "Embryo originates from egg nucleolus directly"
+      },
+      {
+        "question": "Which is NOT an example of a botanical seed?",
+        "options": [
+          "Rice",
+          "Jute",
+          "Wheat",
+          "Tuber of Potato"
+        ],
+        "correctAnswer": "Tuber of Potato"
+      },
+      {
+        "question": "Which of the following is an agricultural seed?",
+        "options": [
+          "Sett of Sugarcane",
+          "Rice",
+          "Wheat",
+          "Jute"
+        ],
+        "correctAnswer": "Sett of Sugarcane"
+      },
+      {
+        "question": "What is one role of seeds in plant improvement?",
+        "options": [
+          "As a source of flavor and odor",
+          "As an aid in hybridization",
+          "For earning foreign currency",
+          "For beautification"
+        ],
+        "correctAnswer": "As an aid in hybridization"
+      },
+      {
+        "question": "Which of the following industries uses seeds?",
+        "options": [
+          "Construction",
+          "Automotive",
+          "Chemical",
+          "Real Estate"
+        ],
+        "correctAnswer": "Chemical"
+      },
+      {
+        "question": "Which apomixis method involves vegetative buds or bulbils?",
+        "options": [
+          "Recurrent Apomixis",
+          "Adventitious Embryony",
+          "Non-recurrent Apomixis",
+          "Vegetative Apomixis"
+        ],
+        "correctAnswer": "Vegetative Apomixis"
+      },
+      {
+        "question": "What is an example of a seed used for beautification?",
+        "options": [
+          "Curry",
+          "Polaw",
+          "Citrus",
+          "Onion"
+        ],
+        "correctAnswer": "Citrus"
+      },
+      {
+        "question": "Which is a benefit of using high-quality seeds in agriculture?",
+        "options": [
+          "Produces good food",
+          "Reduces foreign currency",
+          "Increases weeds",
+          "Decreases genetic diversity"
+        ],
+        "correctAnswer": "Produces good food"
+      },
+      {
+        "question": "What is the primary function of a seed?",
+        "options": [
+          "Sustain and multiply plant species",
+          "Serve as a food source for animals",
+          "Provide aesthetic value",
+          "Facilitate photosynthesis"
+        ],
+        "correctAnswer": "Sustain and multiply plant species"
+      },
+      {
+        "question": "What is a botanical seed?",
+        "options": [
+          "A fertilized ovule containing a dormant embryo",
+          "A seed without a seed coat",
+          "Any plant part capable of propagation",
+          "A seed produced without fertilization"
+        ],
+        "correctAnswer": "A fertilized ovule containing a dormant embryo"
+      },
+      {
+        "question": "Which of the following is an example of an agricultural seed?",
+        "options": [
+          "Rice seed",
+          "Banana sucker",
+          "Wheat seed",
+          "Jute seed"
+        ],
+        "correctAnswer": "Banana sucker"
+      },
+      {
+        "question": "What distinguishes naked seeds from covered seeds?",
+        "options": [
+          "Naked seeds lack a seed coat; covered seeds have one",
+          "Naked seeds are always monocots",
+          "Covered seeds are found in gymnosperms",
+          "Covered seeds lack endosperm"
+        ],
+        "correctAnswer": "Naked seeds lack a seed coat; covered seeds have one"
+      },
+      {
+        "question": "Which type of seed contains two cotyledons?",
+        "options": [
+          "Monocot seed",
+          "Dicot seed",
+          "Polycot seed",
+          "Endospermic seed"
+        ],
+        "correctAnswer": "Dicot seed"
+      },
+      {
+        "question": "What is a characteristic of endospermic seeds?",
+        "options": [
+          "They lack albumin",
+          "They contain more than one embryo",
+          "They contain endosperm",
+          "They are always non-fertilized"
+        ],
+        "correctAnswer": "They contain endosperm"
+      },
+      {
+        "question": "Which seeds are produced without fertilization?",
+        "options": [
+          "Fertilized seeds",
+          "Endospermic seeds",
+          "Non-fertilized seeds",
+          "Polycot seeds"
+        ],
+        "correctAnswer": "Non-fertilized seeds"
+      },
+      {
+        "question": "What type of seed is found in plants that do not produce fruit?",
+        "options": [
+          "Monocot seed",
+          "Naked seed",
+          "Polycot seed",
+          "Covered seed"
+        ],
+        "correctAnswer": "Naked seed"
+      },
+      {
+        "question": "What distinguishes monoembryonic seeds from polyembryonic seeds?",
+        "options": [
+          "Monoembryonic seeds have only one cotyledon",
+          "Monoembryonic seeds contain a single embryo",
+          "Polyembryonic seeds lack endosperm",
+          "Polyembryonic seeds are always non-fertilized"
+        ],
+        "correctAnswer": "Monoembryonic seeds contain a single embryo"
+      },
+      {
+        "question": "Which of the following is an example of a polycot seed?",
+        "options": [
+          "Rice seed",
+          "Pine seed",
+          "Wheat seed",
+          "Jute seed"
+        ],
+        "correctAnswer": "Pine seed"
+      }
     ]
     
 

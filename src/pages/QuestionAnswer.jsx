@@ -1,13 +1,13 @@
-import { useState, useEffect } from 'react'
-import { useParams, useNavigate } from 'react-router-dom'
-import Navbar from '../components/Navbar/Navbar'
+import { useState, useEffect } from 'react';
+import { useParams, useNavigate } from 'react-router-dom';
+import Navbar from '../components/Navbar/Navbar';
 
 function QuestionAnswer() {
-  const { courseName, chapterName } = useParams()
-  const navigate = useNavigate()
-  const [showAnswer, setShowAnswer] = useState(false)
-  const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0)
-  const [shuffledQuestions, setShuffledQuestions] = useState([])
+  const { courseName, chapterName } = useParams();
+  const navigate = useNavigate();
+  const [showAnswer, setShowAnswer] = useState(false);
+  const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
+  const [shuffledQuestions, setShuffledQuestions] = useState([]);
 
   const questions = {
     'introduction to agroforestry': [
@@ -331,44 +331,126 @@ function QuestionAnswer() {
         question: "What are the main differences between Class-I and Class-II agricultural lands?",
         answer: "Main differences between Class-I and Class-II:\n\nClass-I:\n- No to slight limitations throughout the year\n- Widest range of agricultural use\n- Only two subclasses (I-D, I-W)\n- No ordinary subclasses\n\nClass-II:\n- No to slight limitations for most of the year but moderate limitations for rest of the year\n- More restricted range of use\n- Has both major and ordinary subclasses (II Dd, II Dw, II W)"
       }
-    ]
-  }
+    ],
+    'concept of seed': [
+      {
+        "question": "What is the definition of a seed?",
+        "answer": "In general, a seed is defined as the medium used to sustain and multiply plant species. Depending on the media used for plant propagation, a seed can be classified as:<br><br>1. <b>Botanical Seed</b>: A fertilized and mature ovule containing an embryo in a dormant state. Examples include rice seed, wheat seed, and jute seed. This is also called 'true seed.'<br>2. <b>Agricultural Seed</b>: Any part of the plant, whether vegetative or reproductive, that can produce new offspring of its type under suitable conditions. Examples include pineapple crown and banana sucker."
+      },
+      {
+        "question": "What are the kinds of seeds based on the definition?",
+        "answer": "Based on the definition, seeds are categorized into:<br><br>1. <b>Botanical Seed</b>: Fertilized and mature ovule containing an embryo in a dormant state. Examples: Rice seed, Wheat seed, Jute seed.<br>2. <b>Agricultural Seed</b>: Any vegetative or reproductive part of a plant capable of producing offspring. Examples: Pineapple crown, Banana sucker."
+      },
+      {
+        "question": "What are the types of seeds based on the seed coat?",
+        "answer": "Seeds can be classified based on the seed coat into:<br><br>1. <b>Naked Seed</b>:<ul><li>Seed coat is absent.</li><li>Found in plants that do not produce fruit.</li><li>Not found in higher plant classes.</li><li>Examples: Pine, Aurocaria, Cycus.</li></ul><br>2. <b>Covered Seed</b>:<ul><li>Seed coat is present.</li><li>Produced within fruit.</li><li>Found in higher classes of plants.</li><li>Examples: Rice seed, Wheat seed, Maize seed, Mustard seed.</li></ul>"
+      },
+      {
+        "question": "What are the types of seeds based on cotyledons?",
+        "answer": "Seeds are categorized based on cotyledons as:<br><br>1. <b>Monocot Seed</b>: Contains one cotyledon. Examples: Rice seed, Wheat seed.<br>2. <b>Dicot Seed</b>: Contains two cotyledons. Examples: Jute seed, Tomato seed.<br>3. <b>Polycot Seed</b>: Contains more than two cotyledons. Examples: Pine seed."
+      },
+      {
+        "question": "What are the types of seeds based on the presence of endosperm?",
+        "answer": "Based on the presence of endosperm, seeds are classified as:<br><br>1. <b>Endospermic (Albuminous) Seed</b>:<ul><li>Contains endosperm or albumin.</li><li>Examples: Rice seed, Wheat seed, Coconut seed.</li></ul><br>2. <b>Non-endospermic (Ex-albuminous) Seed</b>:<ul><li>Endosperm or albumin is absent.</li><li>Examples: Gram seed, Bean seed.</li></ul>"
+      },
+      {
+        "question": "What are the types of seeds based on the embryo?",
+        "answer": "Seeds are categorized based on the embryo as:<br><br>1. <b>Monoembryonic Seed</b>: Contains only one embryo. Examples: Rice seed, Wheat seed, Jute seed.<br>2. <b>Polyembryonic Seed</b>: Contains more than one embryo. Examples: Citrus fruit seed."
+      },
+      {
+        "question": "What are the types of seeds based on fertilization?",
+        "answer": "Based on fertilization, seeds are classified into:<br><br>1. <b>Fertilized Seed</b>:<ul><li>Produced through fertilization.</li><li>Examples: Rice seed, Wheat seed, Jute seed, Gram seed.</li></ul><br>2. <b>Non-fertilized Seed</b>:<ul><li>Produced without fertilization through asexual propagation.</li><li>These seeds form without meiosis or sexual propagation.</li></ul>"
+      },
+      {
+        "question": "What is the difference between naked seeds and covered seeds?",
+        "answer": "The differences between naked and covered seeds are:<br><br><table border='1' style='border-collapse: collapse; width: 100%;'><thead><tr><th>Feature</th><th>Naked Seed</th><th>Covered Seed</th></tr></thead><tbody><tr><td>Seed coat</td><td>Absent</td><td>Present</td></tr><tr><td>Found in plants</td><td>Non-fruit-producing plants</td><td>Fruit-producing plants</td></tr><tr><td>Examples</td><td>Pine, Aurocaria, Cycus</td><td>Rice seed, Wheat seed, Mustard seed</td></tr></tbody></table>"
+      },
+      {
+        "question": "How do monocot seeds differ from dicot seeds?",
+        "answer": "The differences between monocot and dicot seeds are:<br><br><table border='1' style='border-collapse: collapse; width: 100%;'><thead><tr><th>Feature</th><th>Monocot Seed</th><th>Dicot Seed</th></tr></thead><tbody><tr><td>Cotyledons</td><td>One</td><td>Two</td></tr><tr><td>Examples</td><td>Rice seed, Wheat seed</td><td>Jute seed, Tomato seed</td></tr></tbody></table>"
+      },
+      {
+        "question": "What are the examples of polycot seeds?",
+        "answer": "Polycot seeds are seeds that contain more than two cotyledons. Examples include the pine seed."
+      },
+      {
+        "question": "What are the types of non-fertilized seeds?",
+        "answer": "Non-fertilized seeds are classified into the following types:<br><br>1. <b>Recurrent Apomixis</b>:<ul><li>Embryo originates from the egg mother cell where meiosis has not occurred.</li><li>Example: Apple</li></ul><br>2. <b>Adventitious Embryony</b>:<ul><li>Embryo originates from the nucellus or integument.</li><li>Examples: Citrus fruits, Opuntia</li></ul><br>3. <b>Non-recurrent Apomixis</b>:<ul><li>Embryo originates directly from the egg nucleolus.</li></ul><br>4. <b>Vegetative Apomixis</b>:<ul><li>Vegetative buds or bulbils form in the inflorescences as a method of vegetative propagation.</li><li>Example: Onion</li></ul>"
+      },
+      {
+        "question": "Differentiate between botanical and agricultural seeds.",
+        "answer": "The differences between botanical and agricultural seeds are as follows:<br><br><table border='1' style='border-collapse: collapse; width: 100%;'><thead><tr><th>Feature</th><th>Botanical Seed</th><th>Agricultural Seed</th></tr></thead><tbody><tr><td>Definition</td><td>Fertilized and mature ovule containing an embryo in a dormant state.</td><td>Any part of the plant, whether vegetative or reproductive, capable of producing new offspring under suitable conditions.</td></tr><tr><td>Examples</td><td>Rice, Jute, Wheat</td><td>Sett of Sugarcane, Tuber of Potato</td></tr><tr><td>Usage</td><td>Only seeds are used for propagation.</td><td>Seeds and vegetative parts are used for propagation.</td></tr><tr><td>Relationship</td><td>All botanical seeds are agricultural seeds.</td><td>Not all agricultural seeds are botanical seeds.</td></tr></tbody></table>"
+      },
+      {
+        "question": "Why are seeds important in agriculture?",
+        "answer": "Seeds play a critical role in agriculture due to the following reasons:<br><br>1. <b>Maintenance of Species</b>:<ul><li>Seeds protect the embryo.</li><li>They supply food for the germinating embryo.</li></ul><br>2. <b>Food Source</b>:<ul><li>Seeds serve as food for humans, animals, and other organisms.</li><li>Examples: Cereals, pulses, and oils (50% of edible oil comes from seeds).</li></ul><br>3. <b>Plant Improvement</b>:<ul><li>Used in selection, hybridization, and gene banks.</li></ul><br>4. <b>Basic Commodity</b>:<ul><li>Good seeds lead to better crops.</li><li>Examples: High-Yielding Varieties (HYV) and hybrids.</li></ul><br>5. <b>Industrial Use</b>:<ul><li>Seeds are used to produce chemicals, medicines, beverages, and alkaloids.</li></ul><br>6. <b>Beautification</b>:<ul><li>Seeds add value through their size, shape, and color.</li></ul><br>7. <b>Spread of Life</b>:<ul><li>Seeds are vehicles for spreading plant species across regions.</li></ul>"
+      },
+      {
+        "question": "What is the definition of a seed?",
+        "answer": "A seed is defined as the medium used to sustain and multiply plant species. It can be classified into:<br><br>1. <b>Botanical Seed</b>: A fertilized and mature ovule containing an embryo in a dormant state. Examples: Rice, Wheat, Jute.<br>2. <b>Agricultural Seed</b>: Any part of the plant, whether vegetative or reproductive, capable of producing offspring. Examples: Pineapple crown, Banana sucker."
+      },
+      {
+        "question": "What are the advantages of seeds in plant improvement?",
+        "answer": "Seeds aid in plant improvement through the following methods:<br><br>1. <b>Selection</b>: Choosing the best seeds for propagation.<br>2. <b>Hybridization</b>: Crossing two different varieties to create superior offspring.<br>3. <b>Gene Bank</b>: Storing seeds for future use in breeding and conservation."
+      },
+      {
+        "question": "What are the uses of seeds in industries?",
+        "answer": "Seeds are used in various industries for:<br><br>1. <b>Chemicals</b><br>2. <b>Medicines</b><br>3. <b>Beverages</b><br>4. <b>Alkaloids</b>"
+      },
+      {
+        "question": "What are the sources of insect and disease spread in seeds?",
+        "answer": "Seeds can act as sources of:<br><br>1. <b>Insect Spread</b>: Carrying pests to new areas.<br>2. <b>Disease Spread</b>: Acting as a medium for pathogens.<br>3. <b>Weed Spread</b>: Transporting weed seeds to new regions."
+      },
+      {
+        "question": "What is the role of seeds in beautification?",
+        "answer": "Seeds contribute to beautification by:<br><br>1. Their <b>size</b>, <b>shape</b>, and <b>color</b> adding aesthetic value.<br>2. Enhancing ornamental gardens and landscapes."
+      },
+      {
+        "question": "How do seeds provide flavor and odor?",
+        "answer": "Seeds add flavor and aroma to food. Examples include:<br><br>1. Curry spices<br>2. Polaw seasonings"
+      },
+      {
+        "question": "What is vegetative apomixis?",
+        "answer": "Vegetative apomixis is a type of vegetative propagation where buds or bulbils form in place of flowers in the inflorescence. Example: Onion."
+      }      
+    ]    
+  };
 
   // Fisher-Yates shuffle algorithm
   const shuffleArray = (array) => {
-    const shuffled = [...array]
+    const shuffled = [...array];
     for (let i = shuffled.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
-      [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]]
+      [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
     }
-    return shuffled
-  }
+    return shuffled;
+  };
 
   // Get the questions for current chapter
   useEffect(() => {
-    const chapterQuestions = questions[chapterName.toLowerCase()] || []
+    const chapterQuestions = questions[chapterName.toLowerCase()] || [];
     // Shuffle the questions
-    const shuffled = [...chapterQuestions].sort(() => Math.random() - 0.5)
-    setShuffledQuestions(shuffled)
-    setCurrentQuestionIndex(0)
-    setShowAnswer(false)
-  }, [chapterName])
+    const shuffled = shuffleArray(chapterQuestions);
+    setShuffledQuestions(shuffled);
+    setCurrentQuestionIndex(0);
+    setShowAnswer(false);
+  }, [chapterName]);
 
-  const currentQuestion = shuffledQuestions[currentQuestionIndex]
+  const currentQuestion = shuffledQuestions[currentQuestionIndex];
 
   const handleNextQuestion = () => {
-    setShowAnswer(false)
+    setShowAnswer(false);
     setCurrentQuestionIndex((prev) => 
       prev < shuffledQuestions.length - 1 ? prev + 1 : prev
-    )
-  }
+    );
+  };
 
   const handlePrevQuestion = () => {
-    setShowAnswer(false)
+    setShowAnswer(false);
     setCurrentQuestionIndex((prev) => 
       prev > 0 ? prev - 1 : prev
-    )
-  }
+    );
+  };
 
   return (
     <div className="question-page">
@@ -382,7 +464,10 @@ function QuestionAnswer() {
             <div className="card" onClick={() => setShowAnswer(!showAnswer)}>
               <div className="card-content">
                 {showAnswer ? (
-                  <p className="answer">{currentQuestion.answer}</p>
+                  <div 
+                    className="answer" 
+                    dangerouslySetInnerHTML={{ __html: currentQuestion.answer }}
+                  />
                 ) : (
                   <p className="question">{currentQuestion.question}</p>
                 )}
@@ -423,7 +508,7 @@ function QuestionAnswer() {
         )}
       </div>
     </div>
-  )
+  );
 }
 
-export default QuestionAnswer 
+export default QuestionAnswer;
