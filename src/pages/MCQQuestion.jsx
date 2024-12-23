@@ -15,33 +15,7 @@ function MCQQuestion() {
 
   //MCQ data
   const questions = {
-    'pollination': [
-      {
-        question: "Which part of the flower receives pollen during pollination?",
-        options: ["Stigma", "Anther", "Stem", "Leaf"],
-        correctAnswer: "Stigma"
-      },
-      {
-        question: "What type of pollination occurs when pollen transfers between different flowers?",
-        options: ["Cross-pollination", "Self-pollination", "Wind pollination", "Water pollination"],
-        correctAnswer: "Cross-pollination"
-      },
-      {
-        question: "Which of the following is NOT an animal pollinator?",
-        options: ["Wind", "Bees", "Butterflies", "Bats"],
-        correctAnswer: "Wind"
-      },
-      {
-        question: "In which type of pollination does pollen from a flower's anther land on the same flower's stigma?",
-        options: ["Self-pollination", "Cross-pollination", "Water pollination", "Animal pollination"],
-        correctAnswer: "Self-pollination"
-      },
-      {
-        question: "Which plants typically rely on wind pollination?",
-        options: ["Grasses and wheat", "Roses and lilies", "Apple trees and pears", "Water lilies and lotus"],
-        correctAnswer: "Grasses and wheat"
-      }
-    ],
+    
     'land evaluation': [
       {
         question: "What percentage of total land is classified as Medium high land?",

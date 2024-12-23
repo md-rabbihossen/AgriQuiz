@@ -6,12 +6,8 @@ function Resources() {
   const navigate = useNavigate()
   
   const courses = [
-    { id: 1, name: 'ABOT' },
-    { id: 2, name: 'AGRO' },
-    { id: 3, name: 'SOIL' },
-    { id: 4, name: 'AFES' },
-    { id: 5, name: 'ENTO' },
-    { id: 6, name: 'HORT(ELECTIVE)' }
+    { id: 1, name: 'Theory', link: 'https://drive.google.com/drive/folders/1FCEkrJLYSPtd2mRDxQ2YtqS_ZM0RJh2F?usp=drive_link' },
+    { id: 2, name: 'Practical', link: 'https://drive.google.com/drive/folders/1ZoKiOC197UySD7iF9o5CZ-4Q-oeWnlcz?usp=drive_link' }
   ]
 
   const handleSyllabusDownload = () => {
@@ -48,7 +44,7 @@ function Resources() {
             <button 
               key={course.id}
               className="course-button"
-              onClick={() => navigate(`/resources/${course.name.toLowerCase()}`)}
+              onClick={() => window.open(course.link, '_blank')}
             >
               {course.name}
             </button>
@@ -66,4 +62,4 @@ function Resources() {
   )
 }
 
-export default Resources 
+export default Resources

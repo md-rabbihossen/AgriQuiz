@@ -9,7 +9,7 @@ function Hero() {
     { id: 3, name: "SOIL" },
     { id: 4, name: "AFES" },
     { id: 5, name: "ENTO" },
-    { id: 6, name: "HORT(ELECTIVE)" },
+    { id: 6, name: "HORT" },
   ];
 
   const handleClick = (course) => {

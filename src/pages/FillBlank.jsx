@@ -17,33 +17,7 @@ function FillBlank() {
 
   // Sample Fill in the Blank questions
   const questions = {
-    'pollination': [
-      {
-        question: "The male part of a flower is called the _______.",
-        answer: "anther",
-        acceptableAnswers: ["anther", "Anther", "ANTHER"]
-      },
-      {
-        question: "Pollen travels down to the _______ where it fertilizes the ovule.",
-        answer: "ovary",
-        acceptableAnswers: ["ovary", "Ovary", "OVARY"]
-      },
-      {
-        question: "In _______ pollination, pollen from a flower's anther lands on the same flower's stigma.",
-        answer: "self",
-        acceptableAnswers: ["self", "Self", "SELF"]
-      },
-      {
-        question: "The most common type of pollination is _______ pollination.",
-        answer: "animal",
-        acceptableAnswers: ["animal", "Animal", "ANIMAL"]
-      },
-      {
-        question: "Without pollination, plants cannot produce _______ or fruit.",
-        answer: "seeds",
-        acceptableAnswers: ["seeds", "Seeds", "SEEDS", "seed", "Seed", "SEED"]
-      }
-    ],
+
     'land evaluation': [
       {
         question: "Land is defined as the physical environment consisting of relief, soil, hydrology, _______ and vegetation.",

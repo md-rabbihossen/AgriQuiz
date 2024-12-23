@@ -152,28 +152,7 @@ function QuestionAnswer() {
         answer: "The key characteristics include:\n- Integration of trees, crops, and/or animals\n- Scientific soundness\n- Ecological desirability\n- Practical feasibility\n- Social acceptability\n- Sustainable land management\n- Increased overall production"
       }     
     ],
-    'pollination': [
-      {
-        question: "What is pollination?",
-        answer: "Pollination is the process by which pollen from the male part of a flower (anther) is transferred to the female part of a flower (stigma). This process is essential for the reproduction of flowering plants."
-      },
-      {
-        question: "What are the two main types of pollination?",
-        answer: "The two main types are self-pollination and cross-pollination. In self-pollination, pollen from a flower's anther lands on the same flower's stigma. In cross-pollination, pollen is transferred from one flower to another."
-      },
-      {
-        question: "What happens after pollen reaches the stigma?",
-        answer: "After pollen reaches the stigma, it travels down to the ovary, where it fertilizes the ovule and helps form seeds."
-      },
-      {
-        question: "What are the different agents of pollination?",
-        answer: "Pollination can occur through various agents: wind pollination (in grasses and wheat), water pollination (in aquatic plants), and animal pollination (through insects like bees, butterflies, birds, and bats)."
-      },
-      {
-        question: "Why is pollination important for ecosystems?",
-        answer: "Pollination is crucial for food production because many fruits, vegetables, and crops rely on it. It's essential for maintaining biodiversity and ensuring ecosystem health. Without pollination, plants cannot produce seeds or fruit, which would disrupt the balance of nature and food chains."
-      }
-    ],
+    
     'land evaluation': [
       {
         question: "What is the definition of land in the context of land evaluation?",

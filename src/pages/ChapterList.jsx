@@ -8,34 +8,22 @@ function ChapterList() {
   // Define chapters for each course
   const courseChapters = {
     abot: [
-      { id: 1, name: 'Pollination' },
-      { id: 2, name: 'Fertilization' },
-      { id: 3, name: 'Cell Division' },
-      { id: 4, name: 'Plant Anatomy' }
+      { id: 1, name: 'Plant Physiology' }
     ],
     agro: [
-      { id: 1, name: 'Concept of Seed' },
-      { id: 2, name: 'Seed Quality' },
-      { id: 3, name: 'Germination' }
+      { id: 1, name: 'Concept of Seed' }
     ],
     soil: [
-      { id: 1, name: 'Soil Organic Matter' },
       { id: 2, name: 'Land Evaluation' }
     ],
     afes: [
       { id: 1, name: 'Introduction to Agroforestry' }
     ],
     hort: [
-      { id: 1, name: 'Plant Propagation' },
-      { id: 2, name: 'Greenhouse Management' },
-      { id: 3, name: 'Fruit Production' },
-      { id: 4, name: 'Landscape Design' }
+      { id: 1, name: 'Plant Propagation' }
     ],
     ento: [
-      { id: 1, name: 'Insect Morphology' },
-      { id: 2, name: 'Pest Classification' },
-      { id: 3, name: 'Beneficial Insects' },
-      { id: 4, name: 'Integrated Pest Management' }
+      { id: 1, name: 'Insect Morphology' }
     ]
   }
 

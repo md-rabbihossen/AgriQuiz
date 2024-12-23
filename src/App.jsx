@@ -9,8 +9,6 @@ import TrueFalse from './pages/TrueFalse'
 import About from './pages/About'
 import Contact from './pages/Contact'
 import Resources from './pages/Resources'
-import ResourceFiles from './pages/ResourceFiles'
-import CourseOptions from './pages/CourseOptions'
 
 function App() {
   return (
@@ -27,8 +25,6 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/resources" element={<Resources />} />
-          <Route path="/resources/:courseName" element={<CourseOptions />} />
-          <Route path="/resources/:courseName/:resourceType" element={<ResourceFiles />} />
         </Routes>
       </div>
     </BrowserRouter>

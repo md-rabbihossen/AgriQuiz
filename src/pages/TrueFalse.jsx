@@ -15,33 +15,7 @@ function TrueFalse() {
 
   // Sample True/False questions
   const questions = {
-    'pollination': [
-      {
-        question: "Pollination is the transfer of pollen from the anther to the stigma.",
-        answer: true,
-        explanation: "This is the correct definition of pollination, which involves transferring pollen from the male part (anther) to the female part (stigma)."
-      },
-      {
-        question: "Water pollination is the most common type of pollination.",
-        answer: false,
-        explanation: "Animal pollination is the most common type of pollination, not water pollination."
-      },
-      {
-        question: "Self-pollination occurs between different flowers of the same species.",
-        answer: false,
-        explanation: "Self-pollination occurs within the same flower, while cross-pollination occurs between different flowers."
-      },
-      {
-        question: "Bees and butterflies are examples of animal pollinators.",
-        answer: true,
-        explanation: "Yes, bees and butterflies are common examples of animal pollinators that help transfer pollen between flowers."
-      },
-      {
-        question: "Pollination is only important for food production.",
-        answer: false,
-        explanation: "Pollination is important for food production, maintaining biodiversity, and ensuring healthy ecosystems. It's crucial for the entire natural world, not just food production."
-      }
-    ],
+
     'land evaluation': [
       {
         question: "High land is completely free of flooding in rainy season.",
