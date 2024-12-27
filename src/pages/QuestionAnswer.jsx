@@ -10,6 +10,88 @@ function QuestionAnswer() {
   const [shuffledQuestions, setShuffledQuestions] = useState([]);
 
   const questions = {
+    'soil classification': [
+      {
+        question: "What is soil classification? Explain its purposes in detail.",
+        answer: "Soil classification is the systematic grouping of soils based on their properties for study, identification, and categorization. It follows a multi-categorical or hierarchical system.\n\nThe main purposes of soil classification are:\n\n1. Systematic Organization:\n- Helps remember soil properties\n- Enables understanding of relationships between different soils\n\n2. Knowledge Management:\n- Organizes information efficiently\n- Leads to economy of thoughts\n\n3. Property Recognition:\n- Helps identify and recognize soil properties\n- Enables better understanding of soil characteristics\n\n4. Relationship Discovery:\n- Helps learn new relationships\n- Identifies principles in soil populations\n\n5. Practical Applications:\n- Predicts soil behavior\n- Identifies potential uses\n- Estimates productivity\n- Provides research objectives\n- Facilitates technology transfer from research to fields"
+      },
+      {
+        question: "Define soil. Explain its basic characteristics.",
+        answer: "Soil is defined as the loose and unconsolidated outer layer of the earth's crust that is crumbly, loose, and powdery in nature. Key characteristics include:\n\n1. Physical Properties:\n- Made up of particles of different sizes\n- Loose and unconsolidated structure\n- Crumbly and powdery texture\n\n2. Formation:\n- Natural body formed through interaction of soil-forming factors\n- Developed through pedogenic processes\n\n3. Location:\n- Forms the outer layer of earth's crust\n- Variable depth depending on location and conditions"
+      },
+      {
+        question: "Explain the early systems of soil classification in detail.",
+        answer: "The early systems of soil classification were based on single characteristics and included five main types:\n\n1. Economic Classification:\n- Based on soil productivity for taxation\n- Examples: Rice soils, Cotton soils\n\n2. Physical Classification:\n- Based on soil texture\n- Examples: Loamy, Sandy, Clayey soils\n\n3. Chemical Classification:\n- Based on chemical composition and characteristics\n- Examples: Acidic, Alkaline, Calcareous soils\n\n4. Geological Classification:\n- Based on parent rock/material\n- Examples: Basalt, Limestone, Sandstone soils\n\n5. Physiographic Classification:\n- Based on landscape characteristics\n- Examples: Basin, Terrace, Mountain valley soils\n\nLimitations:\n- Based on single characteristics\n- Limited utility\n- Led to need for more comprehensive systems"
+      },
+      {
+        question: "What are the limitations of early soil classification systems?",
+        answer: "The early soil classification systems had several limitations:\n\n1. Single-Character Focus:\n- Based on only one soil characteristic\n- Ignored other important properties\n\n2. Limited Scope:\n- Restricted utility in practical applications\n- Incomplete understanding of soil properties\n\n3. Lack of Comprehensiveness:\n- Failed to account for multiple soil attributes\n- Insufficient for modern agricultural needs\n\n4. Practical Limitations:\n- Difficult to apply in complex soil situations\n- Limited use in agricultural planning\n\nThese limitations led to the development of more comprehensive classification systems."
+      },
+      {
+        question: "How does soil classification help in agricultural technology transfer?",
+        answer: "Soil classification aids agricultural technology transfer in several ways:\n\n1. Research Application:\n- Provides framework for research\n- Helps identify suitable soil conditions\n\n2. Technology Transfer:\n- Facilitates transfer from research to fields\n- Helps match technologies with soil types\n\n3. Practical Implementation:\n- Guides farmers in soil management\n- Helps in crop selection\n\n4. Knowledge Sharing:\n- Enables systematic information sharing\n- Supports agricultural extension services"
+      },
+      {
+        question: "What is the hierarchical system in soil classification?",
+        answer: "The hierarchical system in soil classification is a multi-categorical approach where:\n\n1. Definition:\n- Soils are grouped in an orderly and logical manner\n- Classification moves from broad categories to specific ones\n\n2. Purpose:\n- Creates organized structure for soil types\n- Enables systematic study and identification\n\n3. Benefits:\n- Facilitates better understanding of soil relationships\n- Makes soil classification more comprehensive\n- Allows for detailed soil property analysis"
+      },
+      {
+        question: "How does soil classification contribute to agricultural research?",
+        answer: "Soil classification contributes to agricultural research in multiple ways:\n\n1. Research Framework:\n- Provides structured approach to soil studies\n- Enables systematic data collection\n\n2. Experimental Design:\n- Helps select appropriate soil types for experiments\n- Ensures research validity\n\n3. Result Analysis:\n- Facilitates comparison of research findings\n- Helps understand soil-crop relationships\n\n4. Application:\n- Guides practical implementation of research findings\n- Helps develop soil-specific recommendations"
+      },
+      {
+        question: "What are the key components of soil that influence its classification?",
+        answer: "The key components influencing soil classification include:\n\n1. Physical Components:\n- Particle size distribution\n- Soil structure\n- Texture characteristics\n\n2. Chemical Components:\n- Mineral composition\n- Chemical properties\n- pH levels\n\n3. Biological Components:\n- Organic matter content\n- Microbial activity\n\n4. Environmental Factors:\n- Formation processes\n- Geographic location\n- Climate influences"
+      },
+      {
+        question: "Explain the importance of soil classification in land management.",
+        answer: "Soil classification is crucial for land management because:\n\n1. Land Use Planning:\n- Helps determine suitable land uses\n- Guides crop selection\n- Assists in irrigation planning\n\n2. Conservation:\n- Identifies soil conservation needs\n- Helps prevent soil degradation\n- Guides sustainable practices\n\n3. Resource Management:\n- Facilitates efficient resource allocation\n- Helps optimize land use\n- Guides soil improvement strategies\n\n4. Economic Benefits:\n- Improves agricultural productivity\n- Reduces resource waste\n- Enhances farm profitability"
+      },
+      {
+        question: "What role does soil classification play in sustainable agriculture?",
+        answer: "Soil classification plays vital roles in sustainable agriculture:\n\n1. Resource Conservation:\n- Helps maintain soil health\n- Guides sustainable farming practices\n- Prevents soil degradation\n\n2. Crop Management:\n- Assists in crop rotation planning\n- Guides fertilizer application\n- Helps in water management\n\n3. Environmental Protection:\n- Reduces environmental impact\n- Promotes biodiversity\n- Supports ecosystem health\n\n4. Long-term Sustainability:\n- Ensures continued soil productivity\n- Maintains ecological balance\n- Supports future agricultural needs"
+      },
+      {
+        question: "Explain Dokuchaiev's Genetic System of soil classification in detail.",
+        answer: "Dokuchaiev's Genetic System (1900) divided soils into three categories:\n\n1. Normal (Zonal) Soils:\n- Fully developed soil profiles\n- Reflect climate and vegetation influence\n- Examples: Sierozem, Chestnut, Podzol, Laterites\n\n2. Transitional (Intrazonal) Soils:\n- Occur within zones\n- Reflect local conditions (topography, parent material)\n- Characteristics dominated by local conditions\n- Examples: Calcimorphic and Hydromorphic soils\n\n3. Abnormal (Azonal) Soils:\n- Time-limited soil formation\n- Lack fully developed horizons\n- Examples: Alluvial Soils, Regosols"
+      },
+      {
+        question: "Describe Marbut's Morpho-Genetic System of soil classification.",
+        answer: "Marbut's Morpho-Genetic System (1927) divided Zonal soils into two main classes:\n\n1. Pedalfers:\n- Show accumulation of iron and aluminum\n- Occur in high rainfall areas\n- Have surplus water for leaching\n\n2. Pedocals:\n- Show accumulation of calcium carbonate\n- Occur in high evaporation areas\n- Have water deficit"
+      },
+      {
+        question: "Explain the Baldwin and associates Genetic System of soil classification.",
+        answer: "Baldwin and associates Genetic System (1938) was a revision of Marbut's system:\n\n1. Main Structure:\n- Three orders: Zonal, Intrazonal, and Azonal\n- Based on Russian zonality concept\n\n2. Subdivisions:\n- Orders divided into 9 suborders\n- Based on specific climatic and vegetative regions\n\n3. Further Classification:\n- Suborders divided into Great Soil Groups\n- Great groups subdivided into soil families\n- Further divided into series and soil types"
+      },
+      {
+        question: "Compare and contrast Pedalfers and Pedocals in Marbut's system.",
+        answer: "Comparison between Pedalfers and Pedocals:\n\n1. Pedalfers:\n- Accumulate iron and aluminum\n- Found in high rainfall areas\n- Have water surplus\n- Enhanced leaching processes\n\n2. Pedocals:\n- Accumulate calcium carbonate\n- Found in high evaporation areas\n- Have water deficit\n- Limited leaching processes"
+      },
+      {
+        question: "What are the characteristics of Intrazonal soils?",
+        answer: "Characteristics of Intrazonal soils:\n\n1. Location:\n- Occur within specific zones\n- Influenced by local conditions\n\n2. Dominant Factors:\n- Topography\n- Parent material\n- Local environmental conditions\n\n3. Key Features:\n- Excess of water\n- Salt content\n- Calcium carbonate presence\n\n4. Examples:\n- Calcimorphic soils\n- Hydromorphic soils\n- Saline soils\n- Sodic soils\n- Saline-sodic soils"
+      },
+      {
+        question: "What are the key features of Normal (Zonal) soils?",
+        answer: "Normal (Zonal) soils have the following key features:\n\n1. Profile Development:\n- Fully developed soil profiles\n- Clear horizon differentiation\n\n2. Influencing Factors:\n- Strong climate influence\n- Significant vegetation impact\n\n3. Examples:\n- Sierozem\n- Chestnut soils\n- Podzol\n- Laterites\n\n4. Characteristics:\n- Reflect regional climate patterns\n- Show typical vegetation influences\n- Have well-defined soil horizons"
+      },
+      {
+        question: "How did Baldwin's system improve upon Marbut's classification?",
+        answer: "Baldwin's system improved Marbut's classification in several ways:\n\n1. Hierarchical Structure:\n- Introduced more detailed subdivisions\n- Created clearer categorization levels\n\n2. Classification Levels:\n- Orders (Zonal, Intrazonal, Azonal)\n- Suborders (9 based on climate and vegetation)\n- Great Soil Groups\n- Soil Families\n- Series and Types\n\n3. Integration:\n- Combined Russian zonality concept\n- Incorporated Marbut's insights\n- Added climate and vegetation factors"
+      },
+      {
+        question: "What is the significance of the Russian zonality concept in soil classification?",
+        answer: "The Russian zonality concept is significant because:\n\n1. Theoretical Foundation:\n- Based on geographical zonation\n- Reflects climate-vegetation relationships\n\n2. Classification Basis:\n- Helps organize soils systematically\n- Considers regional variations\n\n3. Practical Applications:\n- Aids in understanding soil distribution\n- Helps predict soil properties\n- Guides agricultural planning"
+      },
+      {
+        question: "Explain the role of time in Azonal soil formation.",
+        answer: "Time's role in Azonal soil formation includes:\n\n1. Development Limitation:\n- Insufficient time for full profile development\n- Limited horizon formation\n\n2. Characteristics:\n- Lack of distinct horizons\n- Minimal profile development\n- Young soil features\n\n3. Examples:\n- Alluvial soils (recent deposits)\n- Regosols (young soils)\n\n4. Implications:\n- Different management needs\n- Specific agricultural considerations\n- Unique development potential"
+      },
+      {
+        question: "How do local conditions influence Intrazonal soil development?",
+        answer: "Local conditions influence Intrazonal soil development through:\n\n1. Environmental Factors:\n- Topography effects\n- Parent material influence\n- Local water conditions\n\n2. Specific Conditions:\n- Water excess or deficit\n- Salt accumulation\n- Calcium carbonate presence\n\n3. Resulting Properties:\n- Distinct chemical characteristics\n- Unique physical properties\n- Special management requirements\n\n4. Management Implications:\n- Specific crop suitability\n- Special cultivation needs\n- Particular conservation approaches"
+      }
+    ],
     'introduction to agroforestry': [
       {
         question: "What are the key characteristics of Agroforestry systems?",
@@ -309,6 +391,26 @@ function QuestionAnswer() {
       {
         question: "What are the main differences between Class-I and Class-II agricultural lands?",
         answer: "Main differences between Class-I and Class-II:\n\nClass-I:\n- No to slight limitations throughout the year\n- Widest range of agricultural use\n- Only two subclasses (I-D, I-W)\n- No ordinary subclasses\n\nClass-II:\n- No to slight limitations for most of the year but moderate limitations for rest of the year\n- More restricted range of use\n- Has both major and ordinary subclasses (II Dd, II Dw, II W)"
+      },
+      {
+        question: "What is the hierarchical system in soil classification?",
+        answer: "The hierarchical system in soil classification is a multi-categorical approach where:\n\n1. Definition:\n- Soils are grouped in an orderly and logical manner\n- Classification moves from broad categories to specific ones\n\n2. Purpose:\n- Creates organized structure for soil types\n- Enables systematic study and identification\n\n3. Benefits:\n- Facilitates better understanding of soil relationships\n- Makes soil classification more comprehensive\n- Allows for detailed soil property analysis"
+      },
+      {
+        question: "How does soil classification contribute to agricultural research?",
+        answer: "Soil classification contributes to agricultural research in multiple ways:\n\n1. Research Framework:\n- Provides structured approach to soil studies\n- Enables systematic data collection\n\n2. Experimental Design:\n- Helps select appropriate soil types for experiments\n- Ensures research validity\n\n3. Result Analysis:\n- Facilitates comparison of research findings\n- Helps understand soil-crop relationships\n\n4. Application:\n- Guides practical implementation of research findings\n- Helps develop soil-specific recommendations"
+      },
+      {
+        question: "What are the key components of soil that influence its classification?",
+        answer: "The key components influencing soil classification include:\n\n1. Physical Components:\n- Particle size distribution\n- Soil structure\n- Texture characteristics\n\n2. Chemical Components:\n- Mineral composition\n- Chemical properties\n- pH levels\n\n3. Biological Components:\n- Organic matter content\n- Microbial activity\n\n4. Environmental Factors:\n- Formation processes\n- Geographic location\n- Climate influences"
+      },
+      {
+        question: "Explain the importance of soil classification in land management.",
+        answer: "Soil classification is crucial for land management because:\n\n1. Land Use Planning:\n- Helps determine suitable land uses\n- Guides crop selection\n- Assists in irrigation planning\n\n2. Conservation:\n- Identifies soil conservation needs\n- Helps prevent soil degradation\n- Guides sustainable practices\n\n3. Resource Management:\n- Facilitates efficient resource allocation\n- Helps optimize land use\n- Guides soil improvement strategies\n\n4. Economic Benefits:\n- Improves agricultural productivity\n- Reduces resource waste\n- Enhances farm profitability"
+      },
+      {
+        question: "What role does soil classification play in sustainable agriculture?",
+        answer: "Soil classification plays vital roles in sustainable agriculture:\n\n1. Resource Conservation:\n- Helps maintain soil health\n- Guides sustainable farming practices\n- Prevents soil degradation\n\n2. Crop Management:\n- Assists in crop rotation planning\n- Guides fertilizer application\n- Helps in water management\n\n3. Environmental Protection:\n- Reduces environmental impact\n- Promotes biodiversity\n- Supports ecosystem health\n\n4. Long-term Sustainability:\n- Ensures continued soil productivity\n- Maintains ecological balance\n- Supports future agricultural needs"
       }
     ],
     'concept of seed': [
@@ -392,7 +494,229 @@ function QuestionAnswer() {
         "question": "What is vegetative apomixis?",
         "answer": "Vegetative apomixis is a type of vegetative propagation where buds or bulbils form in place of flowers in the inflorescence. Example: Onion."
       }      
-    ]    
+    ],
+    'soil taxonomy- a comprehensive system': [
+      {
+        question: "What is Soil Taxonomy and when was it introduced?",
+        answer: "Soil Taxonomy, also known as the '7th approximation', is:<br><br>1. <b>Introduction</b>:<ul><li>Published in 1960 by US Soil Survey Staff</li><li>Officially adopted in USA and many other countries</li></ul><br>2. <b>Nature of System</b>:<ul><li>A comprehensive morphogenetic system</li><li>Based on soil properties as they exist today</li><li>Uses morphology as a guide to soil genesis</li></ul><br>3. <b>Classification Basis</b>:<ul><li>Uses diagnostic horizons</li><li>Considers soil moisture regimes</li><li>Includes temperature regimes</li></ul>"
+      },
+      {
+        question: "Define Pedon and Polypedon with their characteristics.",
+        answer: "Pedon and Polypedon are defined as:<br><br><table border='1' style='border-collapse: collapse; width: 100%;'><thead><tr><th>Characteristic</th><th>Pedon</th><th>Polypedon</th></tr></thead><tbody><tr><td>Definition</td><td>Smallest classifiable soil unit</td><td>Soil area composed of many similar pedons</td></tr><tr><td>Size</td><td>Usually 1 m² surface area</td><td>Multiple pedons combined</td></tr><tr><td>Capacity</td><td>Large enough to contain entire root system of average-sized plant</td><td>Contains multiple plant root systems</td></tr></tbody></table>"
+      },
+      {
+        question: "Explain the concept of Diagnostic Horizons in Soil Taxonomy.",
+        answer: "Diagnostic Horizons are:<br><br>1. <b>Definition</b>:<ul><li>Horizons formed through pedogenetic processes</li><li>Have distinct properties that can be measured</li><li>Part of a soil pedon</li></ul><br>2. <b>Types</b>:<ul><li>Epipedons (surface horizons)</li><li>Endopedons (subsurface horizons)</li></ul><br>3. <b>Characteristics</b>:<ul><li>Used for soil classification</li><li>Have measurable properties</li><li>Result from soil formation processes</li></ul>"
+      },
+      {
+        question: "Compare and contrast Epipedons and Endopedons.",
+        answer: "<table border='1' style='border-collapse: collapse; width: 100%;'><thead><tr><th>Feature</th><th>Epipedons</th><th>Endopedons</th></tr></thead><tbody><tr><td>Definition</td><td>Diagnostic surface horizons</td><td>Diagnostic subsurface horizons</td></tr><tr><td>Location</td><td>Uppermost soil horizons</td><td>Lower part of soil</td></tr><tr><td>Depth</td><td>Usually up to 0.15-0.18m</td><td>Below epipedons</td></tr><tr><td>Characteristic</td><td>Often darkened by organic matter</td><td>Area of material accumulation</td></tr></tbody></table>"
+      },
+      {
+        question: "Describe the characteristics of Mollic Epipedon.",
+        answer: "Mollic Epipedon (Latin mollis=soft) has the following characteristics:<br><br>1. <b>Physical Properties</b>:<ul><li>Thick horizon</li><li>Dark colored</li><li>Soft mineral horizon</li></ul><br>2. <b>Chemical Properties</b>:<ul><li>Contains 1% or more organic matter</li><li>High base saturation (>50%)</li></ul><br>3. <b>Structure</b>:<ul><li>Strong structure</li></ul>"
+      },
+      {
+        question: "Explain the characteristics of Anthropic Epipedon.",
+        answer: "Anthropic Epipedon (Greek Anthrops=man) is characterized by:<br><br>1. <b>Chemical Properties</b>:<ul><li>High concentration of available phosphorus (>250 ppm)</li><li>Distinguishable from mollic and umbric epipedons by phosphorus content</li></ul><br>2. <b>Formation</b>:<ul><li>Formed under long-continued farming systems</li><li>Requires irrigation</li><li>Needs large additions of organic matter (compost)</li></ul>"
+      },
+      {
+        question: "Describe the characteristics of Umbric and Ochric Epipedons.",
+        answer: "<table border='1' style='border-collapse: collapse; width: 100%;'><thead><tr><th>Characteristic</th><th>Umbric Epipedon</th><th>Ochric Epipedon</th></tr></thead><tbody><tr><td>Color</td><td>Dark colored</td><td>Light colored</td></tr><tr><td>Texture</td><td>Soft mineral horizon</td><td>Hard or very hard when dry</td></tr><tr><td>Base Saturation</td><td>Low (<50%)</td><td>Not specified</td></tr><tr><td>Organic Matter</td><td>Similar to mollic</td><td>Less than 1%</td></tr><tr><td>Structure</td><td>Like mollic</td><td>Massive when dry</td></tr></tbody></table>"
+      },
+      {
+        question: "Compare Histic and Folistic Epipedons.",
+        answer: "<table border='1' style='border-collapse: collapse; width: 100%;'><thead><tr><th>Characteristic</th><th>Histic Epipedon</th><th>Folistic Epipedon</th></tr></thead><tbody><tr><td>Water Saturation</td><td>Saturated for 30+ days/year</td><td>Never saturated for >30 days/year</td></tr><tr><td>Composition</td><td>Thin organic horizon</td><td>High organic matter content</td></tr><tr><td>Drainage</td><td>Can be artificially drained</td><td>Natural drainage</td></tr><tr><td>Duration of Saturation</td><td>>30 days cumulative</td><td><1 month</td></tr></tbody></table>"
+      },
+      {
+        question: "Explain the characteristics of Plaggen Epipedon.",
+        answer: "Plaggen Epipedon (German plaggen=sod) has the following characteristics:<br><br>1. <b>Physical Properties</b>:<ul><li>Man-made or artificial epipedon</li><li>At least 50 cm thick</li></ul><br>2. <b>Formation</b>:<ul><li>Produced by long and continued manuring</li><li>Sod was used as bedding for animals</li></ul><br>3. <b>Significance</b>:<ul><li>Represents human influence on soil formation</li><li>Historical agricultural practice indicator</li></ul>"
+      },
+      {
+        question: "Describe the characteristics of Melanic Epipedon.",
+        answer: "Melanic Epipedon (Greek melas=black) is characterized by:<br><br>1. <b>Color Properties</b>:<ul><li>Very black in color</li><li>Due to high organic matter content</li></ul><br>2. <b>Physical Properties</b>:<ul><li>Low bulk density (<0.9 gcc-1)</li><li>Contains 60% or more volcanic ash</li></ul><br>3. <b>Chemical Properties</b>:<ul><li>Organic carbon content >6%</li><li>Contains 4-6% organic carbon</li></ul><br>4. <b>Formation</b>:<ul><li>Dark color from organic matter accumulation</li><li>Results from decomposition of grass vegetation</li></ul>"
+      },
+      {
+        question: "What is an Argillic horizon? Explain its formation and characteristics.",
+        answer: "Argillic horizon (Latin: argilla = white clay) is characterized by:<br><br>1. <b>Definition</b>:<ul><li>An illuvial horizon with significant clay accumulation</li><li>Formed by clay migration from A to B horizon</li></ul><br>2. <b>Clay Content Requirements</b>:<ul><li>3% more clay if eluvial layer contains <15% clay</li><li>8% more clay if eluvial layer contains >15% clay</li></ul><br>3. <b>Formation Process</b>:<ul><li>Clay particles carried by water</li><li>Movement from A horizon to B horizon</li><li>Significant illuviation process</li></ul>"
+      },
+      {
+        question: "Compare and contrast Natric and Spodic horizons.",
+        answer: "<table border='1' style='border-collapse: collapse; width: 100%;'><thead><tr><th>Characteristic</th><th>Natric Horizon</th><th>Spodic Horizon</th></tr></thead><tbody><tr><td>Definition</td><td>Special type of argillic horizon</td><td>Active amorphous materials horizon</td></tr><tr><td>Key Component</td><td>High sodium content</td><td>Organic matter and aluminum</td></tr><tr><td>Structure</td><td>Prismatic or columnar</td><td>Not specified</td></tr><tr><td>Special Feature</td><td>ESP > 15%</td><td>High exchange capacity</td></tr><tr><td>Composition</td><td>Clay with high Na</td><td>Humus and/or sesquioxides</td></tr></tbody></table>"
+      },
+      {
+        question: "Describe the characteristics and formation of Cambic and Oxic horizons.",
+        answer: "<table border='1' style='border-collapse: collapse; width: 100%;'><thead><tr><th>Characteristic</th><th>Cambic Horizon</th><th>Oxic Horizon</th></tr></thead><tbody><tr><td>Nature</td><td>Altered horizon</td><td>Oxide-enriched horizon</td></tr><tr><td>Formation</td><td>Physical and chemical weathering</td><td>Fe and Al oxide enrichment</td></tr><tr><td>Physical Changes</td><td>Movement by frost, roots, animals</td><td>At least 30 cm thick</td></tr><tr><td>Texture</td><td>Various</td><td>Sandy loam or finer</td></tr><tr><td>Special Features</td><td>Ped formation</td><td>Variable 1:1 clay content</td></tr></tbody></table>"
+      },
+      {
+        question: "Explain the characteristics of Duripan and Fragipan horizons.",
+        answer: "Comparison of Duripan and Fragipan horizons:<br><br>1. <b>Duripan Horizon</b>:<ul><li>Cemented by silica</li><li>Fragments don't slake in water or HCl</li><li>Highly resistant to dissolution</li></ul><br>2. <b>Fragipan Horizon</b>:<ul><li>Brittle when moist</li><li>Very hard when dry</li><li>Can be broken by hand</li><li>Air-dry fragments slake in water</li><li>High bulk density</li></ul>"
+      },
+      {
+        question: "What are the characteristics of Albic and Calcic horizons?",
+        answer: "<table border='1' style='border-collapse: collapse; width: 100%;'><thead><tr><th>Characteristic</th><th>Albic Horizon</th><th>Calcic Horizon</th></tr></thead><tbody><tr><td>Definition</td><td>Bleached E horizon</td><td>Carbonate accumulation horizon</td></tr><tr><td>Color</td><td>Determined by primary particles</td><td>Varies</td></tr><tr><td>Key Feature</td><td>Oxides removed or segregated</td><td>Ca or Ca-Mg carbonate enriched</td></tr><tr><td>Occurrence</td><td>In podzols and planosols</td><td>Various soil types</td></tr></tbody></table>"
+      },
+      {
+        question: "Describe the characteristics of Agric horizon.",
+        answer: "Agric horizon (Latin: ager = field) has the following characteristics:<br><br>1. <b>Definition</b>:<ul><li>Illuvial horizon of clay, silt, and humus</li><li>Located directly under plough layer</li></ul><br>2. <b>Formation</b>:<ul><li>Result of long-continued cultivation</li><li>Agricultural management impact</li></ul><br>3. <b>Composition</b>:<ul><li>Clay accumulation</li><li>Silt presence</li><li>Humus content</li></ul>"
+      },
+      {
+        question: "Explain the characteristics of Gypsic and Salic horizons.",
+        answer: "<table border='1' style='border-collapse: collapse; width: 100%;'><thead><tr><th>Characteristic</th><th>Gypsic Horizon</th><th>Salic Horizon</th></tr></thead><tbody><tr><td>Thickness</td><td>≥15 cm</td><td>≥15 cm</td></tr><tr><td>Composition</td><td>Calcium sulphate enrichment</td><td>Soluble salt enrichment</td></tr><tr><td>Minimum Content</td><td>5% more gypsum than underlying layer</td><td>>2% soluble salts</td></tr><tr><td>Salt Types</td><td>Calcium sulphate</td><td>NaCl, Na2SO4, etc.</td></tr><tr><td>Special Requirement</td><td>Non-cemented or weakly cemented</td><td>Product of thickness × salt% ≥60</td></tr></tbody></table>"
+      },
+      {
+        question: "What are the key features of Spodic horizon?",
+        answer: "Spodic horizon (Greek: spodos = wood ash) features include:<br><br>1. <b>Composition</b>:<ul><li>Active amorphous materials</li><li>Organic matter (humus)</li><li>Aluminum enrichment</li><li>Optional iron content</li></ul><br>2. <b>Properties</b>:<ul><li>High exchange capacity</li><li>Large surface area</li><li>High water retention</li></ul><br>3. <b>Formation</b>:<ul><li>Precipitation of organic matter</li><li>Accumulation of sesquioxides</li></ul>"
+      },
+      {
+        question: "Describe the formation and characteristics of Cambic horizon.",
+        answer: "Cambic horizon formation and characteristics include:<br><br>1. <b>Nature</b>:<ul><li>Altered horizon</li><li>Result of weathering processes</li></ul><br>2. <b>Formation Processes</b>:<ul><li>Physical weathering</li><li>Chemical weathering</li><li>Particle movement by frost</li><li>Root activity</li><li>Animal activity</li></ul><br>3. <b>Physical Changes</b>:<ul><li>Soil particle aggregation</li><li>Ped formation</li><li>Structural development</li></ul>"
+      },
+      {
+        question: "What are the distinguishing features of Oxic horizon?",
+        answer: "Oxic horizon (French: Oxide) characteristics include:<br><br>1. <b>Composition</b>:<ul><li>Enriched with Fe and Al oxides</li><li>Contains variable amounts of 1:1 clay</li></ul><br>2. <b>Physical Properties</b>:<ul><li>Minimum thickness of 30 cm</li><li>Sandy loam or finer texture</li></ul><br>3. <b>Significance</b>:<ul><li>Indicates advanced weathering</li><li>Important for soil classification</li><li>Affects soil management practices</li></ul>"
+      }
+    ],
+    'soil moisture and temperature regimes': [
+      {
+        question: "What is Soil Moisture Regime (SMR)? Explain its significance.",
+        answer: "Soil Moisture Regime (SMR) is defined as:<br><br>1. <b>Definition</b>:<ul><li>Refers to presence or absence of water in soil at different times of year</li><li>Guides soil utilization for plant growth</li></ul><br>2. <b>Measurement Criteria</b>:<ul><li>Soil considered moist: moisture tension < 15 bar</li><li>Soil considered dry: moisture tension ≥ 15 bar</li></ul><br>3. <b>Significance</b>:<ul><li>Controls soil development</li><li>Guides plant growth</li><li>Determines soil utilization</li></ul>"
+      },
+      {
+        question: "What is Soil Moisture Control Section (SMCS)? Explain its importance.",
+        answer: "Soil Moisture Control Section (SMCS):<br><br>1. <b>Definition</b>:<ul><li>Depth limits of soil that regulate moisture supply to crops</li><li>Depends on soil texture</li></ul><br>2. <b>Importance</b>:<ul><li>Controls moisture availability to plants</li><li>Helps determine moisture regime classification</li><li>Critical for crop management</li></ul>"
+      },
+      {
+        question: "Compare and contrast Aquic and Udic moisture regimes.",
+        answer: "<table border='1' style='border-collapse: collapse; width: 100%;'><thead><tr><th>Characteristic</th><th>Aquic Regime</th><th>Udic Regime</th></tr></thead><tbody><tr><td>Drainage</td><td>Poorly drained</td><td>Well drained</td></tr><tr><td>Water Status</td><td>Saturated for some time</td><td>Moist throughout</td></tr><tr><td>Oxygen Status</td><td>Reduced due to lack of oxygen</td><td>Normal oxygen levels</td></tr><tr><td>Dry Period</td><td>Rarely dry</td><td>Not dry for >90 cumulative days</td></tr></tbody></table>"
+      },
+      {
+        question: "Explain the characteristics of Ustic moisture regime.",
+        answer: "Ustic moisture regime characteristics:<br><br>1. <b>Temperature Conditions</b>:<ul><li>MAST > 22°C</li><li>MSST-MWST difference can be <5°C or >5°C</li></ul><br>2. <b>Moisture Requirements</b>:<ul><li>SMCS dry in parts for 90 cumulative days</li><li>SMCS moist in parts for 180 cumulative days</li><li>Continuously moist for 90 consecutive days</li></ul><br>3. <b>Seasonal Patterns</b>:<ul><li>Moist in all parts for 45+ consecutive days in 4 months after summer solstice</li><li>Dry in all parts for 45+ consecutive days in 4 months after winter solstice</li></ul>"
+      },
+      {
+        question: "Describe the characteristics of Xeric moisture regime.",
+        answer: "Xeric moisture regime is characterized by:<br><br>1. <b>Temperature Requirements</b>:<ul><li>MAST < 22°C</li><li>MSST and MWST differ by >5°C</li></ul><br>2. <b>Moisture Conditions</b>:<ul><li>SMCS dry in all parts for ≥45 consecutive days</li><li>SMCS moist in all parts for >45 consecutive days</li></ul><br>3. <b>Significance</b>:<ul><li>Limited moisture availability</li><li>Distinct seasonal patterns</li></ul>"
+      },
+      {
+        question: "Compare Aridic and Torric moisture regimes.",
+        answer: "Aridic and Torric regimes share these characteristics:<br><br>1. <b>Moisture Status</b>:<ul><li>SMCS dry throughout for >180 cumulative days (at >5°C)</li><li>Never moist in some/all parts for 90 consecutive days (at >8°C)</li></ul><br>2. <b>Key Features</b>:<ul><li>Negligible moisture</li><li>Extended dry periods</li><li>Limited plant growth potential</li></ul>"
+      },
+      {
+        question: "What is the significance of Mean Annual Soil Temperature (MAST) in soil classification?",
+        answer: "Mean Annual Soil Temperature (MAST) significance:<br><br>1. <b>Classification Role</b>:<ul><li>Helps differentiate moisture regimes</li><li>Critical threshold at 22°C</li></ul><br>2. <b>Regime Determination</b>:<ul><li>Ustic regime: MAST > 22°C</li><li>Xeric regime: MAST < 22°C</li></ul><br>3. <b>Impact</b>:<ul><li>Influences soil development</li><li>Affects moisture availability</li><li>Guides crop selection</li></ul>"
+      },
+      {
+        question: "Explain the importance of seasonal temperature differences in soil moisture regimes.",
+        answer: "Seasonal temperature differences importance:<br><br>1. <b>Temperature Measurements</b>:<ul><li>MSST (Mean Summer Soil Temperature)</li><li>MWST (Mean Winter Soil Temperature)</li></ul><br>2. <b>Significance in Regimes</b>:<ul><li>Ustic: MSST-MWST can be <5°C or >5°C</li><li>Xeric: MSST-MWST must be >5°C</li></ul><br>3. <b>Impact on Soil Properties</b>:<ul><li>Affects moisture retention</li><li>Influences biological activity</li><li>Determines crop growing seasons</li></ul>"
+      },
+      {
+        question: "What are the key differences between moisture regimes based on consecutive dry days?",
+        answer: "<table border='1' style='border-collapse: collapse; width: 100%;'><thead><tr><th>Moisture Regime</th><th>Consecutive Dry Days</th><th>Other Conditions</th></tr></thead><tbody><tr><td>Udic</td><td>Not dry for 90 days</td><td>Moist throughout</td></tr><tr><td>Ustic</td><td>Dry for parts of 90 days</td><td>Moist for 180 cumulative days</td></tr><tr><td>Xeric</td><td>Dry for 45+ days</td><td>MAST < 22°C</td></tr><tr><td>Aridic/Torric</td><td>Dry for 180+ days</td><td>Temperature >5°C</td></tr></tbody></table>"
+      },
+      {
+        question: "How do solstice periods affect soil moisture regimes?",
+        answer: "Solstice periods affect soil moisture regimes as follows:<br><br>1. <b>Summer Solstice (from June 22)</b>:<ul><li>Important for Ustic regime</li><li>Requires 45+ consecutive moist days in following 4 months</li></ul><br>2. <b>Winter Solstice (from December 23)</b>:<ul><li>Also important for Ustic regime</li><li>Requires 45+ consecutive dry days in following 4 months</li></ul><br>3. <b>Significance</b>:<ul><li>Helps determine seasonal moisture patterns</li><li>Important for agricultural planning</li><li>Affects crop selection and timing</li></ul>"
+      },
+      {
+        question: "What are Soil Temperature Regimes (STRs)? Explain their significance in soil classification.",
+        answer: "Soil Temperature Regimes (STRs) are:<br><br>1. <b>Definition</b>:<ul><li>Temperature ranges within which biological activity occurs</li><li>Characteristic temperature regime for each pedon</li></ul><br>2. <b>Measurement Parameters</b>:<ul><li>Mean annual soil temperature</li><li>Average seasonal fluctuations</li><li>Mean warm/cold seasonal soil temperature gradient (5-100 cm root zone)</li></ul><br>3. <b>Classification Significance</b>:<ul><li>Used in family level classification</li><li>Important for suborder level classification</li></ul>"
+      },
+      {
+        question: "Compare the different temperature ranges in Soil Temperature Regimes.",
+        answer: "<table border='1' style='border-collapse: collapse; width: 100%;'><thead><tr><th>STR</th><th>Temperature Range (°C)</th><th>Additional Criteria</th></tr></thead><tbody><tr><td>Pergelic</td><td>< 0°C</td><td>Permanent frost</td></tr><tr><td>Cryic</td><td>0 to < 8°C</td><td>Very cold soils</td></tr><tr><td>Frigid</td><td>< 8°C</td><td>Warmer summers than Cryic</td></tr><tr><td>Mesic</td><td>8 to < 15°C</td><td>MSST-MWST > 5°C</td></tr><tr><td>Thermic</td><td>15 to < 22°C</td><td>MSST-MWST > 5°C</td></tr><tr><td>Hyperthermic</td><td>22 to < 28°C</td><td>MSST-MWST > 5°C</td></tr><tr><td>Megathermic</td><td>≥ 28°C</td><td>MSST-MWST > 5°C</td></tr></tbody></table>"
+      },
+      {
+        question: "Explain the concept of 'iso' prefix in Soil Temperature Regimes.",
+        answer: "The 'iso' prefix in STRs:<br><br>1. <b>Definition</b>:<ul><li>Used when difference between mean summer and winter temperature is < 5°C</li></ul><br>2. <b>Applications</b>:<ul><li>Isofrigid</li><li>Isomesic</li><li>Isothermic</li><li>Isohyperthermic</li><li>Isomegathermic</li></ul><br>3. <b>Significance</b>:<ul><li>Indicates minimal seasonal temperature variation</li><li>Important for agricultural planning</li><li>Affects soil classification</li></ul>"
+      },
+      {
+        question: "Describe the characteristics of Frigid and Cryic temperature regimes.",
+        answer: "<table border='1' style='border-collapse: collapse; width: 100%;'><thead><tr><th>Characteristic</th><th>Frigid Regime</th><th>Cryic Regime</th></tr></thead><tbody><tr><td>Temperature Range</td><td>< 8°C</td><td>0 to < 8°C</td></tr><tr><td>Summer Condition</td><td>Warmer than Cryic</td><td>Very cold</td></tr><tr><td>Seasonal Difference</td><td>> 5°C between seasons</td><td>Not specified</td></tr><tr><td>Classification Use</td><td>Family level</td><td>Family level</td></tr></tbody></table>"
+      },
+      {
+        question: "Compare Thermic and Hyperthermic temperature regimes.",
+        answer: "<table border='1' style='border-collapse: collapse; width: 100%;'><thead><tr><th>Characteristic</th><th>Thermic Regime</th><th>Hyperthermic Regime</th></tr></thead><tbody><tr><td>Temperature Range</td><td>15 to < 22°C</td><td>22 to < 28°C</td></tr><tr><td>Seasonal Difference</td><td>> 5°C</td><td>> 5°C</td></tr><tr><td>Iso-variant</td><td>Isothermic</td><td>Isohyperthermic</td></tr><tr><td>Application</td><td>Family level</td><td>Family level</td></tr></tbody></table>"
+      },
+      {
+        question: "What is the significance of MSST-MWST difference in Soil Temperature Regimes?",
+        answer: "MSST-MWST difference significance:<br><br>1. <b>Standard Regimes</b>:<ul><li>Difference > 5°C required for regular classification</li><li>Applies to Frigid through Megathermic</li></ul><br>2. <b>Iso-Regimes</b>:<ul><li>Difference < 5°C leads to 'iso' prefix</li><li>Indicates more stable temperature conditions</li></ul><br>3. <b>Impact</b>:<ul><li>Affects soil development</li><li>Influences biological activity</li><li>Important for agricultural planning</li></ul>"
+      },
+      {
+        question: "Explain the characteristics of Megathermic temperature regime.",
+        answer: "Megathermic temperature regime characteristics:<br><br>1. <b>Temperature Requirements</b>:<ul><li>Mean annual soil temperature ≥ 28°C</li><li>MSST-MWST difference > 5°C</li></ul><br>2. <b>Variants</b>:<ul><li>Regular Megathermic</li><li>Isomegathermic (if MSST-MWST < 5°C)</li></ul><br>3. <b>Significance</b>:<ul><li>Indicates very hot soil conditions</li><li>Important for tropical agriculture</li><li>Affects soil biological activity</li></ul>"
+      },
+      {
+        question: "How are STRs used in soil classification?",
+        answer: "STRs in soil classification:<br><br>1. <b>Classification Levels</b>:<ul><li>Used at family categoric level</li><li>Applied at suborder level</li></ul><br>2. <b>Geographic Distribution</b>:<ul><li>Boreal regions: Colder regimes</li><li>Tropical regions: Warmer regimes</li></ul><br>3. <b>Application</b>:<ul><li>Helps determine soil properties</li><li>Guides agricultural practices</li><li>Influences soil management decisions</li></ul>"
+      },
+      {
+        question: "What are the characteristics of Pergelic temperature regime?",
+        answer: "Pergelic temperature regime characteristics:<br><br>1. <b>Temperature Condition</b>:<ul><li>Mean annual soil temperature < 0°C</li><li>Permanent frost condition</li></ul><br>2. <b>Significance</b>:<ul><li>Indicates permafrost conditions</li><li>Limited biological activity</li><li>Restricted agricultural use</li></ul><br>3. <b>Classification Use</b>:<ul><li>Important for polar region soils</li><li>Used in soil taxonomy</li></ul>"
+      },
+      {
+        question: "Describe the Mesic temperature regime and its significance.",
+        answer: "Mesic temperature regime characteristics:<br><br>1. <b>Temperature Range</b>:<ul><li>Mean annual soil temperature: 8 to < 15°C</li><li>MSST-MWST difference > 5°C</li></ul><br>2. <b>Variants</b>:<ul><li>Regular Mesic</li><li>Isomesic (if MSST-MWST < 5°C)</li></ul><br>3. <b>Agricultural Significance</b>:<ul><li>Moderate temperature conditions</li><li>Suitable for many crops</li><li>Common in temperate regions</li></ul>"
+      }
+    ],
+    'categories in soil taxonomy': [
+      {
+        question: "Explain the hierarchical categories in Soil Taxonomy and their significance.",
+        answer: "Soil Taxonomy categories are organized as:<br><br>1. <b>Higher Categories</b>:<ul><li>Order (12)</li><li>Suborder (63)</li><li>Great group (240+)</li></ul><br>2. <b>Lower Categories</b>:<ul><li>Subgroup (1000)</li><li>Family (8000)</li><li>Series (500+ in Bangladesh, 19,000 in USA)</li></ul><br>3. <b>Significance</b>:<ul><li>Organized from highest to lowest levels of generalization</li><li>Provides systematic classification framework</li><li>Enables precise soil identification</li></ul>"
+      },
+      {
+        question: "Describe the formative elements and derivation of major soil orders.",
+        answer: "<table border='1' style='border-collapse: collapse; width: 100%;'><thead><tr><th>Soil Order</th><th>Formative Element</th><th>Derivation</th></tr></thead><tbody><tr><td>Entisol</td><td>ent</td><td>Nonsense Symbol</td></tr><tr><td>Vertisol</td><td>ert</td><td>Latin: verto (turn)</td></tr><tr><td>Inceptisol</td><td>ept</td><td>Latin: inceptum (beginning)</td></tr><tr><td>Aridisol</td><td>id</td><td>Latin: aridus (dry)</td></tr><tr><td>Mollisol</td><td>oll</td><td>Latin: mollis (soft)</td></tr><tr><td>Spodosol</td><td>od</td><td>Greek: spodos (woodash)</td></tr><tr><td>Alfisol</td><td>alf</td><td>Nonsense Symbol</td></tr><tr><td>Ultisols</td><td>ult</td><td>Latin: ultimus (last)</td></tr><tr><td>Oxisol</td><td>ox</td><td>French: oxide</td></tr><tr><td>Histosol</td><td>ist</td><td>Greek: histos (tissue)</td></tr><tr><td>Andisol</td><td>and</td><td>Japanese: ando (black soil)</td></tr><tr><td>Gelisols</td><td>el</td><td>Greek: gelid (very cold)</td></tr></tbody></table>"
+      },
+      {
+        question: "Explain the characteristics of Entisols and their suborders in Bangladesh.",
+        answer: "Entisols characteristics:<br><br>1. <b>Definition</b>:<ul><li>Very recently developed mineral soils</li><li>No diagnostic horizon</li><li>Formed in fresh deposits or eroding steep slopes</li></ul><br>2. <b>Suborders in Bangladesh</b>:<ul><li>Aquents: Calcareous Alluvium</li><li>Fluvent: Noncalcareous Alluvium</li><li>Psamments: Unripened Acid Sulphate Soils</li><li>Arents: Poorly drained Acid Basin Clays</li><li>Orthents: Grey Flood plain Soils, Shallow Red Brown Terrace Soils, Grey Terrace Soils</li></ul>"
+      },
+      {
+        question: "Describe the characteristics of Inceptisols and their distribution in Bangladesh.",
+        answer: "Inceptisols characteristics:<br><br>1. <b>Definition</b>:<ul><li>Early stage of soil development</li><li>Shows alteration of parent material</li><li>Developed soil structure</li></ul><br>2. <b>Distribution</b>:<ul><li>Very common in Bangladesh</li><li>Occur throughout the world</li></ul><br>3. <b>Suborders and Equivalents</b>:<ul><li>Aquepts: Ripened Acid Sulphate Soils</li><li>Anthrepts: Grey Floodplain Soils</li><li>Ustepts: Noncalcareous Brown Floodplain Soils</li><li>Udepts: Black Terai Soils, Brown Hill Soils</li></ul>"
+      },
+      {
+        question: "What are the key characteristics of Vertisols?",
+        answer: "Vertisols characteristics:<br><br>1. <b>Physical Properties</b>:<ul><li>Uniform, thick (≥50 cm)</li><li>Tropical black or dark colored soils</li><li>Deep cracks when dry (≥1 cm wide, 50 cm deep)</li></ul><br>2. <b>Special Features</b>:<ul><li>Associated with gilgai microrelief</li><li>Intersecting slickensides</li><li>Contains ≥30% clay</li><li>Ability to swell and shrink</li></ul><br>3. <b>Suborders</b>:<ul><li>Aquerts</li><li>Cryerts</li><li>Xererts</li><li>Torrerts</li><li>Usterts</li><li>Uderts</li></ul>"
+      },
+      {
+        question: "Compare the soil series numbers between Bangladesh and USA.",
+        answer: "<table border='1' style='border-collapse: collapse; width: 100%;'><thead><tr><th>Region</th><th>Number of Soil Series</th><th>Significance</th></tr></thead><tbody><tr><td>Bangladesh</td><td>500+</td><td>Relatively fewer series due to smaller area</td></tr><tr><td>USA</td><td>19,000</td><td>Large number due to diverse landscapes and climates</td></tr></tbody></table>"
+      },
+      {
+        question: "Explain the significance of suborders in soil classification.",
+        answer: "Significance of suborders:<br><br>1. <b>Classification Level</b>:<ul><li>Second highest category in soil taxonomy</li><li>63 total suborders identified</li></ul><br>2. <b>Examples in Bangladesh</b>:<ul><li>Entisol suborders: Aquents, Fluvents, Psamments</li><li>Inceptisol suborders: Aquepts, Anthrepts, Ustepts</li><li>Vertisol suborders: Aquerts, Uderts</li></ul><br>3. <b>Importance</b>:<ul><li>Provides more specific soil characteristics</li><li>Helps in land use planning</li><li>Guides agricultural management</li></ul>"
+      },
+      {
+        question: "What are the major soil orders and their basic characteristics?",
+        answer: "Major soil orders and characteristics:<br><br>1. <b>Recently Developed Soils</b>:<ul><li>Entisols: No diagnostic horizon</li><li>Inceptisols: Beginning stage of development</li></ul><br>2. <b>Clay-Rich Soils</b>:<ul><li>Vertisols: Dark, cracking clays</li><li>Alfisols: High base status</li></ul><br>3. <b>Special Soils</b>:<ul><li>Histosols: Organic soils</li><li>Andisols: Volcanic soils</li><li>Gelisols: Very cold soils</li></ul>"
+      },
+      {
+        question: "Describe the relationship between higher and lower categories in soil taxonomy.",
+        answer: "Relationship between categories:<br><br>1. <b>Higher Categories</b>:<ul><li>More general characteristics</li><li>Broader groupings</li><li>Fewer total units (12 orders, 63 suborders)</li></ul><br>2. <b>Lower Categories</b>:<ul><li>More specific characteristics</li><li>Detailed classifications</li><li>More numerous (1000 subgroups, 8000 families)</li></ul><br>3. <b>Hierarchical Structure</b>:<ul><li>Progressive refinement of classification</li><li>Increasing detail at lower levels</li><li>More precise management recommendations</li></ul>"
+      },
+      {
+        question: "What are the common Bangladesh soil equivalents in major soil orders?",
+        answer: "Bangladesh soil equivalents:<br><br>1. <b>Entisol Equivalents</b>:<ul><li>Calcareous Alluvium</li><li>Noncalcareous Alluvium</li><li>Grey Flood plain Soils</li></ul><br>2. <b>Inceptisol Equivalents</b>:<ul><li>Grey Floodplain Soils</li><li>Noncalcareous Brown Floodplain Soils</li><li>Black Terai Soils</li></ul><br>3. <b>Special Features</b>:<ul><li>Acid Sulphate Soils</li><li>Brown Hill Soils</li><li>Terrace Soils</li></ul>"
+      },
+      {
+        question: "Compare and contrast Aridisols, Mollisols, and Spodosols.",
+        answer: "<table border='1' style='border-collapse: collapse; width: 100%;'><thead><tr><th>Characteristic</th><th>Aridisols</th><th>Mollisols</th><th>Spodosols</th></tr></thead><tbody><tr><td>Environment</td><td>Arid and semiarid</td><td>Sub humid to humid</td><td>Cool, humid climate</td></tr><tr><td>Key Features</td><td>Salt accumulation</td><td>Dark colored, base-rich</td><td>Sesquioxides and humus accumulation</td></tr><tr><td>Base Saturation</td><td>Variable</td><td>>50%</td><td>Variable</td></tr><tr><td>Parent Material</td><td>Various</td><td>Various</td><td>Coarse-textured silicious</td></tr><tr><td>Vegetation</td><td>Limited</td><td>Grassland</td><td>Various</td></tr></tbody></table>"
+      },
+      {
+        question: "Explain the characteristics and distribution of Alfisols and Ultisols.",
+        answer: "<table border='1' style='border-collapse: collapse; width: 100%;'><thead><tr><th>Characteristic</th><th>Alfisols</th><th>Ultisols</th></tr></thead><tbody><tr><td>Base Status</td><td>Base-rich (>35%)</td><td>Base-poor (<35%)</td></tr><tr><td>Region</td><td>Sub humid and humid</td><td>Humid and sub-humid</td></tr><tr><td>Key Features</td><td>Clay-rich argillic horizon</td><td>Developed under high rainfall</td></tr><tr><td>Vegetation</td><td>Various</td><td>Forest vegetation</td></tr><tr><td>Bangladesh Examples</td><td>Deep Red Brown and Mottled Terrace Soil</td><td>Kashimpur Series, Shallow Red Brown Terrace Soils</td></tr></tbody></table>"
+      },
+      {
+        question: "Describe the characteristics of Oxisols, Histosols, and Andisols.",
+        answer: "1. <b>Oxisols</b>:<ul><li>Strongly weathered mineral soils</li><li>Found in humid tropics</li><li>Poor fertility</li><li>Colors: Brick red, yellow, or gray</li><li>Bangladesh equivalent: Grey Terrace Soils</li></ul><br>2. <b>Histosols</b>:<ul><li>Dominantly organic soils</li><li>Known as bogs, peat, and mucks</li><li>80 cm thick peaty horizon</li><li>Bangladesh equivalent: Peat Soils</li></ul><br>3. <b>Andisols</b>:<ul><li>Dark colored soils</li><li>Low bulk density (<0.09 g/cc)</li><li>Developed on volcanic ash (>60%)</li><li>No equivalent in Bangladesh</li></ul>"
+      },
+      {
+        question: "What are Gelisols and their characteristics?",
+        answer: "Gelisols characteristics:<br><br>1. <b>Definition</b>:<ul><li>Soils with gelic material</li><li>Underlain by permafrost</li></ul><br>2. <b>Key Features</b>:<ul><li>Shows evidence of cryoturbation (frost churning)</li><li>Permafrost acts as barrier to downward movement</li><li>Influences pedogenesis</li></ul><br>3. <b>Suborders</b>:<ul><li>Histels</li><li>Turbels</li><li>Orthels</li></ul><br>4. <b>Distribution</b>:<ul><li>No equivalent soils in Bangladesh</li><li>Found in permafrost regions</li></ul>"
+      }
+    ]
   };
 
   // Fisher-Yates shuffle algorithm

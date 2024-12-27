@@ -471,8 +471,405 @@ function TrueFalse() {
         "answer": false,
         "explanation": "Covered seeds, like rice and maize, have a seed coat, distinguishing them from naked seeds."
       }
-    ] 
-    
+    ],
+    'soil classification': [
+      {
+        question: "Soil classification is based on multiple characteristics in modern systems.",
+        answer: true,
+        explanation: "Modern soil classification uses a multi-categorical or hierarchical system that considers multiple soil characteristics."
+      },
+      {
+        question: "Early classification systems were more comprehensive than modern systems.",
+        answer: false,
+        explanation: "Early classification systems were limited as they were based on single characteristics, while modern systems are more comprehensive."
+      },
+      {
+        question: "Physical classification of soil is based on soil texture.",
+        answer: true,
+        explanation: "Physical classification groups soils based on their texture, such as loamy, sandy, and clayey soils."
+      },
+      {
+        question: "Economic classification of soil is primarily used for research purposes.",
+        answer: false,
+        explanation: "Economic classification was primarily used for taxation purposes based on soil productivity."
+      },
+      {
+        question: "Soil is formed only through physical processes.",
+        answer: false,
+        explanation: "Soil is formed through the interaction of various soil-forming factors and pedogenic processes."
+      },
+      {
+        question: "Geological classification is based on parent rock material.",
+        answer: true,
+        explanation: "Geological classification groups soils based on the nature of underlying parent rock or parent material."
+      },
+      {
+        question: "Physiographic classification considers only soil depth.",
+        answer: false,
+        explanation: "Physiographic classification is based on landscape characteristics, not just soil depth."
+      },
+      {
+        question: "Soil classification helps in transferring agricultural technology to farmers' fields.",
+        answer: true,
+        explanation: "One of the main purposes of soil classification is to facilitate the transfer of agro-technology from research to cultivators' fields."
+      },
+      {
+        question: "Early classification systems were based on multiple characteristics.",
+        answer: false,
+        explanation: "Early classification systems were limited as they were based on single characteristics."
+      },
+      {
+        question: "Soil classification has no role in agricultural research.",
+        answer: false,
+        explanation: "Soil classification plays a crucial role in agricultural research by providing objects for research and facilitating technology transfer."
+      },
+      {
+        question: "Dokuchaiev's genetic system was developed in 1900.",
+        answer: true,
+        explanation: "Dokuchaiev, a Russian scientist, developed his genetic system of soil classification in 1900."
+      },
+      {
+        question: "Pedalfers occur in areas of high evaporation.",
+        answer: false,
+        explanation: "Pedalfers occur in areas of high rainfall, not high evaporation."
+      },
+      {
+        question: "Intrazonal soils reflect the influence of local conditions.",
+        answer: true,
+        explanation: "Intrazonal soils occur within zones and reflect the influence of local conditions like topography and parent material."
+      },
+      {
+        question: "Azonal soils have fully developed soil horizons.",
+        answer: false,
+        explanation: "Azonal soils lack fully developed horizons due to time being a limiting factor."
+      },
+      {
+        question: "Baldwin's system divided soils into two orders.",
+        answer: false,
+        explanation: "Baldwin's system divided soils into three orders: Zonal, Intrazonal, and Azonal."
+      },
+      {
+        question: "Marbut's system was developed before Dokuchaiev's system.",
+        answer: false,
+        explanation: "Dokuchaiev's system was developed in 1900, while Marbut's system came later in 1927."
+      },
+      {
+        question: "Baldwin's system retained the three orders from the Russian zonality concept.",
+        answer: true,
+        explanation: "Baldwin's system kept the three orders (Zonal, Intrazonal, and Azonal) following the Russian zonality concept."
+      },
+      {
+        question: "Pedocals are found in areas with high rainfall.",
+        answer: false,
+        explanation: "Pedocals are found in areas of high evaporation with water deficit, not high rainfall."
+      },
+      {
+        question: "Great Soil Groups are the highest level of classification in Baldwin's system.",
+        answer: false,
+        explanation: "Great Soil Groups are subdivisions of suborders in Baldwin's system, not the highest level."
+      },
+      {
+        question: "Local conditions like topography primarily influence Zonal soils.",
+        answer: false,
+        explanation: "Local conditions primarily influence Intrazonal soils, while Zonal soils are mainly influenced by climate and vegetation."
+      }
+    ],
+    'soil taxonomy- a comprehensive system': [
+      {
+        question: "The Comprehensive System of Soil Classification was published in 1960.",
+        answer: true,
+        explanation: "The system, known as '7th approximation', was indeed published in 1960 by US Soil Survey Staff."
+      },
+      {
+        question: "A soil pedon is smaller than the root system of an average-sized plant.",
+        answer: false,
+        explanation: "A soil pedon is large enough to contain the entire root system of an average-sized plant."
+      },
+      {
+        question: "Epipedons are diagnostic subsurface horizons.",
+        answer: false,
+        explanation: "Epipedons are diagnostic surface horizons, while endopedons are subsurface horizons."
+      },
+      {
+        question: "Mollic epipedon contains less than 1% organic matter.",
+        answer: false,
+        explanation: "Mollic epipedon contains 1% or more organic matter."
+      },
+      {
+        question: "Anthropic epipedon contains high concentration of available phosphorus.",
+        answer: true,
+        explanation: "Anthropic epipedon contains more than 250 ppm of available phosphorus."
+      },
+      {
+        question: "Folistic epipedon is saturated with water for more than 30 days per year.",
+        answer: false,
+        explanation: "Folistic epipedon is never saturated with water for more than 30 days per year."
+      },
+      {
+        question: "Plaggen epipedon must be at least 50 cm thick.",
+        answer: true,
+        explanation: "Plaggen epipedon is a man-made epipedon that must be at least 50 cm thick."
+      },
+      {
+        question: "Melanic epipedon has high bulk density.",
+        answer: false,
+        explanation: "Melanic epipedon has low bulk density (<0.9 gcc-1)."
+      },
+      {
+        question: "Ochric epipedon is dark in color.",
+        answer: false,
+        explanation: "Ochric epipedon is light in color and contains less than 1% organic matter."
+      },
+      {
+        question: "The Comprehensive System is based on soil properties as they exist today.",
+        answer: true,
+        explanation: "The system is based on current soil properties rather than historical or genetic factors."
+      },
+      {
+        question: "An Argillic horizon is formed by the migration of clay from A to B horizon.",
+        answer: true,
+        explanation: "The Argillic horizon is formed due to the migration of clay carried by water from A to B horizon."
+      },
+      {
+        question: "The Fragipan horizon does not slake in water.",
+        answer: false,
+        explanation: "The air-dry fragments of Fragipan horizon do slake in water."
+      },
+      {
+        question: "A Spodic horizon is composed of organic matter and aluminum, with or without iron.",
+        answer: true,
+        explanation: "Spodic horizon contains organic matter (humus) and aluminum, with or without iron."
+      },
+      {
+        question: "The Calcic horizon contains only calcium carbonate.",
+        answer: false,
+        explanation: "The Calcic horizon can contain both calcium carbonate and magnesium carbonate."
+      },
+      {
+        question: "An Agric horizon is formed due to long and continued cultivation.",
+        answer: true,
+        explanation: "The Agric horizon is formed directly under the plough layer due to long and continued cultivation."
+      },
+      {
+        question: "The Albic horizon is enriched with oxides.",
+        answer: false,
+        explanation: "The Albic horizon is one from which oxides have been removed or segregated."
+      },
+      {
+        question: "A Salic horizon must have more than 2% soluble salt enrichment.",
+        answer: true,
+        explanation: "A Salic horizon requires secondary soluble salt enrichment of over 2%."
+      },
+      {
+        question: "The Duripan horizon slakes in HCl.",
+        answer: false,
+        explanation: "The Duripan horizon does not slake either in water or in HCl."
+      },
+      {
+        question: "An Oxic horizon must be sandy loam or finer in texture.",
+        answer: true,
+        explanation: "The Oxic horizon is sandy loam or finer in texture with variable amounts of 1:1 clay."
+      },
+      {
+        question: "The Gypsic horizon must be strongly cemented.",
+        answer: false,
+        explanation: "The Gypsic horizon is non-cemented or weakly cemented."
+      }
+    ],
+    'soil moisture and temperature regimes': [
+      {
+        question: "Soil moisture tension of 15 bar or more indicates dry soil.",
+        answer: true,
+        explanation: "According to the text, soil is considered dry when the tension is 15 bar or more."
+      },
+      {
+        question: "Aquic moisture regime is characterized by well-drained soils.",
+        answer: false,
+        explanation: "Aquic moisture regime is characterized by poorly drained soils that are saturated for some time of a year."
+      },
+      {
+        question: "In Udic regime, SMCS can be dry for more than 90 cumulative days.",
+        answer: false,
+        explanation: "In Udic regime, SMCS is not dry in any part for as long as 90 cumulative days."
+      },
+      {
+        question: "Xeric moisture regime requires MAST less than 22°C.",
+        answer: true,
+        explanation: "For Xeric moisture regime, MAST must be less than 22°C."
+      },
+      {
+        question: "The summer solstice begins from June 21st.",
+        answer: false,
+        explanation: "The summer solstice begins from June 22nd onwards."
+      },
+      {
+        question: "Aridic and torric regimes have similar moisture characteristics.",
+        answer: true,
+        explanation: "Both Aridic and torric regimes are characterized by soils with negligible moisture."
+      },
+      {
+        question: "In Ustic regime, SMCS must be moist for exactly 90 consecutive days.",
+        answer: false,
+        explanation: "In Ustic regime, SMCS must be continuously moist for at least 90 consecutive days."
+      },
+      {
+        question: "The winter solstice begins from December 23rd onwards.",
+        answer: true,
+        explanation: "According to the text, the winter solstice begins from December 23rd onwards."
+      },
+      {
+        question: "SMCS moisture content is independent of soil texture.",
+        answer: false,
+        explanation: "The Soil Moisture Control Section (SMCS) depends on soil texture."
+      },
+      {
+        question: "In Aridic regime, soil temperature must be above 5°C for moisture consideration.",
+        answer: true,
+        explanation: "In Aridic regime, SMCS is dry throughout for more than 180 days when soil temperature is >5°C."
+      },
+      {
+        question: "Pergelic regime is characterized by permanent frost conditions.",
+        answer: true,
+        explanation: "Pergelic regime has a mean annual soil temperature lower than 0°C, indicating permanent frost conditions."
+      },
+      {
+        question: "The difference between mean summer and winter temperature must be more than 5°C for iso-prefix regimes.",
+        answer: false,
+        explanation: "The iso-prefix is used when the difference between mean summer and winter temperature is less than 5°C."
+      },
+      {
+        question: "Cryic regime is warmer in summer than Frigid regime.",
+        answer: false,
+        explanation: "Frigid regime is warmer in summer than the Cryic regime."
+      },
+      {
+        question: "Megathermic regime has the highest temperature requirement among all STRs.",
+        answer: true,
+        explanation: "Megathermic regime requires mean annual soil temperature of 28°C or higher, which is the highest among all STRs."
+      },
+      {
+        question: "STRs are measured only in the top 5 cm of soil.",
+        answer: false,
+        explanation: "STRs are measured within the 5 to 100 cm root zone."
+      },
+      {
+        question: "Thermic regime requires a temperature difference of more than 5°C between seasons.",
+        answer: true,
+        explanation: "Thermic regime requires the difference between mean summer and mean winter soil temperature to be more than 5°C."
+      },
+      {
+        question: "Isomesic regime has a seasonal temperature difference of more than 5°C.",
+        answer: false,
+        explanation: "Isomesic, like all iso-prefix regimes, has a seasonal temperature difference of less than 5°C."
+      },
+      {
+        question: "STRs are used only at the order level of soil classification.",
+        answer: false,
+        explanation: "STRs play an important role in classifying soils at the family and suborder levels."
+      },
+      {
+        question: "Hyperthermic regime requires temperatures between 22°C and 28°C.",
+        answer: true,
+        explanation: "Hyperthermic regime requires mean annual soil temperature between 22°C and 28°C."
+      },
+      {
+        question: "All temperature regimes require a seasonal difference of more than 5°C.",
+        answer: false,
+        explanation: "Iso-prefix regimes have seasonal temperature differences of less than 5°C."
+      }
+    ],
+    'categories in soil taxonomy': [
+      {
+        question: "There are more soil series identified in Bangladesh than in the USA.",
+        answer: false,
+        explanation: "The USA has approximately 19,000 soil series while Bangladesh has about 500+ soil series."
+      },
+      {
+        question: "Entisols are very recently developed soils with no diagnostic horizon.",
+        answer: true,
+        explanation: "Entisols are indeed very recently developed mineral soils with no diagnostic horizon."
+      },
+      {
+        question: "The formative element 'ent' has a specific meaning in Latin or Greek.",
+        answer: false,
+        explanation: "'ent' is a nonsense symbol and doesn't have a specific meaning in Latin or Greek."
+      },
+      {
+        question: "Vertisols must contain at least 30 percent clay content.",
+        answer: true,
+        explanation: "Vertisols require at least 30 percent clay content to enable swelling and shrinking properties."
+      },
+      {
+        question: "Inceptisols are found only in Bangladesh.",
+        answer: false,
+        explanation: "Inceptisols occur almost throughout the world, not just in Bangladesh."
+      },
+      {
+        question: "The Soil Taxonomy system has six hierarchical categories.",
+        answer: true,
+        explanation: "The system has six categories of classification from the highest to the lowest levels of generalization."
+      },
+      {
+        question: "All formative elements in soil orders are derived from Latin.",
+        answer: false,
+        explanation: "Formative elements come from various languages including Latin, Greek, French, and Japanese."
+      },
+      {
+        question: "Vertisols develop deep cracks when dry.",
+        answer: true,
+        explanation: "Vertisols develop at least 1 cm wide and 50 cm deep cracks when dry."
+      },
+      {
+        question: "There are more than 1000 soil families identified globally.",
+        answer: true,
+        explanation: "There are approximately 8000 soil families identified in the classification system."
+      },
+      {
+        question: "The formative element 'and' in Andisols comes from Greek.",
+        answer: false,
+        explanation: "The formative element 'and' comes from Japanese word 'ando' meaning black soil."
+      },
+      {
+        question: "Aridisols are typically found in humid regions.",
+        answer: false,
+        explanation: "Aridisols are mineral soils of dry places (arid and semiarid) where soils remain dry for most part of the year."
+      },
+      {
+        question: "Mollisols must have a base saturation of more than 50%.",
+        answer: true,
+        explanation: "Mollisols have a base-rich surface horizon with base saturation more than 50%."
+      },
+      {
+        question: "Andisols can develop on any type of parent material.",
+        answer: false,
+        explanation: "Andisols specifically develop on volcanic ash (>60%) within 60 cm of the mineral soil parent material."
+      },
+      {
+        question: "Oxisols are typically fertile soils of humid tropics.",
+        answer: false,
+        explanation: "Oxisols are strongly weathered mineral soils of humid tropics that are poor in fertility."
+      },
+      {
+        question: "Histosols require a peaty horizon of at least 80 cm thickness.",
+        answer: true,
+        explanation: "Histosols are organic rich soils with thick (80 cm) peaty horizon (histic epipedon)."
+      },
+      {
+        question: "Gelisols are influenced by permafrost in their soil development.",
+        answer: true,
+        explanation: "Permafrost influences Gelisols' pedogenesis by acting as a barrier to the downward movement of the soil solution."
+      },
+      {
+        question: "Spodosols typically develop in hot, arid climates.",
+        answer: false,
+        explanation: "Spodosols develop under cool, humid climate and coarse-textured silicious parent material."
+      },
+      {
+        question: "Ultisols have higher base saturation than Alfisols.",
+        answer: false,
+        explanation: "Ultisols have low base saturation (<35%) while Alfisols have base saturation of more than 35 percent."
+      }
+    ]
   }
 
   // Fisher-Yates shuffle algorithm

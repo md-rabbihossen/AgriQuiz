@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "agriquiz-24",
     "public": "dist",
     "ignore": [
       "firebase.json",

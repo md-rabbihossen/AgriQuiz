@@ -14,7 +14,11 @@ function ChapterList() {
       { id: 1, name: 'Concept of Seed' }
     ],
     soil: [
-      { id: 2, name: 'Land Evaluation' }
+      { id: 1, name: 'Soil Classification' },
+      { id: 2, name: 'Land Evaluation' },
+      { id: 3, name: 'SOIL TAXONOMY- A comprehensive System' },
+      { id: 4, name: 'SOIL MOISTURE AND TEMPERATURE REGIMES' },
+      { id: 5, name: 'Categories in Soil Taxonomy' }
     ],
     afes: [
       { id: 1, name: 'Introduction to Agroforestry' }

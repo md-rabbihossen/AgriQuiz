@@ -676,9 +676,765 @@ function MCQQuestion() {
         ],
         "correctAnswer": "Pine seed"
       }
+    ],
+    'soil classification': [
+      {
+        question: "What is the primary basis of early soil classification systems?",
+        options: [
+          "Multiple characteristics",
+          "Single characteristic",
+          "Complex algorithms",
+          "Random sampling"
+        ],
+        correctAnswer: "Single characteristic"
+      },
+      {
+        question: "Which classification system groups soils based on their texture?",
+        options: [
+          "Economic Classification",
+          "Physical Classification",
+          "Chemical Classification",
+          "Geological Classification"
+        ],
+        correctAnswer: "Physical Classification"
+      },
+      {
+        question: "What is the main purpose of economic classification of soils?",
+        options: [
+          "Research purposes",
+          "Taxation",
+          "Crop selection",
+          "Water management"
+        ],
+        correctAnswer: "Taxation"
+      },
+      {
+        question: "Which type of soil classification considers parent rock material?",
+        options: [
+          "Physical Classification",
+          "Chemical Classification",
+          "Geological Classification",
+          "Physiographic Classification"
+        ],
+        correctAnswer: "Geological Classification"
+      },
+      {
+        question: "What characteristic defines soil as a natural body?",
+        options: [
+          "Its color",
+          "Its formation through soil-forming factors",
+          "Its location",
+          "Its temperature"
+        ],
+        correctAnswer: "Its formation through soil-forming factors"
+      },
+      {
+        question: "Which is NOT a purpose of soil classification?",
+        options: [
+          "Organizing knowledge",
+          "Recognizing properties",
+          "Weather forecasting",
+          "Technology transfer"
+        ],
+        correctAnswer: "Weather forecasting"
+      },
+      {
+        question: "What type of system is modern soil classification?",
+        options: [
+          "Single categorical",
+          "Binary",
+          "Multi categorical",
+          "Random"
+        ],
+        correctAnswer: "Multi categorical"
+      },
+      {
+        question: "Which classification system uses landscape characteristics?",
+        options: [
+          "Economic Classification",
+          "Physical Classification",
+          "Chemical Classification",
+          "Physiographic Classification"
+        ],
+        correctAnswer: "Physiographic Classification"
+      },
+      {
+        question: "What is a key limitation of early classification systems?",
+        options: [
+          "Too complex",
+          "Too expensive",
+          "Based on single character",
+          "Too time-consuming"
+        ],
+        correctAnswer: "Based on single character"
+      },
+      {
+        question: "Which soil classification helps in transferring agro-technology?",
+        options: [
+          "Economic Classification",
+          "Modern comprehensive system",
+          "Physical Classification",
+          "Chemical Classification"
+        ],
+        correctAnswer: "Modern comprehensive system"
+      },
+      {
+        question: "Who developed the first genetic system of soil classification?",
+        options: [
+          "Marbut",
+          "Baldwin",
+          "Dokuchaiev",
+          "Kellog"
+        ],
+        correctAnswer: "Dokuchaiev"
+      },
+      {
+        question: "Which soils show accumulation of iron and aluminum in Marbut's system?",
+        options: [
+          "Pedocals",
+          "Pedalfers",
+          "Azonal",
+          "Intrazonal"
+        ],
+        correctAnswer: "Pedalfers"
+      },
+      {
+        question: "In which year was Baldwin's genetic system introduced?",
+        options: [
+          "1900",
+          "1927",
+          "1938",
+          "1949"
+        ],
+        correctAnswer: "1938"
+      },
+      {
+        question: "Which soil type is an example of Azonal soils?",
+        options: [
+          "Podzol",
+          "Chestnut",
+          "Alluvial",
+          "Calcimorphic"
+        ],
+        correctAnswer: "Alluvial"
+      },
+      {
+        question: "Which factor limits the development of Azonal soils?",
+        options: [
+          "Climate",
+          "Time",
+          "Vegetation",
+          "Parent material"
+        ],
+        correctAnswer: "Time"
+      },
+      {
+        question: "Which system introduced the concept of Pedalfers and Pedocals?",
+        options: [
+          "Dokuchaiev's System",
+          "Marbut's System",
+          "Baldwin's System",
+          "Russian System"
+        ],
+        correctAnswer: "Marbut's System"
+      },
+      {
+        question: "How many suborders were included in Baldwin's system?",
+        options: [
+          "Three",
+          "Five",
+          "Seven",
+          "Nine"
+        ],
+        correctAnswer: "Nine"
+      },
+      {
+        question: "Which soil type shows the influence of local conditions like topography?",
+        options: [
+          "Zonal",
+          "Intrazonal",
+          "Azonal",
+          "Normal"
+        ],
+        correctAnswer: "Intrazonal"
+      },
+      {
+        question: "What is a characteristic feature of Pedocals?",
+        options: [
+          "Iron accumulation",
+          "Aluminum accumulation",
+          "Calcium carbonate accumulation",
+          "Salt accumulation"
+        ],
+        correctAnswer: "Calcium carbonate accumulation"
+      },
+      {
+        question: "Which scientist was from Russia?",
+        options: [
+          "Baldwin",
+          "Marbut",
+          "Dokuchaiev",
+          "Kellog"
+        ],
+        correctAnswer: "Dokuchaiev"
+      }
+    ],
+    'soil taxonomy- a comprehensive system': [
+      {
+        question: "When was the comprehensive System of Soil Classification (7th approximation) published?",
+        options: [
+          "1950",
+          "1960",
+          "1970",
+          "1980"
+        ],
+        correctAnswer: "1960"
+      },
+      {
+        question: "What is the usual surface area of a soil pedon?",
+        options: [
+          "0.5 m²",
+          "1 m²",
+          "1.5 m²",
+          "2 m²"
+        ],
+        correctAnswer: "1 m²"
+      },
+      {
+        question: "Which epipedon contains more than 250 ppm of available phosphorus?",
+        options: [
+          "Mollic",
+          "Anthropic",
+          "Umbric",
+          "Ochric"
+        ],
+        correctAnswer: "Anthropic"
+      },
+      {
+        question: "What is the base saturation percentage in Mollic epipedon?",
+        options: [
+          "> 50%",
+          "< 50%",
+          "= 50%",
+          "No specific requirement"
+        ],
+        correctAnswer: "> 50%"
+      },
+      {
+        question: "Which epipedon is characterized by low bulk density (<0.9 gcc-1)?",
+        options: [
+          "Histic",
+          "Plaggen",
+          "Folistic",
+          "Melanic"
+        ],
+        correctAnswer: "Melanic"
+      },
+      {
+        question: "What is the minimum thickness requirement for Plaggen epipedon?",
+        options: [
+          "30 cm",
+          "40 cm",
+          "50 cm",
+          "60 cm"
+        ],
+        correctAnswer: "50 cm"
+      },
+      {
+        question: "Which epipedon remains saturated with water for 30 days or more during some season?",
+        options: [
+          "Folistic",
+          "Histic",
+          "Melanic",
+          "Ochric"
+        ],
+        correctAnswer: "Histic"
+      },
+      {
+        question: "What is the organic matter content requirement for Ochric epipedon?",
+        options: [
+          "More than 1%",
+          "Less than 1%",
+          "Equal to 1%",
+          "No requirement"
+        ],
+        correctAnswer: "Less than 1%"
+      },
+      {
+        question: "Which epipedon is formed through decomposition of grass vegetation?",
+        options: [
+          "Anthropic",
+          "Mollic",
+          "Melanic",
+          "Umbric"
+        ],
+        correctAnswer: "Melanic"
+      },
+      {
+        question: "What type of structure does Ochric epipedon have when dry?",
+        options: [
+          "Granular",
+          "Prismatic",
+          "Massive",
+          "Columnar"
+        ],
+        correctAnswer: "Massive"
+      },
+      {
+        question: "What is the minimum clay content increase required in an Argillic horizon if the eluvial layer contains <15% clay?",
+        options: [
+          "1%",
+          "3%",
+          "5%",
+          "8%"
+        ],
+        correctAnswer: "3%"
+      },
+      {
+        question: "What is the minimum ESP (Exchangeable Sodium Percent) required for a Natric horizon?",
+        options: [
+          "5%",
+          "10%",
+          "15%",
+          "20%"
+        ],
+        correctAnswer: "15%"
+      },
+      {
+        question: "Which horizon is characterized by being brittle when moist and very hard when dry?",
+        options: [
+          "Duripan",
+          "Fragipan",
+          "Calcic",
+          "Oxic"
+        ],
+        correctAnswer: "Fragipan"
+      },
+      {
+        question: "What is the minimum thickness requirement for a Gypsic horizon?",
+        options: [
+          "10 cm",
+          "15 cm",
+          "20 cm",
+          "25 cm"
+        ],
+        correctAnswer: "15 cm"
+      },
+      {
+        question: "Which horizon is enriched with Fe and Al oxides?",
+        options: [
+          "Albic",
+          "Spodic",
+          "Oxic",
+          "Cambic"
+        ],
+        correctAnswer: "Oxic"
+      },
+      {
+        question: "What is the minimum soluble salt content required in a Salic horizon?",
+        options: [
+          "1%",
+          "2%",
+          "3%",
+          "4%"
+        ],
+        correctAnswer: "2%"
+      },
+      {
+        question: "Which horizon is formed directly under the plough layer?",
+        options: [
+          "Agric",
+          "Argillic",
+          "Albic",
+          "Calcic"
+        ],
+        correctAnswer: "Agric"
+      },
+      {
+        question: "Which horizon is also known as the bleached E horizon?",
+        options: [
+          "Spodic",
+          "Albic",
+          "Cambic",
+          "Natric"
+        ],
+        correctAnswer: "Albic"
+      },
+      {
+        question: "What type of structure is characteristic of a Natric horizon?",
+        options: [
+          "Granular",
+          "Blocky",
+          "Prismatic or columnar",
+          "Platy"
+        ],
+        correctAnswer: "Prismatic or columnar"
+      },
+      {
+        question: "Which horizon does not slake in water or HCl?",
+        options: [
+          "Fragipan",
+          "Duripan",
+          "Calcic",
+          "Gypsic"
+        ],
+        correctAnswer: "Duripan"
+      }
+    ],
+    'soil moisture and temperature regimes': [
+      {
+        question: "At what moisture tension is soil considered dry?",
+        options: [
+          "5 bar or more",
+          "10 bar or more",
+          "15 bar or more",
+          "20 bar or more"
+        ],
+        correctAnswer: "15 bar or more"
+      },
+      {
+        question: "Which moisture regime is characterized by poorly drained soils?",
+        options: [
+          "Udic",
+          "Aquic",
+          "Xeric",
+          "Ustic"
+        ],
+        correctAnswer: "Aquic"
+      },
+      {
+        question: "In Udic regime, the SMCS is not dry for how many cumulative days?",
+        options: [
+          "45 days",
+          "60 days",
+          "75 days",
+          "90 days"
+        ],
+        correctAnswer: "90 days"
+      },
+      {
+        question: "What is the MAST requirement for Xeric moisture regime?",
+        options: [
+          "< 22°C",
+          "> 22°C",
+          "= 22°C",
+          "No specific requirement"
+        ],
+        correctAnswer: "< 22°C"
+      },
+      {
+        question: "In Aridic regime, SMCS is dry throughout for more than how many cumulative days?",
+        options: [
+          "90 days",
+          "120 days",
+          "150 days",
+          "180 days"
+        ],
+        correctAnswer: "180 days"
+      },
+      {
+        question: "When does the summer solstice begin?",
+        options: [
+          "21st June",
+          "22nd June",
+          "23rd June",
+          "24th June"
+        ],
+        correctAnswer: "22nd June"
+      },
+      {
+        question: "What is the minimum temperature requirement for soil moisture consideration in Aridic regime?",
+        options: [
+          "> 5°C",
+          "> 6°C",
+          "> 7°C",
+          "> 8°C"
+        ],
+        correctAnswer: "> 5°C"
+      },
+      {
+        question: "In Ustic regime with MAST > 22°C, what is the difference between MSST and MWST?",
+        options: [
+          "< 3°C",
+          "< 4°C",
+          "< 5°C",
+          "> 5°C"
+        ],
+        correctAnswer: "< 5°C"
+      },
+      {
+        question: "When does the winter solstice begin?",
+        options: [
+          "21st December",
+          "22nd December",
+          "23rd December",
+          "24th December"
+        ],
+        correctAnswer: "23rd December"
+      },
+      {
+        question: "Which moisture regime is characterized by negligible moisture?",
+        options: [
+          "Udic",
+          "Ustic",
+          "Xeric",
+          "Aridic and torric"
+        ],
+        correctAnswer: "Aridic and torric"
+      },
+      {
+        question: "What is the mean annual soil temperature range for Mesic regime?",
+        options: [
+          "0 to < 8°C",
+          "8 to < 15°C",
+          "15 to < 22°C",
+          "22 to < 28°C"
+        ],
+        correctAnswer: "8 to < 15°C"
+      },
+      {
+        question: "Which temperature regime is characterized by permanent frost?",
+        options: [
+          "Cryic",
+          "Frigid",
+          "Pergelic",
+          "Mesic"
+        ],
+        correctAnswer: "Pergelic"
+      },
+      {
+        question: "What is the minimum temperature requirement for Hyperthermic regime?",
+        options: [
+          "15°C",
+          "22°C",
+          "28°C",
+          "8°C"
+        ],
+        correctAnswer: "22°C"
+      },
+      {
+        question: "When is the 'iso' prefix used in STRs?",
+        options: [
+          "When MSST-MWST > 5°C",
+          "When MSST-MWST < 5°C",
+          "When MSST-MWST = 5°C",
+          "When MSST-MWST = 0°C"
+        ],
+        correctAnswer: "When MSST-MWST < 5°C"
+      },
+      {
+        question: "What is the maximum temperature for Cryic regime?",
+        options: [
+          "0°C",
+          "8°C",
+          "15°C",
+          "22°C"
+        ],
+        correctAnswer: "8°C"
+      },
+      {
+        question: "Which regime has a mean annual soil temperature of 28°C or higher?",
+        options: [
+          "Thermic",
+          "Hyperthermic",
+          "Megathermic",
+          "Isothermic"
+        ],
+        correctAnswer: "Megathermic"
+      },
+      {
+        question: "At which classification level are STRs primarily used?",
+        options: [
+          "Order level",
+          "Family and suborder levels",
+          "Series level",
+          "Great group level"
+        ],
+        correctAnswer: "Family and suborder levels"
+      },
+      {
+        question: "What is the temperature range for Thermic regime?",
+        options: [
+          "8 to < 15°C",
+          "15 to < 22°C",
+          "22 to < 28°C",
+          "≥ 28°C"
+        ],
+        correctAnswer: "15 to < 22°C"
+      },
+      {
+        question: "Which depth zone is considered for STR measurement?",
+        options: [
+          "0 to 50 cm",
+          "5 to 100 cm",
+          "0 to 100 cm",
+          "10 to 150 cm"
+        ],
+        correctAnswer: "5 to 100 cm"
+      },
+      {
+        question: "What distinguishes Frigid from Cryic regime?",
+        options: [
+          "Lower temperatures",
+          "Higher temperatures",
+          "Warmer summers",
+          "Colder winters"
+        ],
+        correctAnswer: "Warmer summers"
+      }
+    ],
+    'categories in soil taxonomy': [
+      {
+        question: "How many soil orders are there in the Soil Taxonomy system?",
+        options: [
+          "6",
+          "10",
+          "12",
+          "15"
+        ],
+        correctAnswer: "12"
+      },
+      {
+        question: "What is the formative element for Vertisols derived from?",
+        options: [
+          "Greek word for 'black'",
+          "Latin word for 'turn'",
+          "Japanese word for 'soil'",
+          "French word for 'green'"
+        ],
+        correctAnswer: "Latin word for 'turn'"
+      },
+      {
+        question: "What is the minimum clay content required for Vertisols?",
+        options: [
+          "10 percent",
+          "20 percent",
+          "30 percent",
+          "40 percent"
+        ],
+        correctAnswer: "30 percent"
+      },
+      {
+        question: "Which soil order represents the beginning stage of soil formation?",
+        options: [
+          "Entisol",
+          "Inceptisol",
+          "Vertisol",
+          "Alfisol"
+        ],
+        correctAnswer: "Inceptisol"
+      },
+      {
+        question: "How many suborders are recognized in Soil Taxonomy?",
+        options: [
+          "43",
+          "53",
+          "63",
+          "73"
+        ],
+        correctAnswer: "63"
+      },
+      {
+        question: "Which formative element is a nonsense symbol?",
+        options: [
+          "ert",
+          "ept",
+          "ent",
+          "od"
+        ],
+        correctAnswer: "ent"
+      },
+      {
+        question: "Approximately how many soil series are identified in Bangladesh?",
+        options: [
+          "300+",
+          "400+",
+          "500+",
+          "600+"
+        ],
+        correctAnswer: "500+"
+      },
+      {
+        question: "What is the minimum depth of cracks required in Vertisols?",
+        options: [
+          "30 cm",
+          "40 cm",
+          "50 cm",
+          "60 cm"
+        ],
+        correctAnswer: "50 cm"
+      },
+      {
+        question: "Which of these is a suborder of Entisols?",
+        options: [
+          "Aquepts",
+          "Aquents",
+          "Uderts",
+          "Ustepts"
+        ],
+        correctAnswer: "Aquents"
+      },
+      {
+        question: "The formative element 'el' in Gelisols comes from which language?",
+        options: [
+          "Latin",
+          "French",
+          "Greek",
+          "Japanese"
+        ],
+        correctAnswer: "Greek"
+      },
+      {
+        question: "What is the minimum base saturation requirement for Mollisols?",
+        options: [
+          "30 percent",
+          "35 percent",
+          "40 percent",
+          "50 percent"
+        ],
+        correctAnswer: "50 percent"
+      },
+      {
+        question: "What is the maximum bulk density for Andisols?",
+        options: [
+          "0.07 g/cc",
+          "0.08 g/cc",
+          "0.09 g/cc",
+          "0.10 g/cc"
+        ],
+        correctAnswer: "0.09 g/cc"
+      },
+      {
+        question: "What is the minimum thickness requirement for the peaty horizon in Histosols?",
+        options: [
+          "60 cm",
+          "70 cm",
+          "80 cm",
+          "90 cm"
+        ],
+        correctAnswer: "80 cm"
+      },
+      {
+        question: "Which soil order requires a minimum of 60% volcanic ash within 60 cm of mineral soil?",
+        options: [
+          "Oxisols",
+          "Andisols",
+          "Histosols",
+          "Gelisols"
+        ],
+        correctAnswer: "Andisols"
+      },
+      {
+        question: "What is the base saturation requirement for Ultisols?",
+        options: [
+          "< 25%",
+          "< 30%",
+          "< 35%",
+          "< 40%"
+        ],
+        correctAnswer: "< 35%"
+      }
     ]
-    
-
   }
 
   // Fisher-Yates shuffle algorithm
