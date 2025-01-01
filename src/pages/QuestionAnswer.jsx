@@ -716,6 +716,128 @@ function QuestionAnswer() {
         question: "What are Gelisols and their characteristics?",
         answer: "Gelisols characteristics:<br><br>1. <b>Definition</b>:<ul><li>Soils with gelic material</li><li>Underlain by permafrost</li></ul><br>2. <b>Key Features</b>:<ul><li>Shows evidence of cryoturbation (frost churning)</li><li>Permafrost acts as barrier to downward movement</li><li>Influences pedogenesis</li></ul><br>3. <b>Suborders</b>:<ul><li>Histels</li><li>Turbels</li><li>Orthels</li></ul><br>4. <b>Distribution</b>:<ul><li>No equivalent soils in Bangladesh</li><li>Found in permafrost regions</li></ul>"
       }
+    ],
+    'concept of seed technology': [
+      {
+        question: "Define Seed Technology and its significance.",
+        answer: "Seed Technology is defined as the discipline of study related to seed production, maintenance, quality, and preservation. Its significance includes:<br><br>1. Development of superior crop varieties.<br>2. Improvement of genetic and physical characteristics of seeds.<br>3. Ensuring food security through quality seed supply."
+      },
+      {
+        question: "What are the roles of improved seed according to Feistritzer (1975)?",
+        answer: "The roles of improved seed include:<br><br>1. A carrier of new technologies.<br>2. A basic tool for secured food supply.<br>3. A means to secure crop yields in less favorable production areas.<br>4. A medium for rapid rehabilitation of agriculture in cases of natural disaster."
+      },
+      {
+        question: "How does improved seed contribute to yield increases?",
+        answer: "Improved seed contributes to yield increases by:<br><br>1. Enhancing the effects of traditional inputs.<br>2. Increasing yield levels significantly, as seen in various crops like cereals, potatoes, and sugar beet."
+      },
+      {
+        question: "Explain the impact of high yielding varieties in Bangladesh.",
+        answer: "The introduction of high yielding varieties in Bangladesh has led to:<br><br>1. Remarkable increases in food production.<br>2. A reduction in food imports despite rapid population growth."
+      },
+      {
+        question: "What is the importance of seed technology in disaster situations?",
+        answer: "In disaster situations, seed technology is crucial because:<br><br>1. It provides immediate access to improved seeds for farmers.<br>2. It helps in rapid rehabilitation of agriculture after floods or droughts."
+      },
+      {
+        question: "What are the components of Seed Technology in a narrow sense?",
+        answer: "In a narrow sense, Seed Technology comprises:<br><br>1. Techniques of seed production.<br>2. Seed processing.<br>3. Seed storage.<br>4. Seed testing and certification.<br>5. Seed marketing and distribution."
+      },
+      {
+        question: "How does seed technology affect food security?",
+        answer: "Seed technology affects food security by ensuring the availability of quality seeds, which leads to higher crop yields and better food supply management."
+      },
+      {
+        question: "What is the relationship between seed technology and agricultural inputs?",
+        answer: "The relationship is that improved seeds, when combined with other agricultural inputs, significantly increase yield levels and overall production."
+      },
+      {
+        question: "Describe the concept of seed certification.",
+        answer: "Seed certification is the process of verifying that seeds meet specific standards of quality and purity, ensuring that farmers receive high-quality seeds for planting."
+      },
+      {
+        question: "What are the benefits of seed testing?",
+        answer: "Seed testing provides benefits such as:<br><br>1. Assessing seed viability and germination rates.<br>2. Ensuring the genetic purity of seed varieties.<br>3. Helping farmers make informed decisions about seed selection."
+      },
+      {
+        question: "What is the major goal of Seed Technology?",
+        answer: "The major goal of Seed Technology is to increase agricultural production through the spread of good quality seeds of high yielding varieties."
+      },
+      {
+        question: "What does rapid multiplication in Seed Technology refer to?",
+        answer: "Rapid multiplication refers to the increase in agricultural production through the quickest possible spread of new varieties developed by plant breeders. It measures the efficiency and adequacy in the development of Seed Technology."
+      },
+      {
+        question: "Why is timely supply important in Seed Technology?",
+        answer: "Timely supply ensures that improved seeds of new varieties are available when needed, preventing disruption in farmers' planting schedules and allowing them to use good seeds for planting."
+      },
+      {
+        question: "What is the significance of assured high quality of seeds?",
+        answer: "Assured high quality of seeds is necessary to obtain the expected dividends from the use of improved varieties, ensuring that farmers achieve the desired crop yields."
+      },
+      {
+        question: "Why should the price of high-quality seeds be reasonable?",
+        answer: "The cost of high-quality seeds should be within reach of the average farmer to ensure accessibility and encourage the adoption of improved varieties."
+      },
+      {
+        question: "What significant event occurred in 1816 related to seed legislation?",
+        answer: "In 1816, the Seed Act was passed in Buru, Switzerland, marking an important step in seed regulation."
+      },
+      {
+        question: "What was established in 1883 in the USA?",
+        answer: "The American Seed Association (ASTA) was established in 1883, contributing to the development of seed standards and practices."
+      },
+      {
+        question: "What does ISTA stand for and when was it established?",
+        answer: "ISTA stands for the International Seed Testing Association, which was established in 1924 to promote seed testing standards globally."
+      },
+      {
+        question: "What major agricultural movement started in the 1960s?",
+        answer: "The Green Revolution started in the 1960s, particularly in developing countries, leading to significant increases in agricultural production."
+      },
+      {
+        question: "What was the role of the OECD scheme established in 1958?",
+        answer: "The OECD scheme, established in 1958, aimed to promote seed quality and facilitate international trade in seeds."
+      },
+      {
+        question: "What significant event occurred in 1908 related to seed technology in Bangladesh?",
+        answer: "In 1908, the Agricultural Research Institute was established in Dhaka, marking an attempt to improve seed varieties."
+      },
+      {
+        question: "What happened in 1954 regarding seed multiplication in Bangladesh?",
+        answer: "In 1954, seed multiplication farms were established in the public sector in 23 places over an area of 2200 hectares."
+      },
+      {
+        question: "What was established in 1961 to undertake seed supply in East Pakistan (now Bangladesh)?",
+        answer: "In 1961, the East Pakistan Agricultural Development Corporation was established with a clear mandate to undertake seed supply."
+      },
+      {
+        question: "What major development occurred in 1974 in the seed sector?",
+        answer: "In 1974, the National Seed Board and Seed Certification Agency were established to regulate and certify seed quality."
+      },
+      {
+        question: "What was the significance of the Seeds Ordinance promulgated in 1977?",
+        answer: "The Seeds Ordinance 1977 was promulgated to provide a legal framework for seed regulation and quality control in Bangladesh."
+      },
+      {
+        question: "What was the impact of the National Seed Policy passed in 1993?",
+        answer: "The National Seed Policy passed in 1993 encouraged the participation of private sectors and informal sectors in the seed supply system."
+      },
+      {
+        question: "What was established in 1996 to enhance seed technology?",
+        answer: "In 1996, a joint venture with a foreign company was established to improve seed technology and supply."
+      },
+      {
+        question: "What are the key components of the seed legislation in Bangladesh?",
+        answer: "Key components include the Seeds Ordinance 1977, the Seeds Policy 1993, the Seeds (Amendment) Act 1997, the Seed Rules 1998, and the Plant Variety Protection Act."
+      },
+      {
+        question: "What was the first organized supply of wheat seed in Bangladesh?",
+        answer: "In 1976, 576 tons of wheat seed were first supplied after production and processing in an organized way."
+      },
+      {
+        question: "What significant changes occurred in the seed sector from 1976 to 1988?",
+        answer: "From 1976 to 1988, there was an expansion of appropriate technology in rice, wheat, potato, pulses, oilseed crops, and vegetables."
+      }
     ]
   };
 

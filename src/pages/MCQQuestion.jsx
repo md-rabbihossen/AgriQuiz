@@ -1434,6 +1434,308 @@ function MCQQuestion() {
         ],
         correctAnswer: "< 35%"
       }
+    ],
+    'concept of seed technology': [
+      {
+        question: "What is Seed Technology primarily concerned with?",
+        options: [
+          "Seed production and processing",
+          "Soil management",
+          "Crop rotation",
+          "Pest control"
+        ],
+        correctAnswer: "Seed production and processing"
+      },
+      {
+        question: "According to Feistritzer (1975), what is one role of improved seed?",
+        options: [
+          "A carrier of new technologies",
+          "A source of pollution",
+          "A method of irrigation",
+          "A type of fertilizer"
+        ],
+        correctAnswer: "A carrier of new technologies"
+      },
+      {
+        question: "What percentage increase in wheat production was observed in India due to high yielding varieties?",
+        options: [
+          "10 million tons",
+          "12 million tons",
+          "31.3 million tons",
+          "20 million tons"
+        ],
+        correctAnswer: "31.3 million tons"
+      },
+      {
+        question: "What is the significance of seed certification?",
+        options: [
+          "To ensure seed quality",
+          "To increase soil fertility",
+          "To reduce pest infestations",
+          "To improve irrigation methods"
+        ],
+        correctAnswer: "To ensure seed quality"
+      },
+      {
+        question: "What is the main benefit of seed testing?",
+        options: [
+          "Assessing seed viability",
+          "Increasing crop yield",
+          "Reducing water usage",
+          "Improving soil health"
+        ],
+        correctAnswer: "Assessing seed viability"
+      },
+      {
+        question: "What is the role of improved seed in less favorable production areas?",
+        options: [
+          "To decrease crop yields",
+          "To secure higher crop yields",
+          "To eliminate pests",
+          "To reduce soil erosion"
+        ],
+        correctAnswer: "To secure higher crop yields"
+      },
+      {
+        question: "What is the primary focus of seed technology in a narrow sense?",
+        options: [
+          "Seed marketing",
+          "Seed production techniques",
+          "Soil conservation",
+          "Crop rotation"
+        ],
+        correctAnswer: "Seed production techniques"
+      },
+      {
+        question: "What is the impact of improved seeds on traditional agricultural inputs?",
+        options: [
+          "They decrease their effectiveness",
+          "They have no impact",
+          "They enhance their effectiveness",
+          "They replace them"
+        ],
+        correctAnswer: "They enhance their effectiveness"
+      },
+      {
+        question: "What is the relationship between seed technology and food security?",
+        options: [
+          "Seed technology has no impact on food security",
+          "Seed technology decreases food security",
+          "Seed technology ensures food security",
+          "Seed technology complicates food security"
+        ],
+        correctAnswer: "Seed technology ensures food security"
+      },
+      {
+        question: "What is the main goal of seed technology?",
+        options: [
+          "To produce more pests",
+          "To improve seed quality and yield",
+          "To reduce crop diversity",
+          "To eliminate traditional farming methods"
+        ],
+        correctAnswer: "To improve seed quality and yield"
+      },
+      {
+        question: "What is the primary goal of Seed Technology?",
+        options: [
+          "Increase agricultural production",
+          "Reduce seed prices",
+          "Eliminate pests",
+          "Improve soil quality"
+        ],
+        correctAnswer: "Increase agricultural production"
+      },
+      {
+        question: "What does timely supply in Seed Technology ensure?",
+        options: [
+          "Seeds are available at any time",
+          "Seeds are available when needed for planting",
+          "Seeds are only available in the off-season",
+          "Seeds are only available for large farms"
+        ],
+        correctAnswer: "Seeds are available when needed for planting"
+      },
+      {
+        question: "Why is assured high quality of seeds important?",
+        options: [
+          "To ensure expected dividends from improved varieties",
+          "To reduce the cost of seeds",
+          "To increase the number of seed varieties",
+          "To eliminate the need for fertilizers"
+        ],
+        correctAnswer: "To ensure expected dividends from improved varieties"
+      },
+      {
+        question: "What is a key aspect of rapid multiplication in Seed Technology?",
+        options: [
+          "Slow spread of new varieties",
+          "Quick spread of new varieties developed by plant breeders",
+          "No focus on seed quality",
+          "Limited access to seeds"
+        ],
+        correctAnswer: "Quick spread of new varieties developed by plant breeders"
+      },
+      {
+        question: "What significant event occurred in 1869 in Britain?",
+        options: [
+          "Seed Act passed",
+          "First seed testing station established",
+          "American Seed Association established",
+          "Green Revolution started"
+        ],
+        correctAnswer: "Seed Act passed"
+      },
+      {
+        question: "What does the acronym OECD stand for?",
+        options: [
+          "Organization for Economic Cooperation and Development",
+          "Office of Environmental Conservation and Development",
+          "Organization for Education and Cultural Development",
+          "Office of Economic Cooperation and Development"
+        ],
+        correctAnswer: "Organization for Economic Cooperation and Development"
+      },
+      {
+        question: "What was established in 1924?",
+        options: [
+          "American Seed Association",
+          "International Seed Testing Association",
+          "Green Revolution",
+          "Seed Act in Britain"
+        ],
+        correctAnswer: "International Seed Testing Association"
+      },
+      {
+        question: "What is the significance of the Green Revolution?",
+        options: [
+          "It decreased agricultural production",
+          "It led to significant increases in agricultural production",
+          "It focused solely on livestock",
+          "It eliminated the need for seeds"
+        ],
+        correctAnswer: "It led to significant increases in agricultural production"
+      },
+      {
+        question: "What is a reasonable price for high-quality seeds important for?",
+        options: [
+          "Accessibility for average farmers",
+          "Increasing seed prices",
+          "Limiting seed availability",
+          "Reducing agricultural production"
+        ],
+        correctAnswer: "Accessibility for average farmers"
+      },
+      {
+        question: "What is the role of National Seed Sticks in disaster situations?",
+        options: [
+          "To provide immediate access to improved seeds",
+          "To eliminate the need for seeds",
+          "To increase seed prices",
+          "To reduce crop yields"
+        ],
+        correctAnswer: "To provide immediate access to improved seeds"
+      },
+      {
+        question: "What significant event occurred in 1908 in Bangladesh related to seed technology?",
+        options: [
+          "Establishment of Agricultural Research Institute",
+          "First seed multiplication farm established",
+          "Seed Act passed",
+          "National Seed Board established"
+        ],
+        correctAnswer: "Establishment of Agricultural Research Institute"
+      },
+      {
+        question: "In what year were seed multiplication farms established in Bangladesh?",
+        options: [
+          "1954",
+          "1961",
+          "1974",
+          "1980"
+        ],
+        correctAnswer: "1954"
+      },
+      {
+        question: "What was the purpose of the East Pakistan Agricultural Development Corporation established in 1961?",
+        options: [
+          "To improve soil quality",
+          "To undertake seed supply",
+          "To regulate seed prices",
+          "To promote organic farming"
+        ],
+        correctAnswer: "To undertake seed supply"
+      },
+      {
+        question: "What major development occurred in 1974 in the seed sector?",
+        options: [
+          "Seed multiplication farms established",
+          "National Seed Board and Seed Certification Agency established",
+          "First organized seed supply of wheat",
+          "Green Revolution started"
+        ],
+        correctAnswer: "National Seed Board and Seed Certification Agency established"
+      },
+      {
+        question: "What was the significance of the Seeds Ordinance promulgated in 1977?",
+        options: [
+          "To promote organic farming",
+          "To provide a legal framework for seed regulation",
+          "To eliminate seed imports",
+          "To increase seed prices"
+        ],
+        correctAnswer: "To provide a legal framework for seed regulation"
+      },
+      {
+        question: "What was established in 1993 to enhance the seed supply system?",
+        options: [
+          "National Seed Policy",
+          "Seed Certification Agency",
+          "Agricultural Research Institute",
+          "Seed Multiplication Farms"
+        ],
+        correctAnswer: "National Seed Policy"
+      },
+      {
+        question: "What was the first organized supply of wheat seed in Bangladesh?",
+        options: [
+          "576 tons in 1976",
+          "1000 tons in 1980",
+          "500 tons in 1990",
+          "200 tons in 1995"
+        ],
+        correctAnswer: "576 tons in 1976"
+      },
+      {
+        question: "What significant agricultural movement started in the 1960s?",
+        options: [
+          "Green Revolution",
+          "Seed Ordinance",
+          "Seed Policy",
+          "Seed Certification"
+        ],
+        correctAnswer: "Green Revolution"
+      },
+      {
+        question: "What is the role of the OECD scheme established in 1958?",
+        options: [
+          "To promote seed quality",
+          "To regulate seed prices",
+          "To eliminate seed imports",
+          "To increase crop yields"
+        ],
+        correctAnswer: "To promote seed quality"
+      },
+      {
+        question: "What is a key component of the seed legislation in Bangladesh?",
+        options: [
+          "The Seeds Ordinance, 1977",
+          "The Seed Act, 2018",
+          "The Seeds Policy, 1993",
+          "All of the above"
+        ],
+        correctAnswer: "All of the above"
+      }
     ]
   }
 

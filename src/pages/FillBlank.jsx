@@ -831,6 +831,83 @@ function FillBlank() {
         answer: "cryoturbation",
         acceptableAnswers: ["cryoturbation", "Cryoturbation", "CRYOTURBATION"]
       }
+    ],
+    'concept of seed technology': [
+      {
+        question: "Seed Technology is defined as the discipline of study related to seed ________, maintenance, quality, and preservation.",
+        answer: "production",
+        acceptableAnswers: ["production", "Production", "PRODUCTION"]
+      },
+      {
+        question: "According to Feistritzer (1975), improved seed is a basic tool for ________ food supply.",
+        answer: "secured",
+        acceptableAnswers: ["secured", "Secured", "SECURED"]
+      },
+      {
+        question: "The introduction of improved seeds can lead to yield increases of up to ________ percent in cereals.",
+        answer: "112",
+        acceptableAnswers: ["112", "one hundred twelve"]
+      },
+      {
+        question: "In disaster situations, seed technology provides immediate access to ________ seeds for farmers.",
+        answer: "improved",
+        acceptableAnswers: ["improved", "Improved", "IMPROVED"]
+      },
+      {
+        question: "Seed certification ensures that seeds meet specific standards of ________ and purity.",
+        answer: "quality",
+        acceptableAnswers: ["quality", "Quality", "QUALITY"]
+      },
+      {
+        question: "The major goal of Seed Technology is to increase agricultural production through the spread of good quality seeds of ________ varieties.",
+        answer: "high yielding",
+        acceptableAnswers: ["high yielding", "High yielding", "HIGH YIELDING"]
+      },
+      {
+        question: "Rapid multiplication in Seed Technology refers to the quickest possible spread of new varieties developed by ________.",
+        answer: "plant breeders",
+        acceptableAnswers: ["plant breeders", "Plant breeders", "PLANT BREEDERS"]
+      },
+      {
+        question: "Timely supply ensures that improved seeds are available when needed, preventing disruption in farmers' ________ schedules.",
+        answer: "planting",
+        acceptableAnswers: ["planting", "Planting", "PLANTING"]
+      },
+      {
+        question: "Assured high quality of seeds is necessary to obtain the expected ________ from the use of improved varieties.",
+        answer: "dividends",
+        acceptableAnswers: ["dividends", "Dividends", "DIVIDENDS"]
+      },
+      {
+        question: "The price of high-quality seeds should be within reach of the average ________.",
+        answer: "farmer",
+        acceptableAnswers: ["farmer", "Farmer", "FARMER"]
+      },
+      {
+        question: "In 1908, the ________ was established in Dhaka to improve seed varieties.",
+        answer: "Agricultural Research Institute",
+        acceptableAnswers: ["Agricultural Research Institute", "agricultural research institute"]
+      },
+      {
+        question: "Seed multiplication farms were established in the public sector in ________ places in 1954.",
+        answer: "23",
+        acceptableAnswers: ["23"]
+      },
+      {
+        question: "The East Pakistan Agricultural Development Corporation was established in ________ to undertake seed supply.",
+        answer: "1961",
+        acceptableAnswers: ["1961"]
+      },
+      {
+        question: "The National Seed Board and Seed Certification Agency were established in ________.",
+        answer: "1974",
+        acceptableAnswers: ["1974"]
+      },
+      {
+        question: "The Seeds Ordinance ________ was promulgated to regulate seed quality.",
+        answer: "1977",
+        acceptableAnswers: ["1977"]
+      }
     ]
   }
 

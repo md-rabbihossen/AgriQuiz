@@ -869,6 +869,158 @@ function TrueFalse() {
         answer: false,
         explanation: "Ultisols have low base saturation (<35%) while Alfisols have base saturation of more than 35 percent."
       }
+    ],
+    'concept of seed technology': [
+      {
+        question: "Seed Technology is only concerned with seed production.",
+        answer: false,
+        explanation: "Seed Technology encompasses seed production, maintenance, quality, and preservation."
+      },
+      {
+        question: "Improved seeds can significantly increase crop yields.",
+        answer: true,
+        explanation: "Improved seeds can lead to substantial yield increases when combined with other agricultural inputs."
+      },
+      {
+        question: "Seed certification is unnecessary for quality control.",
+        answer: false,
+        explanation: "Seed certification is essential to ensure that seeds meet specific quality and purity standards."
+      },
+      {
+        question: "The introduction of high yielding varieties has no impact on food imports.",
+        answer: false,
+        explanation: "The introduction of high yielding varieties has significantly reduced food imports in countries like Bangladesh."
+      },
+      {
+        question: "Seed testing is important for assessing seed viability.",
+        answer: true,
+        explanation: "Seed testing helps determine the viability and germination rates of seeds."
+      },
+      {
+        question: "Seed Technology plays a role in disaster recovery.",
+        answer: true,
+        explanation: "Seed Technology provides immediate access to improved seeds for farmers in disaster situations."
+      },
+      {
+        question: "The main focus of Seed Technology is on soil management.",
+        answer: false,
+        explanation: "The main focus of Seed Technology is on seed production, processing, and quality."
+      },
+      {
+        question: "Seed Technology can help secure food supply.",
+        answer: true,
+        explanation: "Improved seeds are a basic tool for securing food supply and increasing agricultural productivity."
+      },
+      {
+        question: "Seed Technology has no relationship with agricultural inputs.",
+        answer: false,
+        explanation: "Seed Technology enhances the effectiveness of traditional agricultural inputs."
+      },
+      {
+        question: "The role of improved seed is limited to crop yield increases.",
+        answer: false,
+        explanation: "Improved seed also serves as a carrier of new technologies and a tool for food security."
+      },
+      {
+        question: "The major goal of Seed Technology is to decrease agricultural production.",
+        answer: false,
+        explanation: "The major goal of Seed Technology is to increase agricultural production through the spread of good quality seeds of high yielding varieties."
+      },
+      {
+        question: "Timely supply of seeds is important to prevent disruption in farmers' planting schedules.",
+        answer: true,
+        explanation: "Timely supply ensures that improved seeds are available when needed for planting."
+      },
+      {
+        question: "Assured high quality of seeds is necessary to obtain expected dividends from improved varieties.",
+        answer: true,
+        explanation: "High quality seeds are essential for achieving the desired crop yields."
+      },
+      {
+        question: "The price of high-quality seeds should be high to ensure quality.",
+        answer: false,
+        explanation: "The price of high-quality seeds should be reasonable and within reach of the average farmer."
+      },
+      {
+        question: "Rapid multiplication refers to the slow spread of new varieties.",
+        answer: false,
+        explanation: "Rapid multiplication refers to the quickest possible spread of new varieties developed by plant breeders."
+      },
+      {
+        question: "The American Seed Association was established in 1883.",
+        answer: true,
+        explanation: "The American Seed Association (ASTA) was established in 1883."
+      },
+      {
+        question: "The Green Revolution started in the 1960s and significantly increased agricultural production.",
+        answer: true,
+        explanation: "The Green Revolution led to significant increases in agricultural production, particularly in developing countries."
+      },
+      {
+        question: "Seed certification is unnecessary for ensuring seed quality.",
+        answer: false,
+        explanation: "Seed certification is essential to ensure that seeds meet specific quality and purity standards."
+      },
+      {
+        question: "The OECD scheme was established to promote seed quality.",
+        answer: true,
+        explanation: "The OECD scheme, established in 1958, aimed to promote seed quality and facilitate international trade in seeds."
+      },
+      {
+        question: "Seed Technology has no impact on food security.",
+        answer: false,
+        explanation: "Seed Technology plays a crucial role in ensuring food security by providing access to quality seeds."
+      },
+      {
+        question: "The Agricultural Research Institute was established in Dhaka in 1908.",
+        answer: true,
+        explanation: "In 1908, the Agricultural Research Institute was established in Dhaka to improve seed varieties."
+      },
+      {
+        question: "Seed multiplication farms were established in the public sector in 1954.",
+        answer: true,
+        explanation: "In 1954, seed multiplication farms were established in the public sector in 23 places over an area of 2200 hectares."
+      },
+      {
+        question: "The East Pakistan Agricultural Development Corporation was established in 1961 to improve soil quality.",
+        answer: false,
+        explanation: "The East Pakistan Agricultural Development Corporation was established in 1961 to undertake seed supply."
+      },
+      {
+        question: "The National Seed Board was established in 1974.",
+        answer: true,
+        explanation: "In 1974, the National Seed Board and Seed Certification Agency were established."
+      },
+      {
+        question: "The Seeds Ordinance 1977 was promulgated to eliminate seed imports.",
+        answer: false,
+        explanation: "The Seeds Ordinance 1977 was promulgated to provide a legal framework for seed regulation."
+      },
+      {
+        question: "The National Seed Policy was passed in 1993 to encourage private sector participation.",
+        answer: true,
+        explanation: "The National Seed Policy passed in 1993 encouraged the participation of private sectors and informal sectors in the seed supply system."
+      },
+      {
+        question: "576 tons of wheat seed were first supplied in 1980.",
+        answer: false,
+        explanation: "576 tons of wheat seed were first supplied in 1976 after production and processing in an organized way."
+      },
+      {
+        question: "The Green Revolution started in the 1960s and significantly increased agricultural production.",
+        answer: true,
+        explanation: "The Green Revolution led to significant increases in agricultural production, particularly in developing countries."
+      },
+      {
+        question: "The OECD scheme was established to promote seed quality.",
+        answer: true,
+        explanation: "The OECD scheme, established in 1958, aimed to promote seed quality and facilitate international trade in seeds."
+      },
+      {
+        question: "The Seeds (Amendment) Act, 2005 was the first seed legislation in Bangladesh.",
+        answer: false,
+        explanation: "The first significant seed legislation was the Seeds Ordinance 1977."
+      }
     ]
   }
 

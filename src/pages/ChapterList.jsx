@@ -11,7 +11,8 @@ function ChapterList() {
       { id: 1, name: 'Plant Physiology' }
     ],
     agro: [
-      { id: 1, name: 'Concept of Seed' }
+      { id: 1, name: 'Concept of Seed Technology' },
+      { id: 2, name: 'Concept of Seed' }
     ],
     soil: [
       { id: 1, name: 'Soil Classification' },
