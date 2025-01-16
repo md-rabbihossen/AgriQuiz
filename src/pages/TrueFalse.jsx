@@ -15,7 +15,6 @@ function TrueFalse() {
 
   // Sample True/False questions
   const questions = {
-
     'land evaluation': [
       {
         question: "High land is completely free of flooding in rainy season.",
@@ -219,104 +218,104 @@ function TrueFalse() {
         answer: true,
         explanation: "ICRAF refined and suggested definitions of agroforestry."
       },
-        {
-          question: "Agroforestry includes at least one woody perennial component.",
-          answer: true,
-          explanation: "One of the defining characteristics of agroforestry is the inclusion of a woody perennial component."
-        },
-        {
-          question: "The cycle of agroforestry systems is less than a year.",
-          answer: false,
-          explanation: "The cycle of agroforestry systems is typically more than one year."
-        },
-        {
-          question: "Trees in agroforestry systems improve soil nutrients through litter decomposition.",
-          answer: true,
-          explanation: "Decomposition of litterfall enriches soil nutrients."
-        },
-        {
-          question: "Agroforestry decreases weed infestation.",
-          answer: true,
-          explanation: "Agroforestry reduces weed competition due to integrated management practices."
-        },
-        {
-          question: "Agroforestry systems cannot reduce crop failure risks.",
-          answer: false,
-          explanation: "Agroforestry diversifies outputs, reducing the risk of total crop failure."
-        },
-        {
-          question: "In agroforestry, components are managed independently.",
-          answer: false,
-          explanation: "Agroforestry components are managed as an integrated unit."
-        },
-        {
-          question: "Agroforestry enhances soil physical properties like water holding capacity.",
-          answer: true,
-          explanation: "It improves soil structure and water retention through organic matter."
-        },
-        {
-          question: "Agroforestry always guarantees immediate economic value.",
-          answer: false,
-          explanation: "Economic benefits from agroforestry often take time, particularly for tree growth."
-        },
-        {
-          question: "Agroforestry is more complex than mono-cropping.",
-          answer: true,
-          explanation: "The integration of multiple components adds complexity to agroforestry systems."
-        },
-        {
-          question: "Agroforestry contributes to biodiversity conservation.",
-          answer: true,
+      {
+        question: "Agroforestry includes at least one woody perennial component.",
+        answer: true,
+        explanation: "One of the defining characteristics of agroforestry is the inclusion of a woody perennial component."
+      },
+      {
+        question: "The cycle of agroforestry systems is less than a year.",
+        answer: false,
+        explanation: "The cycle of agroforestry systems is typically more than one year."
+      },
+      {
+        question: "Trees in agroforestry systems improve soil nutrients through litter decomposition.",
+        answer: true,
+        explanation: "Decomposition of litterfall enriches soil nutrients."
+      },
+      {
+        question: "Agroforestry decreases weed infestation.",
+        answer: true,
+        explanation: "Agroforestry reduces weed competition due to integrated management practices."
+      },
+      {
+        question: "Agroforestry systems cannot reduce crop failure risks.",
+        answer: false,
+        explanation: "Agroforestry diversifies outputs, reducing the risk of total crop failure."
+      },
+      {
+        question: "In agroforestry, components are managed independently.",
+        answer: false,
+        explanation: "Agroforestry components are managed as an integrated unit."
+      },
+      {
+        question: "Agroforestry enhances soil physical properties like water holding capacity.",
+        answer: true,
+        explanation: "It improves soil structure and water retention through organic matter."
+      },
+      {
+        question: "Agroforestry always guarantees immediate economic value.",
+        answer: false,
+        explanation: "Economic benefits from agroforestry often take time, particularly for tree growth."
+      },
+      {
+        question: "Agroforestry is more complex than mono-cropping.",
+        answer: true,
+        explanation: "The integration of multiple components adds complexity to agroforestry systems."
+      },
+      {
+        question: "Agroforestry contributes to biodiversity conservation.",
+        answer: true,
         explanation: "By integrating diverse species, agroforestry conserves biodiversity."
-      }, 
+      },
       {
         question: "The Taungya method involves growing annual agricultural crops alongside forest species.",
-            answer: true,
-            explanation: "Taungya is a system combining forest species and agricultural crops during the early years of plantation establishment."
-          },
-          {
-            question: "ICRAF was established in Ottawa, Canada, in 1977.",
-            answer: false,
-            explanation: "ICRAF was established in Nairobi, Kenya, in 1977."
-          },
-          {
-            question: "The Betagi-Pomora Community Forestry Project rehabilitated families by allotting land for tree planting and crops.",
-            answer: true,
-            explanation: "Families were given land to plant trees and cultivate crops as part of the rehabilitation program."
-          },
-          {
-            question: "Agroforestry research in Bangladesh began with the establishment of the Forest Department in 1862.",
-            answer: false,
-            explanation: "Forest management started in 1862, but agroforestry research began later, particularly in the 1980s."
-          },
-          {
-            question: "The Village and Farm Forestry Program was funded by the World Bank.",
-            answer: false,
-            explanation: "The program was funded by the Swiss Agency for Development and Cooperation (SDC)."
-          },
-          {
-            question: "The University of Chittagong introduced Agroforestry courses in 1988.",
-            answer: true,
-            explanation: "Agroforestry became part of the B.Sc. (Hons) Forestry curriculum at the University of Chittagong in 1988."
-          },
-          {
-            question: "The National Agroforestry Working Group (NAWG) was formed in 1990.",
-            answer: false,
-            explanation: "NAWG was formed in 1997."
-          },
-          {
-            question: "The Jhoomia Rehabilitation Program in 1980 focused on afforestation.",
-            answer: true,
-            explanation: "The program aimed to rehabilitate Jhoomia families with afforestation and crop integration."
-          },
-          {
-            question: "The mid-1980s saw the establishment of the On-Farm Research Division in BARI for evaluating agroforestry systems.",
-            answer: true,
-            explanation: "The On-Farm Research Division (OFRD) was established during this period for agroforestry evaluation."
-          },
-          {
-            question: "Agroforestry in Bangladesh has been shaped primarily by socio-economic and ecological considerations.",
-            answer: true,
+        answer: true,
+        explanation: "Taungya is a system combining forest species and agricultural crops during the early years of plantation establishment."
+      },
+      {
+        question: "ICRAF was established in Ottawa, Canada, in 1977.",
+        answer: false,
+        explanation: "ICRAF was established in Nairobi, Kenya, in 1977."
+      },
+      {
+        question: "The Betagi-Pomora Community Forestry Project rehabilitated families by allotting land for tree planting and crops.",
+        answer: true,
+        explanation: "Families were given land to plant trees and cultivate crops as part of the rehabilitation program."
+      },
+      {
+        question: "Agroforestry research in Bangladesh began with the establishment of the Forest Department in 1862.",
+        answer: false,
+        explanation: "Forest management started in 1862, but agroforestry research began later, particularly in the 1980s."
+      },
+      {
+        question: "The Village and Farm Forestry Program was funded by the World Bank.",
+        answer: false,
+        explanation: "The program was funded by the Swiss Agency for Development and Cooperation (SDC)."
+      },
+      {
+        question: "The University of Chittagong introduced Agroforestry courses in 1988.",
+        answer: true,
+        explanation: "Agroforestry became part of the B.Sc. (Hons) Forestry curriculum at the University of Chittagong in 1988."
+      },
+      {
+        question: "The National Agroforestry Working Group (NAWG) was formed in 1990.",
+        answer: false,
+        explanation: "NAWG was formed in 1997."
+      },
+      {
+        question: "The Jhoomia Rehabilitation Program in 1980 focused on afforestation.",
+        answer: true,
+        explanation: "The program aimed to rehabilitate Jhoomia families with afforestation and crop integration."
+      },
+      {
+        question: "The mid-1980s saw the establishment of the On-Farm Research Division in BARI for evaluating agroforestry systems.",
+        answer: true,
+        explanation: "The On-Farm Research Division (OFRD) was established during this period for agroforestry evaluation."
+      },
+      {
+        question: "Agroforestry in Bangladesh has been shaped primarily by socio-economic and ecological considerations.",
+        answer: true,
         explanation: "Local environments, farmer resources, and social needs have strongly influenced agroforestry practices in Bangladesh."
       },
       {
@@ -324,51 +323,51 @@ function TrueFalse() {
         answer: true,
         explanation: "Agroforestry systems combine trees, crops, and livestock for sustainable land use."
       },
-        {
-          question: "Homesteads in Bangladesh play a significant role in bio-fuel production.",
-          answer: true,
-          explanation: "Rural homesteads provide a substantial share of the country's bio-fuel needs."
-        },
-        {
-          question: "Trees in agroforestry systems should have wide and dense canopies.",
-          answer: false,
-          explanation: "Trees with small and narrow canopies are preferred to allow sunlight for crops."
-        },
-        {
-          question: "Bangladesh has no cultivable fallow land suitable for agroforestry.",
-          answer: false,
-          explanation: "Bangladesh has 0.27 million ha of cultivable fallow land suitable for agroforestry."
-        },
-        {
-          question: "Agroforestry contributes to soil improvement and water conservation.",
-          answer: true,
-          explanation: "The system supports ecological benefits, including soil and water conservation."
-        },
-        {
-          question: "Agroforestry systems can support agritourism and recreation.",
-          answer: true,
-          explanation: "Agroforestry offers recreational opportunities such as agritourism and hunting."
-        },
-        {
-          question: "Agroforestry products include both food and non-food items.",
-          answer: true,
-          explanation: "Agroforestry systems produce a wide range of products, from food to timber and craft materials."
-        },
-        {
-          question: "Agroforestry has no role in employment generation.",
-          answer: false,
-          explanation: "Agroforestry has significant potential to generate employment opportunities."
-        },
-        {
-          question: "Agroforestry can be practiced on railway embankments and roadside lands.",
-          answer: true,
-          explanation: "Roads, railways, and embankments are identified as prospective areas for agroforestry."
-        },
-        {
-          question: "Agroforestry trees should compete with crops for water and nutrients.",
-          answer: false,
-          explanation: "Preferred agroforestry trees have deep roots to avoid competition with crops."
-        }      
+      {
+        question: "Homesteads in Bangladesh play a significant role in bio-fuel production.",
+        answer: true,
+        explanation: "Rural homesteads provide a substantial share of the country's bio-fuel needs."
+      },
+      {
+        question: "Trees in agroforestry systems should have wide and dense canopies.",
+        answer: false,
+        explanation: "Trees with small and narrow canopies are preferred to allow sunlight for crops."
+      },
+      {
+        question: "Bangladesh has no cultivable fallow land suitable for agroforestry.",
+        answer: false,
+        explanation: "Bangladesh has 0.27 million ha of cultivable fallow land suitable for agroforestry."
+      },
+      {
+        question: "Agroforestry contributes to soil improvement and water conservation.",
+        answer: true,
+        explanation: "The system supports ecological benefits, including soil and water conservation."
+      },
+      {
+        question: "Agroforestry systems can support agritourism and recreation.",
+        answer: true,
+        explanation: "Agroforestry offers recreational opportunities such as agritourism and hunting."
+      },
+      {
+        question: "Agroforestry products include both food and non-food items.",
+        answer: true,
+        explanation: "Agroforestry systems produce a wide range of products, from food to timber and craft materials."
+      },
+      {
+        question: "Agroforestry has no role in employment generation.",
+        answer: false,
+        explanation: "Agroforestry has significant potential to generate employment opportunities."
+      },
+      {
+        question: "Agroforestry can be practiced on railway embankments and roadside lands.",
+        answer: true,
+        explanation: "Roads, railways, and embankments are identified as prospective areas for agroforestry."
+      },
+      {
+        question: "Agroforestry trees should compete with crops for water and nutrients.",
+        answer: false,
+        explanation: "Preferred agroforestry trees have deep roots to avoid competition with crops."
+      }
     ],
     'concept of seed': [
       {
@@ -1021,6 +1020,989 @@ function TrueFalse() {
         answer: false,
         explanation: "The first significant seed legislation was the Seeds Ordinance 1977."
       }
+    ],
+    'mouth parts_mizan sir': [
+      {
+        question: "Mouthparts are structures on the upper part of the insect's head.",
+        answer: false,
+        explanation: "Mouthparts are located on the lower part of the head."
+      },
+      {
+        question: "Chewing mouthparts are used to cut and grind solid food.",
+        answer: true,
+        explanation: "Chewing mouthparts consist of mandibles and maxillae that cut and grind solid food."
+      },
+      {
+        question: "Piercing-sucking mouthparts are adapted for sucking sap or blood.",
+        answer: true,
+        explanation: "Piercing-sucking mouthparts are modified to pierce the epidermis of plants or the skin of animals to suck up sap or blood."
+      },
+      {
+        question: "Thrips have symmetrical mouthparts.",
+        answer: false,
+        explanation: "Thrips have asymmetrical mouthparts."
+      },
+      {
+        question: "The labium in piercing-sucking mouthparts forms a protective sheath for the stylets.",
+        answer: true,
+        explanation: "The labium protects the stylets in piercing-sucking mouthparts."
+      },
+      {
+        question: "All insects have the same type of mouthparts.",
+        answer: false,
+        explanation: "Mouthparts vary among different insect groups and stages of the same species."
+      },
+      {
+        question: "Rasping-sucking mouthparts are used to suck nectar.",
+        answer: false,
+        explanation: "Rasping-sucking mouthparts are used to rasp host tissues and take up liquid food."
+      },
+      {
+        question: "Insects like silverfish and cockroaches possess chewing mouthparts.",
+        answer: true,
+        explanation: "Silverfish, cockroaches, grasshoppers, and other insects possess chewing mouthparts."
+      },
+      {
+        question: "The outer stylets in piercing-sucking mouthparts are derived from maxillae.",
+        answer: false,
+        explanation: "The outer stylets are derived from mandibles."
+      },
+      {
+        question: "Mosquitoes possess chewing mouthparts.",
+        answer: false,
+        explanation: "Mosquitoes possess piercing-sucking mouthparts."
+      },
+      {
+        question: "Siphoning mouthparts are adapted for the uptake of solid food.",
+        answer: false,
+        explanation: "Siphoning mouthparts are specialized for the uptake of flower nectar and other liquids."
+      },
+      {
+        question: "Mandibles are absent in sponging mouthparts.",
+        answer: true,
+        explanation: "Sponging mouthparts do not have mandibles."
+      },
+      {
+        question: "The proboscis in siphoning mouthparts is held in a coiled-spring fashion when not in use.",
+        answer: true,
+        explanation: "The proboscis is coiled when not in use, allowing for easy extension when feeding."
+      },
+      {
+        question: "House flies possess chewing mouthparts.",
+        answer: false,
+        explanation: "House flies possess sponging mouthparts."
+      },
+      {
+        question: "The labella in sponging mouthparts are used to mop up liquid food.",
+        answer: true,
+        explanation: "The labella are designed to absorb liquid food through capillary action."
+      },
+      {
+        question: "Chewing-lapping mouthparts are used by butterflies.",
+        answer: false,
+        explanation: "Chewing-lapping mouthparts are used by bees, wasps, and ants."
+      },
+      {
+        question: "The galea of maxillae forms a roof over the glossa in chewing-lapping mouthparts.",
+        answer: true,
+        explanation: "The galea fits over the glossa, forming a food channel for nectar uptake."
+      },
+      {
+        question: "The lower lip in siphoning mouthparts consists of a single part.",
+        answer: false,
+        explanation: "The lower lip consists of two parts: a broad plate and three segmented labial palps."
+      },
+      {
+        question: "The proboscis in sponging mouthparts is formed by the fusion of labium and maxillae.",
+        answer: true,
+        explanation: "The proboscis is a fusion of labium and maxillae, allowing for liquid feeding."
+      },
+      {
+        question: "Insects with siphoning mouthparts have well-developed mandibles.",
+        answer: false,
+        explanation: "Siphoning mouthparts usually have absent or reduced mandibles."
+      }
+    ],
+    'arthropoda_shakhawat sir': [
+      {
+        question: "Entomology is the study of insects.",
+        answer: true,
+        explanation: "<b>Definition of Entomology:</b><br><br>Entomology focuses specifically on insects, their behavior, ecology, and physiology."
+      },
+      {
+        question: "All arthropods have wings.",
+        answer: false,
+        explanation: "<b>Wing Presence in Arthropods:</b><br><br>Not all arthropods have wings; for example, arachnids do not have wings."
+      },
+      {
+        question: "The exoskeleton of arthropods is made of keratin.",
+        answer: false,
+        explanation: "<b>Exoskeleton Composition:</b><br><br>The exoskeleton is made of chitin, not keratin."
+      },
+      {
+        question: "Arachnids have three pairs of legs.",
+        answer: false,
+        explanation: "<b>Legs of Arachnids:</b><br><br>Arachnids have four pairs of legs."
+      },
+      {
+        question: "The heart of arthropods is tubular.",
+        answer: true,
+        explanation: "<b>Heart Structure:</b><br><br>The heart in arthropods is represented by a tubular structure."
+      },
+      {
+        question: "Arthropods are bilaterally symmetrical.",
+        answer: true,
+        explanation: "<b>Bilateral Symmetry:</b><br><br>Arthropods exhibit bilateral symmetry in their body structure."
+      },
+      {
+        question: "The life cycle of arachnids includes a larval stage with three pairs of legs.",
+        answer: true,
+        explanation: "<b>Life Cycle of Arachnids:</b><br><br>The larval stage of arachnids has three pairs of legs."
+      },
+      {
+        question: "All arthropods are aquatic.",
+        answer: false,
+        explanation: "<b>Habitat of Arthropods:</b><br><br>Arthropods can be found in both aquatic and terrestrial environments."
+      },
+      {
+        question: "The phylum Arthropoda is the largest phylum in the animal kingdom.",
+        answer: true,
+        explanation: "<b>Size of Arthropoda:</b><br><br>Arthropoda represents approximately three-quarters of all known biological organisms."
+      },
+      {
+        question: "Arachnids possess antennae.",
+        answer: false,
+        explanation: "<b>Antennae in Arachnids:</b><br><br>Arachnids do not have antennae; they have other sensory structures."
+      },
+      {
+        question: "Insects are mainly terrestrial, with few aquatic species.",
+        answer: true,
+        explanation: "<b>Habitat of Insects:</b><br><br>Most insects are terrestrial, although some species are aquatic."
+      },
+      {
+        question: "Insects have two pairs of wings.",
+        answer: false,
+        explanation: "<b>Wings of Insects:</b><br><br>Insects may have one or two pairs of wings, but some species are wingless."
+      },
+      {
+        question: "Insects possess three pairs of legs.",
+        answer: true,
+        explanation: "<b>Legs of Insects:</b><br><br>Insects have three pairs of thoracic legs."
+      },
+      {
+        question: "All insects have a pair of antennae.",
+        answer: true,
+        explanation: "<b>Antennae in Insects:</b><br><br>Insects typically have a pair of antennae."
+      },
+      {
+        question: "Insects breathe through lungs.",
+        answer: false,
+        explanation: "<b>Respiration in Insects:</b><br><br>Insects respire primarily through a tracheal system, not lungs."
+      },
+      {
+        question: "The life cycle of insects can include complete metamorphosis.",
+        answer: true,
+        explanation: "<b>Metamorphosis Types:</b><br><br>Insects can undergo complete metamorphosis, which includes the stages: Egg → Larva → Pupa → Adult."
+      },
+      {
+        question: "The economic value of insect pollination is negligible.",
+        answer: false,
+        explanation: "<b>Economic Importance of Insect Pollination:</b><br><br>The economic value of insect pollination worldwide is estimated at U.S. $217 billion."
+      },
+      {
+        question: "Insects such as bees and butterflies are important for pollination.",
+        answer: true,
+        explanation: "<b>Pollinators:</b><br><br>Bees, butterflies, and other insects play crucial roles in pollination."
+      },
+      {
+        question: "Silverfish are an example of winged insects.",
+        answer: false,
+        explanation: "<b>Examples of Insects:</b><br><br>Silverfish are an example of wingless insects."
+      },
+      {
+        question: "The estimated annual value of ecological services provided by insects in the U.S. is at least $57 billion.",
+        answer: true,
+        explanation: "<b>Ecological Services:</b><br><br>The estimated annual value of ecological services provided by insects in the U.S. is at least $57 billion."
+      },
+      {
+        question: "Arthropod predators are often specialized in their choice of prey.",
+        answer: false,
+        explanation: "<b>Predator Characteristics:</b><br><br>Many arthropod predators are generalists rather than specialists."
+      },
+      {
+        question: "Parasitoids are free-living as adults.",
+        answer: true,
+        explanation: "<b>Parasitoids:</b><br><br>Parasitoids are typically free-living as adults."
+      },
+      {
+        question: "Sericulture is concerned with the rearing of honey bees.",
+        answer: false,
+        explanation: "<b>Sericulture:</b><br><br>Sericulture involves the rearing of silkworms, not honey bees."
+      },
+      {
+        question: "Lac insects are known for their resinous exudation.",
+        answer: true,
+        explanation: "<b>Lac Insects:</b><br><br>Lac insects are noted for their resinous exudation from the bodies of females."
+      },
+      {
+        question: "Apiculture is the practice of rearing silkworms.",
+        answer: false,
+        explanation: "<b>Apiculture:</b><br><br>Apiculture is the maintenance of honey bee colonies, not silkworms."
+      },
+      {
+        question: "Less than 1% of insects are considered pests.",
+        answer: true,
+        explanation: "<b>Pest Classification:</b><br><br>Less than 1% of insects are regarded as pests."
+      },
+      {
+        question: "Household pests can cause damage to homes and pose health risks.",
+        answer: true,
+        explanation: "<b>Household Pests:</b><br><br>Common household pests can cause damage and pose health risks."
+      },
+      {
+        question: "Mosquitoes are beneficial insects that do not spread diseases.",
+        answer: false,
+        explanation: "<b>Diseases Spread by Mosquitoes:</b><br><br>Mosquitoes can spread diseases such as malaria and dengue fever."
+      },
+      {
+        question: "The Rice Weevil is a common pest of stored grains.",
+        answer: true,
+        explanation: "<b>Pests of Stored Grains:</b><br><br>The Rice Weevil is one of the most common insect pests of stored grains."
+      },
+      {
+        question: "Insect management for stored grains is not necessary.",
+        answer: false,
+        explanation: "<b>Insect Management:</b><br><br>Insect management for stored grains is crucial for preventing infestations."
+      },
+      {
+        question: "The order Protura is commonly known as Coneheads.",
+        answer: true,
+        explanation: "<b>Order Protura:</b><br><br>Protura is indeed commonly known as Coneheads."
+      },
+      {
+        question: "The order Collembola is known for its members called Silverfish.",
+        answer: false,
+        explanation: "<b>Order Collembola:</b><br><br>Collembola is known as Springtails, not Silverfish."
+      },
+      {
+        question: "The order Odonata includes Dragonflies and Damselflies.",
+        answer: true,
+        explanation: "<b>Order Odonata:</b><br><br>Odonata includes Dragonflies and Damselflies."
+      },
+      {
+        question: "The order Hemiptera is known for its members called Beetles.",
+        answer: false,
+        explanation: "<b>Order Hemiptera:</b><br><br>Hemiptera includes Bugs, Cicadas, and Hoppers, not Beetles."
+      },
+      {
+        question: "The order Lepidoptera includes Butterflies and Moths.",
+        answer: true,
+        explanation: "<b>Order Lepidoptera:</b><br><br>Lepidoptera includes Butterflies and Moths."
+      },
+      {
+        question: "The order Diptera is known for its members called Caddisflies.",
+        answer: false,
+        explanation: "<b>Order Diptera:</b><br><br>Diptera is known for Flies, not Caddisflies."
+      },
+      {
+        question: "The order Thysanoptera is commonly known as Thrips.",
+        answer: true,
+        explanation: "<b>Order Thysanoptera:</b><br><br>Thysanoptera is commonly known as Thrips."
+      },
+      {
+        question: "The order Neuroptera includes Lacewings and Antlions.",
+        answer: true,
+        explanation: "<b>Order Neuroptera:</b><br><br>Neuroptera includes Lacewings and Antlions."
+      },
+      {
+        question: "The order Coleoptera is known for its members called Silverfish.",
+        answer: false,
+        explanation: "<b>Order Coleoptera:</b><br><br>Coleoptera is known for Beetles, not Silverfish."
+      },
+      {
+        question: "The order Mecoptera is commonly known as Scorpionflies.",
+        answer: true,
+        explanation: "<b>Order Mecoptera:</b><br><br>Mecoptera is commonly known as Scorpionflies."
+      },
+      {
+        question: "Exopterygota undergo complete metamorphosis.",
+        answer: false,
+        explanation: "<b>Metamorphosis Type:</b><br><br>Exopterygota undergo incomplete metamorphosis."
+      },
+      {
+        question: "Endopterygota have a pupal stage.",
+        answer: true,
+        explanation: "<b>Pupal Stage:</b><br><br>Endopterygota have a pupal stage, while Exopterygota do not."
+      },
+      {
+        question: "The immature stage of Exopterygota is called Larva.",
+        answer: false,
+        explanation: "<b>Immature Stage:</b><br><br>The immature stage of Exopterygota is called Naiad or Nymph."
+      },
+      {
+        question: "Antennae are well developed in immature stages of insects.",
+        answer: false,
+        explanation: "<b>Antennae Development:</b><br><br>Antennae are well developed in adults and poorly developed in immature stages."
+      },
+      {
+        question: "The basal segment of an insect's antenna is called the pedicel.",
+        answer: false,
+        explanation: "<b>Antennal Structure:</b><br><br>The basal segment of an insect's antenna is called the scape."
+      },
+      {
+        question: "Johnston's organ is used for sensing vibrations.",
+        answer: true,
+        explanation: "<b>Function of Johnston's Organ:</b><br><br>Johnston's organ is used for sensing vibrations and movement."
+      },
+      {
+        question: "The order Zygentoma is commonly known as Silverfish.",
+        answer: true,
+        explanation: "<b>Order Zygentoma:</b><br><br>Zygentoma is commonly known as Silverfish."
+      },
+      {
+        question: "The order Odonata includes Dragonflies and Damselflies.",
+        answer: true,
+        explanation: "<b>Order Odonata:</b><br><br>Odonata includes Dragonflies and Damselflies."
+      },
+      {
+        question: "The order Hemiptera is known for its members called Beetles.",
+        answer: false,
+        explanation: "<b>Order Hemiptera:</b><br><br>Hemiptera includes Bugs, Cicadas, and Hoppers, not Beetles."
+      },
+      {
+        question: "The order Lepidoptera includes Butterflies and Moths.",
+        answer: true,
+        explanation: "<b>Order Lepidoptera:</b><br><br>Lepidoptera includes Butterflies and Moths."
+      },
+      {
+        question: "Antennae are useful for detecting chemicals including food and pheromones.",
+        answer: true,
+        explanation: "<b>Function of Antennae:</b><br><br>Antennae are useful to detect chemicals including food and pheromones."
+      },
+      {
+        question: "Antennae are not involved in perceiving the forward environment.",
+        answer: false,
+        explanation: "<b>Function of Antennae:</b><br><br>Antennae are useful to perceive the forward environment and detect danger."
+      },
+      {
+        question: "The type of antennae that are described as thread-like is called filiform.",
+        answer: true,
+        explanation: "<b>Filiform Antennae:</b><br><br>Filiform antennae are thread-like."
+      },
+      {
+        question: "Serrate antennae have segments that are bead-like.",
+        answer: false,
+        explanation: "<b>Serrate Antennae:</b><br><br>Serrate antennae have segments with short triangular projections on one side."
+      },
+      {
+        question: "The terminal segment of capitate antennae becomes enlarged suddenly.",
+        answer: true,
+        explanation: "<b>Capitate Antennae:</b><br><br>Capitate antennae have terminal segments that become enlarged suddenly."
+      },
+      {
+        question: "Plumose antennae are characterized by being less feathery with few hairs.",
+        answer: false,
+        explanation: "<b>Plumose Antennae:</b><br><br>Plumose antennae are feathery with long whorls of hairs."
+      },
+      {
+        question: "The type of antennae that are described as comb-like with long slender processes on both sides is called bipectinate.",
+        answer: true,
+        explanation: "<b>Bipectinate Antennae:</b><br><br>Bipectinate antennae have segments with long slender lateral processes on both sides."
+      },
+      {
+        question: "Antennae are located between or behind the compound eyes.",
+        answer: true,
+        explanation: "<b>Antennae Location:</b><br><br>Antennae are located between or behind the compound eyes."
+      },
+      {
+        question: "The type of antennae that are described as saw-like is called serrate.",
+        answer: true,
+        explanation: "<b>Serrate Antennae:</b><br><br>Serrate antennae have short triangular projections on one side."
+      },
+      {
+        question: "The type of antennae that are described as hair-like is called pilose.",
+        answer: true,
+        explanation: "<b>Pilose Antennae:</b><br><br>Pilose antennae are less feathery with few hairs."
+      }
+    ],
+    'tree crop interaction_nazmun nahar': [
+      {
+        question: "Agroforestry is the integration of only crops.",
+        answer: false,
+        explanation: "<b>Agroforestry Definition:</b><br><br>Agroforestry involves the integration of woody components, crops, and animals."
+      },
+      {
+        question: "Ecological interactions in agroforestry enable a balance of life in a community.",
+        answer: true,
+        explanation: "<b>Ecological Interactions:</b><br><br>Ecological interactions enable a balance of life in a specific community."
+      },
+      {
+        question: "Competition in agroforestry occurs because components share common growth resources.",
+        answer: true,
+        explanation: "<b>Competition:</b><br><br>Competition occurs when components share common growth resources such as light, water, and nutrients."
+      },
+      {
+        question: "Economic interactions are conducted only between individuals.",
+        answer: false,
+        explanation: "<b>Economic Interactions:</b><br><br>Economic interactions can occur between individuals and collectives through the exchange of goods, services, and money."
+      },
+      {
+        question: "The primary focus of agroforestry is to maximize profit through high chemical use.",
+        answer: false,
+        explanation: "<b>Focus of Agroforestry:</b><br><br>The focus of agroforestry is on sustainable practices with minimal inputs, not maximizing profit through high chemical use."
+      },
+      {
+        question: "Agrisilviculture is a type of agroforestry where trees are dominant.",
+        answer: false,
+        explanation: "<b>Agrisilviculture:</b><br><br>Agrisilviculture is a type of agroforestry where crops are dominant."
+      },
+      {
+        question: "Interactions in agroforestry can occur both above ground and below ground.",
+        answer: true,
+        explanation: "<b>Types of Interactions:</b><br><br>Interactions in agroforestry occur both above ground and below ground."
+      },
+      {
+        question: "Agroforestry contributes to low input sustainable agriculture.",
+        answer: true,
+        explanation: "<b>Contribution to Sustainable Agriculture:</b><br><br>Agroforestry contributes to low input sustainable agriculture."
+      },
+      {
+        question: "The components of agroforestry include only trees and crops.",
+        answer: false,
+        explanation: "<b>Components of Agroforestry:</b><br><br>The components of agroforestry include trees, crops, and animals."
+      },
+      {
+        question: "Interaction is defined as the effect of one component on the performance of another component.",
+        answer: true,
+        explanation: "<b>Definition of Interaction:</b><br><br>Interaction is defined as the effect of one component on the performance of another component."
+      },
+      {
+        question: "Tree-crop interactions are always negative.",
+        answer: false,
+        explanation: "<b>Tree-Crop Interactions:</b><br><br>Tree-crop interactions can be positive, negative, or neutral, depending on the circumstances."
+      },
+      {
+        question: "Mutualism is an interaction where both species benefit.",
+        answer: true,
+        explanation: "<b>Mutualism:</b><br><br>Mutualism is defined as an interaction where both species benefit from the relationship."
+      },
+      {
+        question: "Allelopathy is an example of a positive interaction.",
+        answer: false,
+        explanation: "<b>Allelopathy:</b><br><br>Allelopathy is a negative interaction where one plant inhibits the growth of another."
+      },
+      {
+        question: "Competition occurs when species share common growth resources.",
+        answer: true,
+        explanation: "<b>Competition:</b><br><br>Competition occurs when species compete for limited resources such as light, water, and nutrients."
+      },
+      {
+        question: "Commensalism is when one species benefits and the other is harmed.",
+        answer: false,
+        explanation: "<b>Commensalism:</b><br><br>Commensalism occurs when one species benefits while the other is neither helped nor harmed."
+      },
+      {
+        question: "Indirect interactions can occur when species alter their environment.",
+        answer: true,
+        explanation: "<b>Indirect Interactions:</b><br><br>Indirect interactions occur when species affect each other by altering their environment."
+      },
+      {
+        question: "Shading trees have a negative effect on crops.",
+        answer: false,
+        explanation: "<b>Shading Trees:</b><br><br>Shading trees provide benefits to crops by reducing stress."
+      },
+      {
+        question: "Inhibition occurs when both populations are directly inhibited by each other.",
+        answer: true,
+        explanation: "<b>Inhibition:</b><br><br>Inhibition occurs when both populations are directly inhibited by each other."
+      },
+      {
+        question: "Positive interactions are always beneficial for both species.",
+        answer: true,
+        explanation: "<b>Positive Interactions:</b><br><br>Positive interactions are beneficial for both species involved."
+      },
+      {
+        question: "Tree-animal interactions can have both positive and negative effects.",
+        answer: true,
+        explanation: "<b>Tree-Animal Interactions:</b><br><br>Tree-animal interactions can have both positive and negative effects on crops and animals."
+      },
+      {
+        question: "Shading trees are beneficial for shade-loving crops.",
+        answer: true,
+        explanation: "<b>Benefits of Shading Trees:</b><br><br>Shading trees are beneficial for shade-loving crops like turmeric and ginger."
+      },
+      {
+        question: "Agroforestry systems achieve 100% light interception.",
+        answer: false,
+        explanation: "<b>Light Interception:</b><br><br>Light interception by monoculture can never be achieved 100%."
+      },
+      {
+        question: "Photosynthetic efficiencies in agroforestry systems are generally lower than in monoculture systems.",
+        answer: false,
+        explanation: "<b>Photosynthetic Efficiency:</b><br><br>Photosynthetic efficiencies in agroforestry systems range from 1.7% to 2.38%, which can be higher than in monoculture systems."
+      },
+      {
+        question: "Biomass contributes to soil health and productivity.",
+        answer: true,
+        explanation: "<b>Biomass Contribution:</b><br><br>Biomass from pruning materials, litter fall, and crop root residues improves soil health and productivity."
+      },
+      {
+        question: "Deep-rooted trees have less developed root systems than shallow-rooted crops.",
+        answer: false,
+        explanation: "<b>Root Systems:</b><br><br>Deep-rooted trees have more developed root systems that can explore larger soil volumes."
+      },
+      {
+        question: "Biodiverse ecosystems are less resilient to environmental stresses than monocrops.",
+        answer: false,
+        explanation: "<b>Biodiversity:</b><br><br>Biodiverse ecosystems are generally more resilient to diverse environmental stresses than monocrops."
+      },
+      {
+        question: "Shading can lead to an increase in average maximum temperatures.",
+        answer: false,
+        explanation: "<b>Temperature Effects:</b><br><br>Shading can reduce average maximum temperatures by 5.4°C."
+      },
+      {
+        question: "Agroforestry systems utilize only direct sunlight for photosynthesis.",
+        answer: false,
+        explanation: "<b>Light Utilization:</b><br><br>Agroforestry systems utilize sunbeam, reflected, and diffuse light."
+      },
+      {
+        question: "Balanced nutrient utilization is important for enhancing productivity.",
+        answer: true,
+        explanation: "<b>Balanced Nutrient Utilization:</b><br><br>Balanced nutrient utilization ensures effective sharing and recycling of nutrients, enhancing productivity."
+      },
+      {
+        question: "The interaction characterized by shading trees is an example of negative interaction.",
+        answer: false,
+        explanation: "<b>Shading Trees:</b><br><br>Shading trees provide positive benefits for crops."
+      },
+      {
+        question: "Microclimate amelioration increases soil moisture.",
+        answer: true,
+        explanation: "<b>Microclimate Amelioration:</b><br><br>Microclimate amelioration helps in increasing soil moisture."
+      },
+      {
+        question: "Agroforestry systems increase evaporation.",
+        answer: false,
+        explanation: "<b>Water Conservation:</b><br><br>Agroforestry systems reduce evaporation by acting as 'bioirrigators' for adjacent plants."
+      },
+      {
+        question: "The effect of shade is more severe for light-demanding weeds.",
+        answer: true,
+        explanation: "<b>Weed Suppression:</b><br><br>The effect of shade is more severe for light-demanding weeds."
+      },
+      {
+        question: "Soil conservation in agroforestry decreases water holding capacity.",
+        answer: false,
+        explanation: "<b>Soil Conservation:</b><br><br>Soil conservation improves water holding capacity and reduces soil erosion."
+      },
+      {
+        question: "Factors influencing tree-crop interactions include only soil type.",
+        answer: false,
+        explanation: "<b>Factors Influencing Interactions:</b><br><br>Factors influencing tree-crop interactions include tree functional characteristics, root architecture, and canopy type."
+      },
+      {
+        question: "Deep-rooted trees can access nutrients released from weathering.",
+        answer: true,
+        explanation: "<b>Nutrient Cycling:</b><br><br>Deep-rooted trees can access nutrients released from weathering in lower soil horizons."
+      },
+      {
+        question: "Seasonal changes have no effect on tree-crop interactions.",
+        answer: false,
+        explanation: "<b>Seasonal Changes:</b><br><br>Seasonal changes can significantly affect tree-crop interactions by altering resource availability."
+      },
+      {
+        question: "Silvicultural management practices can optimize tree-crop interactions.",
+        answer: true,
+        explanation: "<b>Silvicultural Management:</b><br><br>Silvicultural management practices can optimize tree-crop interactions by enhancing light availability."
+      },
+      {
+        question: "Closely planted shrub hedges can increase soil erosion.",
+        answer: false,
+        explanation: "<b>Hedge Planting:</b><br><br>Closely planted shrub hedges can efficiently control soil erosion."
+      },
+      {
+        question: "Agroforestry systems are ineffective in conserving water.",
+        answer: false,
+        explanation: "<b>Water Conservation:</b><br><br>Agroforestry systems reduce evaporation and improve water conservation."
+      },
+      {
+        question: "Light competition can reduce photosynthesis.",
+        answer: true,
+        explanation: "<b>Light Competition:</b><br><br>Light competition can reduce photosynthesis and overall plant growth."
+      },
+      {
+        question: "Nutrient competition increases growth and development of plants.",
+        answer: false,
+        explanation: "<b>Nutrient Competition:</b><br><br>Nutrient competition can reduce growth and development of plants."
+      },
+      {
+        question: "Water competition can depress crop production.",
+        answer: true,
+        explanation: "<b>Water Competition:</b><br><br>Water competition can depress crop production by competing for moisture."
+      },
+      {
+        question: "Allelopathy enhances the growth of neighboring plants.",
+        answer: false,
+        explanation: "<b>Allelopathy:</b><br><br>Allelopathy can suppress the growth of neighboring plants through the release of phytotoxic substances."
+      },
+      {
+        question: "The first documented case of allelopathy was observed in Eucalyptus.",
+        answer: false,
+        explanation: "<b>First Documented Case:</b><br><br>The first documented case of allelopathy was observed in black walnut (Juglans regia)."
+      },
+      {
+        question: "Shade can encourage the growth of light-demanding weeds.",
+        answer: true,
+        explanation: "<b>Weed Growth:</b><br><br>Shade can encourage the growth of light-demanding weeds."
+      },
+      {
+        question: "Toxic compounds in Acacia include cyanoglucosides.",
+        answer: true,
+        explanation: "<b>Toxic Compounds:</b><br><br>Toxic compounds in Acacia include cyanoglucosides and tannins."
+      },
+      {
+        question: "Allelochemicals can enhance the metabolic pathways of neighboring plants.",
+        answer: false,
+        explanation: "<b>Allelochemicals:</b><br><br>Allelochemicals can interfere with the metabolic pathways of neighboring plants."
+      },
+      {
+        question: "Weed growth can be suppressed by the shade of upperstory trees.",
+        answer: false,
+        explanation: "<b>Weed Growth:</b><br><br>Weed growth can be increased by the shade cast by upperstory trees."
+      },
+      {
+        question: "Allelopathy is a widely considered limitation for the promotion of agroforestry.",
+        answer: true,
+        explanation: "<b>Limitations of Allelopathy:</b><br><br>Allelopathy is one of the widely considered limitations for the promotion and adoption of agroforestry."
+      },
+      {
+        question: "Microclimate amelioration can lead to increased growth in tree-crop interfaces.",
+        answer: true,
+        explanation: "<b>Increased Growth:</b><br><br>Microclimate amelioration can lead to increased growth in tree-crop interfaces."
+      },
+      {
+        question: "Excessive shading promotes growth in tree-crop interfaces.",
+        answer: false,
+        explanation: "<b>Decreased Growth:</b><br><br>Excessive shading can lead to decreased growth in tree-crop interfaces."
+      },
+      {
+        question: "Animals can negatively affect vegetation through mechanical damage.",
+        answer: true,
+        explanation: "<b>Mechanical Damage:</b><br><br>Animals can negatively affect vegetation through browsing and trampling."
+      },
+      {
+        question: "Low quality tree fodder can enhance livestock production.",
+        answer: false,
+        explanation: "<b>Negative Interactions:</b><br><br>Low quality tree fodder can adversely affect livestock production."
+      },
+      {
+        question: "Mimosine is a beneficial compound found in Leucaena fodder.",
+        answer: false,
+        explanation: "<b>Toxic Compounds:</b><br><br>Mimosine is a toxic compound found in Leucaena fodder."
+      },
+      {
+        question: "Shelterbelts can protect animals from harsh weather conditions.",
+        answer: true,
+        explanation: "<b>Shelterbelts:</b><br><br>Shelterbelts provide protection for both pasture and animals from strong winds and storms."
+      },
+      {
+        question: "Phenolic compounds increase the feed value of tree fodder.",
+        answer: false,
+        explanation: "<b>Phenolic Compounds:</b><br><br>Phenolic compounds can reduce the feed value of tree fodder."
+      },
+      {
+        question: "Livestock can improve soil properties through compaction.",
+        answer: false,
+        explanation: "<b>Soil Compaction:</b><br><br>Livestock can cause soil compaction, negatively impacting tree growth."
+      },
+      {
+        question: "Understanding tree-animal interactions is essential for effective agroforestry management.",
+        answer: true,
+        explanation: "<b>Understanding Interactions:</b><br><br>Understanding tree-animal interactions is essential for managing agroforestry systems effectively."
+      },
+      {
+        question: "Negative interactions between trees and animals have no impact on agroforestry.",
+        answer: false,
+        explanation: "<b>Negative Interactions:</b><br><br>Negative interactions can significantly impact agroforestry systems."
+      },
+      {
+        question: "The Land Equivalent Ratio (LER) indicates the relative performance of intercrops compared to monocultures.",
+        answer: true,
+        explanation: "<b>Land Equivalent Ratio:</b><br><br>LER indicates the relative performance of intercrops compared to monocultures."
+      },
+      {
+        question: "If F < C, it indicates a positive interaction.",
+        answer: false,
+        explanation: "<b>Negative Interaction:</b><br><br>If F < C, it indicates a negative interaction."
+      },
+      {
+        question: "The choice of species is irrelevant in agroforestry systems.",
+        answer: false,
+        explanation: "<b>Choice of Species:</b><br><br>The choice of species is crucial as it affects compatibility and productivity."
+      },
+      {
+        question: "Quantifying tree-crop interaction can be expressed as Ysystem = Ytree + Ycrop + F - C.",
+        answer: true,
+        explanation: "<b>Quantifying Interaction:</b><br><br>Quantifying tree-crop interaction can be expressed as Ysystem = Ytree + Ycrop + F - C."
+      },
+      {
+        question: "The design of an agroforestry system can only be in parallel rows.",
+        answer: false,
+        explanation: "<b>Design of Agroforestry System:</b><br><br>The design can be in parallel rows or concentric rows."
+      },
+      {
+        question: "WaNuLCAS is a model for water, nutrient, and light capture in agroforestry systems.",
+        answer: true,
+        explanation: "<b>WaNuLCAS:</b><br><br>WaNuLCAS is a model for water, nutrient, and light capture in agroforestry systems."
+      },
+      {
+        question: "The yield of tree products is represented by Ycrop in the equation Ysystem = Ytree + Ycrop.",
+        answer: false,
+        explanation: "<b>Yield Representation:</b><br><br>The yield of tree products is represented by Ytree."
+      },
+      {
+        question: "The term LER is derived from its indication of relative land requirements for intercrops versus monocultures.",
+        answer: true,
+        explanation: "<b>Land Equivalent Ratio:</b><br><br>LER indicates relative land requirements for intercrops versus monocultures."
+      },
+      {
+        question: "Positive interactions occur when the benefits of trees outweigh the competition effects.",
+        answer: true,
+        explanation: "<b>Positive Interactions:</b><br><br>Positive interactions occur when the benefits of trees outweigh the competition effects."
+      },
+      {
+        question: "The management of agroforestry systems is irrelevant to their success.",
+        answer: false,
+        explanation: "<b>Management Role:</b><br><br>The management of agroforestry systems is crucial for their success."
+      }
+    ],
+    'concept and classification by nasrin sultana mam': [
+      {
+        "question": "An agroforestry practice is the same as an agroforestry system.",
+        "answer": false,
+        "explanation": "Practices refer to arrangements in space and time, while systems encompass specific groups of practices."
+      },
+      {
+        "question": "The main goal of agroforestry technology is to completely replace existing systems.",
+        "answer": false,
+        "explanation": "Agroforestry technology aims to innovate or improve systems, not necessarily replace them entirely."
+      },
+      {
+        "question": "All agroforestry systems include spatial and temporal arrangements of components.",
+        "answer": true,
+        "explanation": "Systems distinctly arrange components like crops, trees, and animals in space and time."
+      },
+      {
+        "question": "Classification of agroforestry systems should offer flexibility in regrouping information.",
+        "answer": true,
+        "explanation": "Flexibility ensures that classification schemes can adapt to various contexts and data analyses."
+      },
+      {
+        "question": "ICRAF is known for its role in developing fishing-based land use systems.",
+        "answer": false,
+        "explanation": "ICRAF focuses on agroforestry systems involving crops, trees, and pastures, not fishing-based systems."
+      },
+      {
+        question: "Nair (1987) identified four bases for classifying agroforestry systems.",
+        answer: true,
+        explanation: "<b>Nair's Classification:</b><br><br>Nair identified four bases: Structure, Function, Socio-economic Scale, and Ecological Spread for classifying agroforestry systems."
+    },
+    {
+        question: "Dwivedi (1992) expanded the classification bases into six categories.",
+        answer: false,
+        explanation: "<b>Dwivedi's Reorganization:</b><br><br>Dwivedi expanded the classification into seven categories: Structure, Physiognomic, Function, Floristic, Socio-economic, History, and Ecological."
+    },
+    {
+        question: "The socio-economic basis refers to the level of input management in agroforestry systems.",
+        answer: true,
+        explanation: "<b>Socio-economic Basis:</b><br><br>This basis considers management intensity and commercial goals, such as subsistence or commercial."
+    },
+    {
+        question: "The ecological basis is irrelevant to agroforestry classification.",
+        answer: false,
+        explanation: "<b>Ecological Basis:</b><br><br>This basis is based on the assumption that different ecological conditions require distinct agroforestry systems."
+    },
+    {
+        question: "The structural basis of agroforestry classification refers to the historical context.",
+        answer: false,
+        explanation: "<b>Structural Basis:</b><br><br>This basis includes both spatial and temporal arrangements of different components within the agroforestry system."
+    },
+    {
+        question: "Historical classification refers to the evolution of agroforestry systems over time.",
+        answer: true,
+        explanation: "<b>Historical Classification:</b><br><br>This basis helps in understanding how traditional practices have shaped current agroforestry systems."
+    },
+    {
+        question: "The physiognomic basis refers to the characters of vegetation.",
+        answer: true,
+        explanation: "<b>Physiognomic Basis:</b><br><br>This classification helps in understanding how different vegetation types adapt to their environments."
+    },
+    {
+        question: "The floristic basis considers the economic aspects of agroforestry systems.",
+        answer: false,
+        explanation: "<b>Floristic Basis:</b><br><br>This basis is important for understanding the diversity and ecological interactions within agroforestry systems."
+    },
+    {
+        question: "In Bangladesh, 'land utilization' is included as a basis for classifying agroforestry systems.",
+        answer: true,
+        explanation: "<b>Land Utilization:</b><br><br>This basis focuses on how agroforestry systems are adapted to specific land use patterns in Bangladesh."
+    },
+    {
+        question: "The functional basis of agroforestry systems refers to the historical context.",
+        answer: false,
+        explanation: "<b>Functional Basis:</b><br><br>This basis highlights the contributions of woody components to the overall productivity of the system."
+    },
+    {
+      question: "The structural basis refers to the composition of the components, including spatial and temporal arrangement.",
+      answer: true,
+      explanation: "<b>Structural Basis:</b><br><br>This basis helps in understanding how various elements interact within the agroforestry system."
+  },
+  {
+      question: "The agrisilviculture system refers to the use of land for the production of agricultural crops only.",
+      answer: false,
+      explanation: "<b>Agrisilviculture System:</b><br><br>This system refers to the production of both agricultural crops and woody perennials."
+  },
+  {
+      question: "Silvipasture is a prominent agroforestry practice that integrates trees with grasses.",
+      answer: true,
+      explanation: "<b>Silvipasture System:</b><br><br>This system is characterized by the integration of trees with grasses for wood production and animal rearing."
+  },
+  {
+      question: "Apiculture with trees involves planting honey-producing tree species on the boundary mixed with agricultural crops.",
+      answer: true,
+      explanation: "<b>Apiculture System:</b><br><br>This system aims for honey production by integrating trees with agricultural crops."
+  },
+  {
+      question: "Aquaforestry focuses on the production of only agricultural crops.",
+      answer: false,
+      explanation: "<b>Aquaforestry:</b><br><br>This system focuses on fish production and bund stabilization around ponds."
+  },
+  {
+      question: "Agroforestry systems can be classified based on the dominance of components into multiple categories.",
+      answer: true,
+      explanation: "<b>Classification Based on Dominance:</b><br><br>Agroforestry systems can be classified into several categories based on the dominance of components."
+  },
+  {
+      question: "In silvoagriculture, agriculture is the primary aim of land use.",
+      answer: false,
+      explanation: "<b>Silvoagriculture:</b><br><br>This system has silviculture as the primary aim, with trees as the major component."
+  },
+  {
+      question: "The agrisilvopastural system is a combination of crops, trees, and pastures.",
+      answer: true,
+      explanation: "<b>Agrisilvopastural System:</b><br><br>This system has agricultural crops dominant over trees and pasture."
+  },
+  {
+      question: "Pastural silviculture is an agroforestry system where trees are the primary component.",
+      answer: false,
+      explanation: "<b>Pastural Silviculture:</b><br><br>This system has pasture as the primary component while trees are secondary."
+  },
+  {
+      question: "Silvopasture is an agroforestry system where trees constitute the primary component of land use.",
+      answer: true,
+      explanation: "<b>Silvopasture:</b><br><br>This system integrates trees with pastures, making trees the primary component."
+  },
+  {
+    question: "Agroforestry systems can be classified based on the arrangement of components in space, time, and vertical stratification.",
+    answer: true,
+    explanation: "<b>Arrangement of Components:</b><br><br>This classification helps in understanding how different elements interact within the agroforestry system."
+},
+{
+    question: "A mixed dense agroforestry system refers to components arranged together with low density.",
+    answer: false,
+    explanation: "<b>Mixed Dense System:</b><br><br>This arrangement refers to components arranged together with high density, such as in home gardens."
+},
+{
+    question: "In a coincident system, different crops occupy the land together.",
+    answer: true,
+    explanation: "<b>Coincident System:</b><br><br>Examples include tea/coffee grown under trees."
+},
+{
+    question: "A productive agroforestry system focuses on protecting the land and improving climate.",
+    answer: false,
+    explanation: "<b>Productive Agroforestry System:</b><br><br>This system focuses on the production of essential commodities."
+},
+{
+    question: "A protective agroforestry system aims to reduce wind and water erosion.",
+    answer: true,
+    explanation: "<b>Protective Agroforestry System:</b><br><br>Examples include windbreaks and shelterbelts."
+},
+{
+    question: "A multipurpose agroforestry system ensures production through optimizing only productive functions.",
+    answer: false,
+    explanation: "<b>Multipurpose Agroforestry System:</b><br><br>This system optimizes both productive and protective functions."
+},
+{
+    question: "Vertical stratification refers to the layering of components in different vertical levels.",
+    answer: true,
+    explanation: "<b>Vertical Stratification:</b><br><br>This classification helps in understanding how different components occupy space."
+},
+{
+    question: "A multilayered agroforestry system has components in only one layer.",
+    answer: false,
+    explanation: "<b>Multilayered System:</b><br><br>This system has components in more than two layers."
+},
+{
+    question: "In a silvoagriculture system, trees are the major component while crops are secondary.",
+    answer: true,
+    explanation: "<b>Silvoagriculture:</b><br><br>This system integrates trees as the major component while including crops."
+},
+{
+    question: "A concomitant system occurs when different crops occupy the land together.",
+    answer: false,
+    explanation: "<b>Concomitant System:</b><br><br>This system occurs when different components stay together for a certain period."
+},
+{
+  question: "Agroforestry systems can be classified based on ecological parameters such as climatic, edaphic, and physiographic factors.",
+  answer: true,
+  explanation: "<b>Ecological Classification:</b><br><br>This classification is based on important ecological parameters."
+},
+{
+  question: "The xeromorphic agroforestry system refers to vegetation in wetland areas.",
+  answer: false,
+  explanation: "<b>Xeromorphic System:</b><br><br>This system refers to dryland agroforestry in arid and semi-arid areas."
+},
+{
+  question: "A subsistence agroforestry system aims at meeting the basic needs of small families with limited investment capacity.",
+  answer: true,
+  explanation: "<b>Subsistence Agroforestry System:</b><br><br>Examples include shifting cultivation and homestead agroforestry."
+},
+{
+  question: "A commercial agroforestry system focuses on small-scale production.",
+  answer: false,
+  explanation: "<b>Commercial Agroforestry System:</b><br><br>This system aims for large-scale production for sale."
+},
+{
+  question: "An intensively managed agroforestry system is managed for less production per unit area.",
+  answer: false,
+  explanation: "<b>Intensively Managed System:</b><br><br>This system is managed for more production per unit area."
+},
+{
+  question: "Integrated-farm-forestry refers to the production of crops, animals, fishes, and trees together.",
+  answer: true,
+  explanation: "<b>Integrated-farm-forestry:</b><br><br>This system promotes diverse production in a single area."
+},
+{
+  question: "Roadside agroforestry involves the production of deep-rooted tall trees along the sides of roads.",
+  answer: true,
+  explanation: "<b>Roadside Agroforestry:</b><br><br>This system involves planting trees and crops along roads, highways, and railways."
+},
+{
+  question: "A low technology agroforestry system uses modern technology for production.",
+  answer: false,
+  explanation: "<b>Low Technology System:</b><br><br>This system uses primitive technology, as seen in shifting cultivation."
+},
+{
+  question: "A high technology agroforestry system relies on modern technology for production.",
+  answer: true,
+  explanation: "<b>High Technology System:</b><br><br>Examples include tea gardens."
+},
+{
+  question: "The mesomorphic agroforestry system refers to vegetation in extreme climates.",
+  answer: false,
+  explanation: "<b>Mesomorphic System:</b><br><br>This system refers to agroforestry systems where water is available in optimal quantities."
+}
     ]
   }
 
@@ -1103,7 +2085,10 @@ function TrueFalse() {
                     <p className="review-question">{item.question}</p>
                     <p className="your-answer">Your Answer: <span className="incorrect">{item.yourAnswer}</span></p>
                     <p className="correct-answer">Correct Answer: <span className="correct">{item.correctAnswer}</span></p>
-                    <p className="explanation">{item.explanation}</p>
+                    <div 
+                      className="explanation-content"
+                      dangerouslySetInnerHTML={{ __html: item.explanation }}
+                    />
                   </div>
                 ))}
               </div>
@@ -1144,7 +2129,10 @@ function TrueFalse() {
                 <p className={selectedAnswer === currentQuestion.answer ? 'correct' : 'incorrect'}>
                   {selectedAnswer === currentQuestion.answer ? 'Correct!' : 'Incorrect!'}
                 </p>
-                <p className="explanation">{currentQuestion.explanation}</p>
+                <div 
+                  className="explanation-content"
+                  dangerouslySetInnerHTML={{ __html: currentQuestion.explanation }}
+                />
                 <div className="navigation-buttons">
                   <button 
                     className="nav-button"

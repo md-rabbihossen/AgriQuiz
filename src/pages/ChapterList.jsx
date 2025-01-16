@@ -22,13 +22,16 @@ function ChapterList() {
       { id: 5, name: 'Categories in Soil Taxonomy' }
     ],
     afes: [
-      { id: 1, name: 'Introduction to Agroforestry' }
+      { id: 1, name: 'Introduction to Agroforestry' },
+      { id: 2, name: 'Tree Crop Interaction_Nazmun Nahar' },
+      { id: 3, name: 'Concept and Classification by Nasrin Sultana Mam' }
     ],
     hort: [
       { id: 1, name: 'Plant Propagation' }
     ],
     ento: [
-      { id: 1, name: 'Insect Morphology' }
+      { id: 1, name: 'Mouth Parts_Mizan Sir' },
+      { id: 2, name: 'Arthropoda_Shakhawat Sir' }
     ]
   }
 

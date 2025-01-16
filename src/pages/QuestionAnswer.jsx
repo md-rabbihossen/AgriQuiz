@@ -838,7 +838,835 @@ function QuestionAnswer() {
         question: "What significant changes occurred in the seed sector from 1976 to 1988?",
         answer: "From 1976 to 1988, there was an expansion of appropriate technology in rice, wheat, potato, pulses, oilseed crops, and vegetables."
       }
-    ]
+    ],
+    'mouth parts_mizan sir': [
+      {
+        question: "What are mouthparts in insects?",
+        answer: "Mouthparts are the group of structures on the lower part of the head, adapted to the insect's diet. They vary among different insect groups and stages of the same species."
+      },
+      {
+        question: "List the types of mouthparts found in insects.",
+        answer: "The types of mouthparts include:<br><br>1. Chewing<br>2. Piercing-sucking<br>3. Rasping-sucking<br>4. Siphoning<br>5. Sponging<br>6. Cutting-sponging<br>7. Chewing-lapping"
+      },
+      {
+        question: "Describe the chewing type of mouthparts.",
+        answer: "Chewing mouthparts consist of a labrum (upper lip), a pair of mandibles (jaws), a pair of maxillae (second jaws), and a labium (lower lip). They are used to cut and grind solid food."
+      },
+      {
+        question: "What is the function of the mandibles in chewing mouthparts?",
+        answer: "The mandibles cut off and grind solid food, while the maxillae and labium push the food into the esophagus."
+      },
+      {
+        question: "Which insects possess chewing mouthparts?",
+        answer: "Insects such as silverfish, cockroaches, grasshoppers, locusts, crickets, earwigs, termites, beetles, and weevils possess chewing mouthparts."
+      },
+      {
+        question: "What are piercing-sucking mouthparts adapted for?",
+        answer: "Piercing-sucking mouthparts are modified to pierce the epidermis of plants or the skin of animals to suck up sap or blood."
+      },
+      {
+        question: "How are the stylets formed in piercing-sucking mouthparts?",
+        answer: "In plant feeders, the stylets are formed from four hair-like structures, with the outer ones derived from mandibles and the inner ones from maxillae."
+      },
+      {
+        question: "What is unique about the mouthparts of thrips?",
+        answer: "Thrips have a cone-shaped, very short beak or proboscis that contains maxillae, hypopharynx, and the left mandible, forming stylets. They are asymmetrical."
+      },
+      {
+        question: "What is the role of the labium in piercing-sucking mouthparts?",
+        answer: "The labium forms a protective sheath for the stylets in piercing-sucking mouthparts."
+      },
+      {
+        question: "Which insects possess piercing-sucking mouthparts?",
+        answer: "Insects such as bugs, leafhoppers, lice, fleas, and mosquitoes possess piercing-sucking mouthparts."
+      },
+      {
+        question: "What are siphoning mouthparts adapted for?",
+        answer: "Siphoning mouthparts are specialized for the uptake of flower nectar and other liquids by butterflies and moths (Lepidoptera)."
+      },
+      {
+        question: "Describe the structure of siphoning mouthparts.",
+        answer: "Siphoning mouthparts have a much-reduced upper lip, usually absent mandibles, rudimentary maxillary palps, and a lower lip consisting of a broad plate and three segmented labial palps. A long extensible proboscis forms a tube for food passage."
+      },
+      {
+        question: "How is the proboscis of siphoning mouthparts held when not in use?",
+        answer: "The proboscis is held in a coiled-spring fashion when not in use."
+      },
+      {
+        question: "What is the function of sponging mouthparts?",
+        answer: "Sponging mouthparts are adapted for liquid feeding, where food is 'mopped up' by capillary action."
+      },
+      {
+        question: "What are the main components of the sponging mouthparts?",
+        answer: "Sponging mouthparts consist of a soft, fleshy, retractile proboscis formed by the fusion of labium and maxillae, along with paired large fleshy pad-like structures called labella."
+      },
+      {
+        question: "Which insects exhibit sponging mouthparts?",
+        answer: "House flies and blow flies exhibit sponging mouthparts."
+      },
+      {
+        question: "What is unique about the chewing-lapping type of mouthparts?",
+        answer: "Chewing-lapping mouthparts have a combination of chewing mandibles and a specialized proboscis for sucking nectar, allowing them to manipulate wax and nest materials."
+      },
+      {
+        question: "How do bees suck up nectar using their mouthparts?",
+        answer: "Bees suck up nectar using the capillary action of the glossa, which is fused to form a channeled proboscis called alaglossae."
+      },
+      {
+        question: "What role do the galea of maxillae play in chewing-lapping mouthparts?",
+        answer: "The galea of maxillae forms a roof over the glossa and fits against the labial palps, creating a food channel for saliva discharge and nectar uptake."
+      },
+      {
+        question: "Which insects possess chewing-lapping mouthparts?",
+        answer: "Bees, wasps, ants, and other Hymenopteran insects possess chewing-lapping mouthparts."
+      }
+    ],
+    'arthropoda_shakhawat sir': [
+      {
+        question: "What is entomology?",
+        answer: "Entomology is the branch of applied zoology that focuses on the study of insects. The term comes from the French word 'entomologie', which is derived from the Greek word 'entomon' meaning 'insect' and 'logia' meaning 'study of'."
+      },
+      {
+        question: "What are the general characteristics of Arthropoda?",
+        answer: "The general characteristics of Arthropoda include:<br><br><table border='1' style='border-collapse: collapse; width: 100%;'><thead><tr><th>Characteristic</th><th>Description</th></tr></thead><tbody><tr><td>Jointed Appendages</td><td>Presence of externally jointed appendages.</td></tr><tr><td>Exoskeleton</td><td>Body covered by an exoskeleton formed of chitinous cuticle.</td></tr><tr><td>Body Cavity</td><td>Presence of haemocoelomic body cavity.</td></tr><tr><td>Respiration</td><td>Respiration by gills, trachea, book gill or book lung.</td></tr><tr><td>Excretion</td><td>Excretion by various glands including Malpighian tubules.</td></tr><tr><td>Heart Structure</td><td>Heart is represented by a slender, elongated dorsal vessel.</td></tr></tbody></table>"
+      },
+      {
+        question: "What is the life cycle of Arachnids?",
+        answer: "The life cycle of Arachnids includes the following stages:<br><br><table border='1' style='border-collapse: collapse; width: 100%;'><thead><tr><th>Stage</th><th>Description</th></tr></thead><tbody><tr><td>Egg</td><td>Initial stage where eggs are laid.</td></tr><tr><td>Larva</td><td>Has 3 pairs of legs.</td></tr><tr><td>Nymph</td><td>Develops 4 pairs of legs.</td></tr><tr><td>Adult</td><td>Fully developed with 4 pairs of legs.</td></tr></tbody></table>"
+      },
+      {
+        question: "What are the main classes of Arthropoda?",
+        answer: "The main classes of Arthropoda include Insecta, Arachnida, Myriapoda, and Crustacea. Each class has distinct characteristics and adaptations."
+      },
+      {
+        question: "What is the significance of the exoskeleton in Arthropoda?",
+        answer: "The exoskeleton provides structural support, protection against predators, and prevents water loss, allowing arthropods to thrive in various environments."
+      },
+      {
+        question: "How do arthropods respire?",
+        answer: "Arthropods respire through various structures such as gills, trachea, or book lungs, depending on their habitat and class."
+      },
+      {
+        question: "What is the role of the heart in Arthropoda?",
+        answer: "The heart in arthropods is tubular and functions to circulate hemolymph (blood) throughout the body, aiding in nutrient and waste transport."
+      },
+      {
+        question: "What adaptations do arthropods have for survival?",
+        answer: "Arthropods have various adaptations including jointed appendages for movement, specialized mouthparts for feeding, and the ability to live in diverse environments."
+      },
+      {
+        question: "What is sexual dimorphism in Arthropoda?",
+        answer: "Sexual dimorphism refers to the differences in appearance between male and female arthropods, which can include size, color, and the presence of specific structures."
+      },
+      {
+        question: "What are some examples of Arachnids?",
+        answer: "Examples of Arachnids include scorpions, spiders, ticks, mites, and harvestmen, each exhibiting unique adaptations and behaviors."
+      },
+      {
+        question: "What are the main characteristics of Class Insecta?",
+        answer: "Class Insecta is characterized by:<br><br><table border='1' style='border-collapse: collapse; width: 100%;'><thead><tr><th>Characteristic</th><th>Description</th></tr></thead><tbody><tr><td>Body Structure</td><td>Body divided into head, thorax, and abdomen.</td></tr><tr><td>Legs</td><td>Three pairs of thoracic legs are present.</td></tr><tr><td>Antennae</td><td>A pair of antennae is present.</td></tr><tr><td>Eyes</td><td>One pair of compound eyes and one to three simple eyes (ocelli) are present.</td></tr><tr><td>Wings</td><td>Presence of one or two pairs of wings, which may be absent in some.</td></tr><tr><td>Respiration</td><td>Respiration by trachea.</td></tr></tbody></table>"
+      },
+      {
+        question: "What is the life cycle of insects?",
+        answer: "Insects can undergo different types of metamorphosis:<br><br><table border='1' style='border-collapse: collapse; width: 100%;'><thead><tr><th>Type</th><th>Stages</th></tr></thead><tbody><tr><td>Incomplete Metamorphosis</td><td>Egg → Nymph → Adult</td></tr><tr><td>Incomplete Metamorphosis (Aquatic)</td><td>Egg → Naiad → Adult</td></tr><tr><td>Complete Metamorphosis</td><td>Egg → Larva → Pupa → Adult</td></tr></tbody></table>"
+      },
+      {
+        question: "What is the economic importance of insects?",
+        answer: "Insects provide significant ecological services, with an estimated annual value of at least $57 billion in the United States alone. They play crucial roles in pollination, with the worldwide economic value of insect pollination estimated at $217 billion. Without insects, human life on earth would be severely impacted."
+      },
+      {
+        question: "What role do insects play as pollinators?",
+        answer: "Insects such as bees, wasps, butterflies, and beetles are essential pollinators of crops. They transfer pollen as they forage for nectar, which is vital for the reproduction of many flowering plants. The value of crop production from pollination by native insects is estimated to be about $3 billion in the U.S. alone."
+      },
+      {
+        question: "What are some examples of insects in Class Insecta?",
+        answer: "Examples of insects in Class Insecta include:<br><br><table border='1' style='border-collapse: collapse; width: 100%;'><thead><tr><th>Insect</th><th>Type</th></tr></thead><tbody><tr><td>Silverfish</td><td>Wingless</td></tr><tr><td>House fly</td><td>Winged</td></tr><tr><td>Honey bee</td><td>Winged</td></tr><tr><td>Grasshopper</td><td>Winged</td></tr><tr><td>Ladybird beetle</td><td>Winged</td></tr><tr><td>Dragonfly</td><td>Winged</td></tr></tbody></table>"
+      },
+      {
+        question: "How do insects contribute to the ecosystem?",
+        answer: "Insects contribute to the ecosystem by providing essential services such as pollination, decomposition, and serving as a food source for other animals. They help maintain the balance of ecosystems and support biodiversity."
+      },
+      {
+        question: "What is the estimated number of living insect species identified?",
+        answer: "Over one lakh (100,000) currently living species of insects have been identified, but the true number is believed to be much larger, possibly around one million."
+      },
+      {
+        question: "What is the significance of the relationship between plants and pollinators?",
+        answer: "Plants depend on insects for pollination, which is crucial for their reproduction. Insects are attracted to plants through various means, such as offering pollen or nectar and using scent and visual cues to guide them to flowers."
+      },
+      {
+        question: "What happens if pollinators disappear?",
+        answer: "The disappearance of pollinators would lead to a significant loss of food production, estimated to be between $190 to $310 billion, affecting global food security and biodiversity."
+      },
+      {
+        question: "What are the different feeding habits of insects?",
+        answer: "Insects can be classified based on their feeding habits as phytophagous (plant-eating), predatory (eating other insects), or parasitoid (living on or in a host organism and eventually killing it)."
+      },
+      {
+        question: "What are the major characteristics of arthropod predators?",
+        answer: "Arthropod predators exhibit several key characteristics:<br><br><table border='1' style='border-collapse: collapse; width: 100%;'><thead><tr><th>Characteristic</th><th>Description</th></tr></thead><tbody><tr><td>Generalists</td><td>Adults and immature stages are often generalists rather than specialists.</td></tr><tr><td>Size</td><td>They are generally larger than their prey.</td></tr><tr><td>Consumption</td><td>They kill or consume many preys.</td></tr><tr><td>Life Stages</td><td>Males, females, immature stages, and adults may be predatory.</td></tr><tr><td>Prey Types</td><td>They attack both immature and adult prey.</td></tr></tbody></table>"
+      },
+      {
+        question: "What role do parasitoids play in pest control?",
+        answer: "Parasitoids are insects that develop on or in a host insect, ultimately killing the host. They are typically free-living as adults and may also be predators. Parasitoids are often more effective natural enemies than predators due to their narrower host range and ability to respond rapidly to increases in host populations."
+      },
+      {
+        question: "What is sericulture?",
+        answer: "Sericulture is an agro-based industry involving the rearing of silkworms for the production of raw silk. The major activities include food-plant cultivation to feed the silkworms, spinning silk cocoons, and reeling the cocoons for unwinding the silk filament."
+      },
+      {
+        question: "What are lac insects known for?",
+        answer: "Lac insects, belonging to the order Hemiptera, are noted for their resinous exudation from the bodies of females. The Indian lac insect Laccifer lacca is commercially important and is cultured on specific host plants."
+      },
+      {
+        question: "What is apiculture?",
+        answer: "Apiculture, or beekeeping, is the maintenance of honey bee colonies by beekeepers in apiaries to collect honey and beeswax and for the purpose of pollinating crops. The genus Apis includes several species, such as Apis mellifera and Apis cerana."
+      },
+      {
+        question: "What are some examples of agricultural pests?",
+        answer: "Examples of agricultural pests include locusts, caterpillars, bugs, hoppers, and aphids. Locusts are particularly destructive, migrating in swarms and devouring crops."
+      },
+      {
+        question: "What are common household pests?",
+        answer: "Common household pests include ants, termites, bed bugs, carpet beetles, furniture beetles, and silverfish. These pests can cause damage to homes and pose health risks."
+      },
+      {
+        question: "What diseases can mosquitoes spread?",
+        answer: "Mosquitoes can spread diseases such as malaria, yellow fever, and dengue fever. They are significant vectors for various pathogens."
+      },
+      {
+        question: "What are the most common insect pests of stored grains?",
+        answer: "Common insect pests of stored grains include the Rice Weevil, Lesser Grain Borer, Red Flour Beetle, and Khapra beetle. Effective management includes good sanitation and proper storage practices."
+      },
+      {
+        question: "How can insect management for stored grains be improved?",
+        answer: "Insect management for stored grains can be improved by maintaining clean storage areas, reducing grain moisture to 13% or less, cooling the grain, and fumigating infested grains with Aluminum phosphide."
+      },
+      {
+        question: "What are the two subclasses of insects?",
+        answer: "The two subclasses of insects are Entognatha and Ectognatha."
+      },
+      {
+        question: "What is the common name for the order Protura?",
+        answer: "Coneheads"
+      },
+      {
+        question: "What does the order Collembola mean?",
+        answer: "Collembola means 'glue wedge' and they are commonly known as Springtails."
+      },
+      {
+        question: "What is the common name for insects in the order Zygentoma?",
+        answer: "Silverfish"
+      },
+      {
+        question: "What is the meaning of the order Odonata?",
+        answer: "Odonata means 'tooth' and includes Dragonflies and Damselflies."
+      },
+      {
+        question: "Which order is known for the common name 'Earwig'?",
+        answer: "Dermaptera"
+      },
+      {
+        question: "What is the common name for insects in the order Hemiptera?",
+        answer: "Bugs, Cicadas, Hoppers, Aphids, Scales"
+      },
+      {
+        question: "What does the order Hymenoptera include?",
+        answer: "Hymenoptera includes Sawflies, Wasps, Bees, and Ants."
+      },
+      {
+        question: "What is the common name for insects in the order Lepidoptera?",
+        answer: "Butterflies and Moths"
+      },
+      {
+        question: "What is the meaning of the order Diptera?",
+        answer: "Diptera means 'two wings' and includes Flies."
+      },
+      {
+        question: "What is the main difference in wing development between Exopterygota and Endopterygota?",
+        answer: "Exopterygota have external wing development, while Endopterygota have internal wing development."
+      },
+      {
+        question: "What type of metamorphosis do Exopterygota undergo?",
+        answer: "Exopterygota undergo incomplete metamorphosis (Hemimetabola) or gradual metamorphosis (Paurometabola)."
+      },
+      {
+        question: "Do Endopterygota have a pupal stage?",
+        answer: "Yes, Endopterygota have a pupal stage, while Exopterygota do not."
+      },
+      {
+        question: "What is the immature stage of Exopterygota called?",
+        answer: "The immature stage of Exopterygota is called Naiad or Nymph."
+      },
+      {
+        question: "What is the immature stage of Endopterygota called?",
+        answer: "The immature stage of Endopterygota is called Larva."
+      },
+      {
+        question: "How many orders are classified under Exopterygota?",
+        answer: "There are 16 orders classified under Exopterygota."
+      },
+      {
+        question: "What is the function of Johnston's organ in insects?",
+        answer: "Johnston's organ is used as a chordotonal organ for sensing vibrations and movement."
+      },
+      {
+        question: "What are the two main segments of an insect's antenna?",
+        answer: "The two main segments of an insect's antenna are the scape and the pedicel."
+      },
+      {
+        question: "What is the role of the flagellum in insect antennae?",
+        answer: "The flagellum contains many sensory receptors that are innervated by the duetocerebrum of the brain."
+      },
+      {
+        question: "Where are antennae located on an insect's body?",
+        answer: "Antennae are located between or behind the compound eyes."
+      },
+      {
+        question: "What is one of the primary functions of antennae in insects?",
+        answer: "Antennae are useful to detect chemicals including food and pheromones."
+      },
+      {
+        question: "How do antennae help insects perceive their environment?",
+        answer: "Antennae perceive smell, humidity changes, variation in temperature, vibration, wind velocity, and direction."
+      },
+      {
+        question: "In which insect is the antenna useful for hearing?",
+        answer: "In mosquitoes, the antenna is useful for hearing."
+      },
+      {
+        question: "What type of antennae do Leafhoppers and Dragonflies have?",
+        answer: "They have setaceous antennae, which are bristle-like."
+      },
+      {
+        question: "What is the characteristic of moniliform antennae?",
+        answer: "Moniliform antennae are bead-like, with segments that are either globular or spherical."
+      },
+      {
+        question: "Which type of antennae is described as thread-like?",
+        answer: "Filiform antennae are thread-like, with cylindrical segments."
+      },
+      {
+        question: "What is the defining feature of serrate antennae?",
+        answer: "Serrate antennae have short triangular projections on one side."
+      },
+      {
+        question: "What type of antennae do silkworm moths have?",
+        answer: "Silkworm moths have bipectinate antennae, which are double comb-like."
+      },
+      {
+        question: "What is the function of the arista in aristate antennae?",
+        answer: "The arista is a conspicuous dorsal bristle on the terminal segment of aristate antennae."
+      },
+      {
+        question: "What type of antennae do male mosquitoes possess?",
+        answer: "Male mosquitoes have plumose antennae, which are feathery with long whorls of hairs."
+      },
+      {
+        "question": "What is the primary function of antennae in insects?",
+        "answer": "The primary functions of antennae in insects include:<br><br>1. <b>Chemical Detection</b>: Detects chemicals such as food and pheromones (chemical signals released into the air by the opposite sex).<br>2. <b>Sensory Perception</b>: Perceives smell, humidity changes, temperature variations, vibrations, wind velocity, and direction.<br>3. <b>Hearing and Communication</b>: Useful for hearing in mosquitoes and communication in ants.<br>4. <b>Reproduction and Feeding</b>: Rarely used for clasping mates (e.g., Flea) and grasping prey.<br><br>These functions help insects survive, communicate, and find resources effectively."
+      },
+      {
+        "question": "What are the types of antennae based on their structure?",
+        "answer": "The types of antennae based on structure include:<br><br><table border='1' style='border-collapse: collapse; width: 100%;'><thead><tr><th>Type</th><th>Description</th><th>Examples</th></tr></thead><tbody><tr><td>Setaceous</td><td>Bristle-like, segments decrease in size from base to apex.</td><td>Leafhopper, Dragonfly</td></tr><tr><td>Moniliform</td><td>Bead-like, segments are spherical with constrictions in between.</td><td>Termite</td></tr><tr><td>Filiform</td><td>Thread-like, cylindrical segments of uniform thickness.</td><td>Grasshopper</td></tr><tr><td>Serrate</td><td>Saw-like, segments have short triangular projections on one side.</td><td>Longicorn beetle</td></tr><tr><td>Clavate</td><td>Clubbed, segments enlarge gradually towards the tip.</td><td>Blister beetle</td></tr><tr><td>Lamellate</td><td>Plate-like, tip expanded into flat plates.</td><td>Lamellicorn beetle</td></tr></tbody></table>"
+      },
+      {
+        "question": "What is the difference between Moniliform and Filiform antennae?",
+        "answer": "The differences between Moniliform and Filiform antennae are:<br><br><table border='1' style='border-collapse: collapse; width: 100%;'><thead><tr><th>Feature</th><th>Moniliform</th><th>Filiform</th></tr></thead><tbody><tr><td>Shape</td><td>Bead-like with spherical segments</td><td>Thread-like with cylindrical segments</td></tr><tr><td>Segment Thickness</td><td>Variable with constrictions</td><td>Uniform throughout</td></tr><tr><td>Example</td><td>Termite</td><td>Grasshopper</td></tr></tbody></table>"
+      }
+    ],
+    'tree crop interaction_nazmun nahar': [
+    {
+      question: "What is agroforestry as defined by ICRAF?",
+      answer: "Agroforestry is defined as the deliberate integration of woody components with agricultural and pastoral operations on the same piece of land, either in a spatial or temporal sequence, in such a way that both ecological and economic interactions occur between them."
+    },
+    {
+      question: "What are the components of agroforestry?",
+      answer: "The components of agroforestry include:<br><br><table border='1' style='border-collapse: collapse; width: 100%;'><thead><tr><th>Component</th><th>Description</th></tr></thead><tbody><tr><td>Tree or Woody Perennials</td><td>These are the trees that are integrated into the agricultural system.</td></tr><tr><td>Crops</td><td>These are the agricultural plants grown alongside the trees.</td></tr><tr><td>Animals</td><td>These include livestock that may graze or interact with the crops and trees.</td></tr></tbody></table>"
+    },
+    {
+      question: "What is the significance of component interaction in agroforestry?",
+      answer: "Component interaction is significant because it refers to the influence or mutual action between different components of the agroforestry system, which can lead to positive or negative ecological and economic outcomes."
+    },
+    {
+      question: "What are ecological interactions in agroforestry?",
+      answer: "Ecological interactions are defined as the relationships between different species that live in a specific community, enabling a balance of life and allowing organisms to benefit from each other's activities."
+    },
+    {
+      question: "What are economic interactions in agroforestry?",
+      answer: "Economic interactions occur between economic agents through the exchange of goods, services, and money, which can enhance the overall productivity and sustainability of the agroforestry system."
+    },
+    {
+      question: "What resources do components in agroforestry compete for?",
+      answer: "Components in agroforestry compete for common growth resources, which include light, water, and nutrients, collectively referred to as the resource pool."
+    },
+    {
+      question: "What types of interactions occur in agroforestry systems?",
+      answer: "Interactions in agroforestry systems occur both above ground and below ground, relating to factors such as radiation exchange, water balance, nutrient cycling, shelter, and microclimatic modifications."
+    },
+    {
+      question: "What is the role of competition in agroforestry?",
+      answer: "Competition in agroforestry occurs when components share common growth resources, and it is more acute when the components are incompatible, affecting their growth and productivity."
+    },
+    {
+      question: "How does agroforestry contribute to low input sustainable agriculture?",
+      answer: "Agroforestry contributes to low input sustainable agriculture by incorporating trees that provide various ecological and economic benefits, enhancing the overall sustainability of agricultural practices."
+    },
+    {
+      question: "What is the definition of interaction in the context of agroforestry?",
+      answer: "Interaction is defined as the effect of one component of a system on the performance of another component and/or the overall system, influencing both ecological and economic outcomes."
+    },
+    {
+      question: "What are the types of interactions in agroforestry?",
+      answer: "The types of interactions in agroforestry include:<br><br><table border='1' style='border-collapse: collapse; width: 100%;'><thead><tr><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Tree-Crop Interactions (TCI)</td><td>Interactions between trees and crops.</td></tr><tr><td>Tree-Animal Interactions (TAI)</td><td>Interactions between trees and animals.</td></tr></tbody></table>"
+    },
+    {
+      question: "What are the three forms of interaction based on their effects?",
+      answer: "The three forms of interaction based on their effects are:<br><br><table border='1' style='border-collapse: collapse; width: 100%;'><thead><tr><th>Form</th><th>Description</th></tr></thead><tbody><tr><td>Complementary</td><td>Positive interactions where components benefit each other.</td></tr><tr><td>Supplementary</td><td>Interactions where complementary forces equal competitive forces.</td></tr><tr><td>Competitive</td><td>Negative interactions where components compete for resources.</td></tr></tbody></table>"
+    },
+    {
+      question: "What is the effect of direct interaction in competition?",
+      answer: "Direct interaction in competition occurs when one species directly affects another, such as through allelopathy, where one plant releases chemicals that inhibit the growth of another."
+    },
+    {
+      question: "What is the significance of mutualism in agroforestry?",
+      answer: "Mutualism is significant in agroforestry as it represents interactions where both species benefit, such as mycorrhizae and rhizobium-legume relationships, enhancing nutrient uptake."
+    },
+    {
+      question: "What are the positive effects of tree-crop interactions?",
+      answer: "Positive effects of tree-crop interactions include shading trees for stress reduction, efficient use of light, biomass contribution, microclimatic amelioration, balanced nutrient utilization, and water conservation."
+    },
+    {
+      question: "What are the negative effects of tree-animal interactions?",
+      answer: "Negative effects of tree-animal interactions can include browsing damage, trampling, and the potential for disease or pest hosting."
+    },
+    {
+      question: "What is the role of shading in tree-animal interactions?",
+      answer: "Shading in tree-animal interactions helps reduce stress on crops and animals, improving overall productivity."
+    },
+    {
+      question: "How does allelopathy affect competition in agroforestry?",
+      answer: "Allelopathy affects competition by allowing one plant species to inhibit the growth of another through the release of phytotoxins, leading to negative interactions."
+    },
+    {
+      question: "What is the impact of indirect interactions in agroforestry?",
+      answer: "Indirect interactions can occur when species affect each other by altering the environment around themselves, such as through nutrient cycling or habitat modification."
+    },
+    {
+      question: "What is the significance of understanding interactions in agroforestry?",
+      answer: "Understanding interactions in agroforestry is crucial for optimizing resource use, enhancing productivity, and promoting sustainable practices."
+    },
+    {
+      question: "What are the benefits of shading trees for crops?",
+      answer: "Shading trees provide several benefits for crops, including:<br><br><table border='1' style='border-collapse: collapse; width: 100%;'><thead><tr><th>Benefit</th><th>Description</th></tr></thead><tbody><tr><td>Shade Loving Crops</td><td>Beneficial for shade-loving crops like turmeric and ginger.</td></tr><tr><td>Shade Tolerant Crops</td><td>Beneficial for shade-tolerant crops like pineapple and certain vegetables (e.g., okra, aroids).</td></tr><tr><td>Temperature Reduction</td><td>Shading can reduce average maximum temperatures by 5.4°C and increase minimum temperatures by 1.5°C in shaded coffee plantations.</td></tr><tr><td>VPD Reduction</td><td>A reduction in Vapor Pressure Deficit (VPD) leads to decreased transpiration.</td></tr></tbody></table>"
+    },
+    {
+      question: "How does agroforestry utilize light efficiently?",
+      answer: "Agroforestry systems utilize light efficiently by:<br><br><table border='1' style='border-collapse: collapse; width: 100%;'><thead><tr><th>Method</th><th>Description</th></tr></thead><tbody><tr><td>Light Interception</td><td>Utilizing three types of light: sunbeam, reflected, and diffuse light.</td></tr><tr><td>Understorey Crops</td><td>Understorey crops can utilize diffuse light effectively.</td></tr><tr><td>Multilayered Systems</td><td>Multilayered agroforestry systems reduce light waste by using light in different layers.</td></tr></tbody></table>"
+    },
+    {
+      question: "What are the photosynthetic efficiencies in agroforestry systems?",
+      answer: "Photosynthetic efficiencies in agroforestry systems are generally higher than in monoculture systems, with values ranging from 1.7% to 2.38%. In agriculturally advanced areas, efficiencies are around 2-2.5%, while on a global basis, they are less than 1%."
+    },
+    {
+      question: "How does biomass contribute to agroforestry systems?",
+      answer: "Biomass contributes to agroforestry systems through:<br><br><table border='1' style='border-collapse: collapse; width: 100%;'><thead><tr><th>Source</th><th>Description</th></tr></thead><tbody><tr><td>Pruning Materials</td><td>Materials from pruning add organic matter to the soil.</td></tr><tr><td>Litter Fall</td><td>Litter fall improves soil conditions and increases productivity.</td></tr><tr><td>Crop Root Residues</td><td>Root residues contribute to soil health and nutrient cycling.</td></tr></tbody></table>"
+    },
+    {
+      question: "What is the role of trees in nutrient utilization in agroforestry?",
+      answer: "Trees play a crucial role in nutrient utilization by:<br><br><table border='1' style='border-collapse: collapse; width: 100%;'><thead><tr><th>Function</th><th>Description</th></tr></thead><tbody><tr><td>Upper Soil Layer</td><td>Crops utilize nutrients from the upper 6-inch layer enriched by litter fall.</td></tr><tr><td>Nutrient Recycling</td><td>Trapping and recycling nutrients that would otherwise be lost by leaching.</td></tr><tr><td>Deep Root Systems</td><td>Deep-rooted trees access larger soil volumes for water and nutrients.</td></tr></tbody></table>"
+    },
+    {
+      question: "How do biodiverse ecosystems compare to monocrops in resource use?",
+      answer: "Biodiverse ecosystems are generally more efficient in resource use (water, nutrients) and more resilient to environmental stresses (e.g., weather extremes, pests, diseases) compared to monocrops."
+    },
+    {
+      question: "What is the significance of balanced nutrient utilization in agroforestry?",
+      answer: "Balanced nutrient utilization is significant as it ensures that crops and trees effectively share and recycle nutrients, enhancing overall productivity and sustainability."
+    },
+    {
+      question: "What are the effects of shading on temperature in agroforestry?",
+      answer: "Shading can lead to a reduction in average maximum temperatures by 5.4°C and an increase in minimum temperatures by 1.5°C in shaded environments."
+    },
+    {
+      question: "What is the impact of efficient light use in agroforestry systems?",
+      answer: "Efficient light use in agroforestry systems allows for better growth of understorey crops and reduces waste of light resources, leading to improved overall productivity."
+    },
+    {
+      question: "What are the benefits of microclimate amelioration in agroforestry?",
+      answer: "Microclimate amelioration provides several benefits, including:<br><br><table border='1' style='border-collapse: collapse; width: 100%;'><thead><tr><th>Benefit</th><th>Description</th></tr></thead><tbody><tr><td>Increasing Soil Moisture</td><td>Agroforestry systems help retain moisture in the soil.</td></tr><tr><td>Reducing Soil Temperature</td><td>Shading from trees can lower soil temperatures.</td></tr><tr><td>Adding Organic Matter</td><td>Litter fall and root decomposition add organic matter and nutrients.</td></tr><tr><td>Nutrient Recycling</td><td>Trapping and recycling nutrients from deeper soil zones.</td></tr></tbody></table>"
+    },
+    {
+      question: "How does agroforestry optimize the utilization of aerial space?",
+      answer: "Agroforestry optimizes aerial space utilization both horizontally and vertically, allowing for better growth and productivity of various plant species, as seen in homestead agroforestry systems."
+    },
+    {
+      question: "What role does water conservation play in agroforestry?",
+      answer: "Water conservation in agroforestry systems includes:<br><br><table border='1' style='border-collapse: collapse; width: 100%;'><thead><tr><th>Method</th><th>Description</th></tr></thead><tbody><tr><td>Reducing Evaporation</td><td>Agroforestry systems reduce evaporation by acting as 'bioirrigators' for adjacent plants.</td></tr><tr><td>Pumping Water</td><td>Deep-rooted trees can pump water from deeper soil layers.</td></tr><tr><td>Improving Water Holding Capacity</td><td>Agroforestry enhances the soil's ability to retain water.</td></tr><tr><td>Reducing Runoff</td><td>Agroforestry systems help reduce water loss by runoff.</td></tr></tbody></table>"
+    },
+    {
+      question: "How does agroforestry contribute to weed suppression?",
+      answer: "Agroforestry contributes to weed suppression by providing shade that is more severe for light-demanding weeds. For example, in alley cropping systems, trees like Cassia siamea can significantly reduce weed infestation."
+    },
+    {
+      question: "What are the benefits of soil conservation in agroforestry?",
+      answer: "Soil conservation benefits include:<br><br><table border='1' style='border-collapse: collapse; width: 100%;'><thead><tr><th>Benefit</th><th>Description</th></tr></thead><tbody><tr><td>Improving Water Holding Capacity</td><td>Agroforestry systems enhance the soil's ability to retain water.</td></tr><tr><td>Reducing Water Loss</td><td>Agroforestry reduces water loss by runoff and evaporation.</td></tr><tr><td>Controlling Soil Erosion</td><td>Closely planted shrub hedges and windbreaks effectively control soil erosion.</td></tr></tbody></table>"
+    },
+    {
+      question: "What factors influence tree-crop interactions in agroforestry?",
+      answer: "Factors influencing tree-crop interactions include:<br><br><table border='1' style='border-collapse: collapse; width: 100%;'><thead><tr><th>Factor</th><th>Description</th></tr></thead><tbody><tr><td>Tree Functional Characteristics</td><td>Such as N2-fixing ability and mycorrhizal associations.</td></tr><tr><td>Root Architecture</td><td>Shallow vs. deep rooting patterns.</td></tr><tr><td>Canopy Type</td><td>Erect, broad, large, or medium canopies.</td></tr><tr><td>Soil Fertility</td><td>The fertility of the soil affects growth and interactions.</td></tr></tbody></table>"
+    },
+    {
+      question: "How do deep-rooted trees assist in nutrient cycling?",
+      answer: "Deep-rooted trees assist in nutrient cycling by accessing nutrients released from weathering in lower soil horizons and intercepting water and nutrients that leach down the soil profile below the crop rooting zone."
+    },
+    {
+      question: "What is the significance of seasonal changes in tree-crop interactions?",
+      answer: "Seasonal changes, such as leaf shedding and fruiting, can significantly affect tree-crop interactions by altering resource availability and competition dynamics."
+    },
+    {
+      question: "How does silvicultural management influence tree-crop interactions?",
+      answer: "Silvicultural management practices, such as spacing, thinning, and pruning, can optimize tree-crop interactions by enhancing light availability and reducing competition for resources."
+    },
+    {
+      question: "What are the effects of light competition in agroforestry?",
+      answer: "Light competition can lead to several negative effects, including:<br><br><table border='1' style='border-collapse: collapse; width: 100%;'><thead><tr><th>Effect</th><th>Description</th></tr></thead><tbody><tr><td>Reduced Photosynthesis</td><td>Plants may not be able to photosynthesize effectively.</td></tr><tr><td>Reduced Transpiration</td><td>Transpiration rates may decrease, affecting plant health.</td></tr><tr><td>Reduced Growth</td><td>Overall growth and development of plants may be stunted.</td></tr><tr><td>Quality of Light</td><td>Light quality (PAR) may be reduced, impacting plant health.</td></tr></tbody></table>"
+    },
+    {
+      question: "How does nutrient competition affect tree-crop interactions?",
+      answer: "Nutrient competition occurs when both trees and crops compete for limited nutrients in the soil, which can lead to:<br><br><table border='1' style='border-collapse: collapse; width: 100%;'><thead><tr><th>Effect</th><th>Description</th></tr></thead><tbody><tr><td>Reduced Growth</td><td>Both components may experience reduced growth and development.</td></tr><tr><td>Lateral Roots</td><td>Trees may have lateral roots in the surface soil, competing directly with crops.</td></tr></tbody></table>"
+    },
+    {
+      question: "What are the consequences of water competition in agroforestry?",
+      answer: "Water competition can lead to:<br><br><table border='1' style='border-collapse: collapse; width: 100%;'><thead><tr><th>Consequence</th><th>Description</th></tr></thead><tbody><tr><td>Depressed Crop Production</td><td>Trees compete with crops for moisture, reducing crop yields.</td></tr><tr><td>Below Ground Competition</td><td>Competition for soil moisture can be critical in areas with limited water availability.</td></tr><tr><td>Reduced Rainfall Availability</td><td>Low rainfall intensity can limit moisture availability for understory crops.</td></tr></tbody></table>"
+    },
+    {
+      question: "How does allelopathy affect tree-crop interactions?",
+      answer: "Allelopathy refers to the phenomenon where one plant negatively affects another through the production of toxic chemical compounds. This can lead to:<br><br><table border='1' style='border-collapse: collapse; width: 100%;'><thead><tr><th>Effect</th><th>Description</th></tr></thead><tbody><tr><td>Suppression of Growth</td><td>Allelochemicals can interfere with the metabolic pathways of neighboring plants.</td></tr><tr><td>Inhibition of Germination</td><td>Phytotoxic substances can damage germination and seedling growth.</td></tr></tbody></table>"
+    },
+    {
+      question: "What are some examples of tree species with allelopathic effects?",
+      answer: "Some tree species reported to have allelopathic effects include:<br><br><table border='1' style='border-collapse: collapse; width: 100%;'><thead><tr><th>Tree Species</th><th>Annual Crops Inhibited</th></tr></thead><tbody><tr><td>Alnus nepalensis</td><td>Soybean</td></tr><tr><td>Casuarina equisetifolia</td><td>Cowpea, sorghum, sunflower</td></tr><tr><td>Eucalyptus spp.</td><td>Cowpea, sorghum, sunflower, potato</td></tr><tr><td>Gliricidia sepium</td><td>Maize, rice</td></tr><tr><td>Leucaena leucocephala</td><td>Maize, rice, cowpea, sorghum, sunflower</td></tr></tbody></table>"
+    },
+    {
+      question: "What are the toxic compounds found in selected tree fodder species?",
+      answer: "Some toxic or irritant compounds in selected tree fodder species include:<br><br><table border='1' style='border-collapse: collapse; width: 100%;'><thead><tr><th>Species/Feed</th><th>Compound</th></tr></thead><tbody><tr><td>Acacia</td><td>Cyanoglucosides, Fluoracetate, Tannins</td></tr><tr><td>Banana leaves</td><td>Tannins</td></tr><tr><td>Cassava leaves</td><td>HCN</td></tr><tr><td>Gliricidia sepium</td><td>Tannins</td></tr><tr><td>Leucaena spp.</td><td>Mimosine</td></tr></tbody></table>"
+    },
+    {
+      question: "What is the significance of understanding negative interactions in agroforestry?",
+      answer: "Understanding negative interactions is crucial for managing agroforestry systems effectively, as it helps in mitigating competition for light, nutrients, and water, thereby enhancing overall productivity."
+    },
+    {
+      question: "How can allelopathy limit the adoption of agroforestry?",
+      answer: "Allelopathy can limit the adoption of agroforestry at the field scale due to the detrimental effects of certain tree species on crop growth, making it essential to select compatible species."
+    },
+    {
+      question: "What is the first documented case of allelopathy?",
+      answer: "The first documented case of allelopathy was observed by Davis in black walnut (Juglans regia), where the foliar leachate containing Juglone was found to damage germination and seedling growth of crops beneath the tree."
+    },
+    {
+      question: "What management options can be used to achieve increased growth in tree-crop interfaces?",
+      answer: "Management options for increased growth include:<br><br><table border='1' style='border-collapse: collapse; width: 100%;'><thead><tr><th>Option</th><th>Description</th></tr></thead><tbody><tr><td>Microclimate Amelioration</td><td>Improving local climate conditions for better growth.</td></tr><tr><td>Fertilization</td><td>Adding nutrients to the soil to enhance growth.</td></tr><tr><td>Application of Mulch/Manure</td><td>Improving soil quality and moisture retention.</td></tr><tr><td>Irrigation</td><td>Providing adequate water supply for plants.</td></tr><tr><td>Soil Tillage</td><td>Improving soil structure and aeration.</td></tr><tr><td>Adapted Species</td><td>Choosing species that are well-suited to the environment.</td></tr><tr><td>Supplemental Feeding</td><td>Providing additional nutrients to livestock.</td></tr><tr><td>Pruning</td><td>Removing excess growth to improve health and yield.</td></tr><tr><td>Pollarding</td><td>Cutting back trees to promote new growth.</td></tr><tr><td>Trenching</td><td>Creating trenches to improve water infiltration.</td></tr></tbody></table>"
+    },
+    {
+      question: "What management options can lead to decreased growth in tree-crop interfaces?",
+      answer: "Management options that can lead to decreased growth include:<br><br><table border='1' style='border-collapse: collapse; width: 100%;'><thead><tr><th>Option</th><th>Description</th></tr></thead><tbody><tr><td>Excessive Shading</td><td>Too much shade can hinder growth.</td></tr><tr><td>Herbicides</td><td>Use of chemicals that can harm desired plants.</td></tr><tr><td>Grazing/Browsing</td><td>Overgrazing can damage vegetation and soil.</td></tr></tbody></table>"
+    },
+    {
+      question: "What are the effects of animals on vegetation in agroforestry?",
+      answer: "Animals can have several positive effects on vegetation, including:<br><br><table border='1' style='border-collapse: collapse; width: 100%;'><thead><tr><th>Effect</th><th>Description</th></tr></thead><tbody><tr><td>Seed Dispersal</td><td>Animals help in the dispersal of seeds, enhancing plant diversity.</td></tr><tr><td>Reduction of Combustible Materials</td><td>Animals can help reduce leaf litter, protecting grasslands from fire.</td></tr><tr><td>Mechanical Damage</td><td>Browsing and trampling can affect plant health.</td></tr><tr><td>Soil Effects</td><td>Animals can change soil properties, such as compaction and erosion.</td></tr></tbody></table>"
+    },
+    {
+      question: "How does vegetation affect animals in agroforestry?",
+      answer: "Vegetation can positively affect animals by providing:<br><br><table border='1' style='border-collapse: collapse; width: 100%;'><thead><tr><th>Effect</th><th>Description</th></tr></thead><tbody><tr><td>Foliage Consumption</td><td>Source of fodder for livestock.</td></tr><tr><td>Fruit Consumption</td><td>Fruits like mahua provide food for animals.</td></tr><tr><td>Improvement in Carrying Capacity</td><td>Shelterbelts and windbreaks increase productivity of grazing lands.</td></tr><tr><td>Microclimate Modification</td><td>Vegetation protects animals from harsh weather conditions.</td></tr></tbody></table>"
+    },
+    {
+      question: "What are some negative interactions between trees and animals?",
+      answer: "Negative interactions can include:<br><br><table border='1' style='border-collapse: collapse; width: 100%;'><thead><tr><th>Interaction</th><th>Description</th></tr></thead><tbody><tr><td>Low Quality of Tree Fodder</td><td>Can affect livestock production negatively.</td></tr><tr><td>Toxic Components</td><td>Toxic compounds in tree fodder can adversely affect livestock.</td></tr><tr><td>Mechanical Damage</td><td>Browsing can damage trees, impacting their health.</td></tr><tr><td>Deterioration of Soil Properties</td><td>Compaction can negatively impact tree growth.</td></tr></tbody></table>"
+    },
+    {
+      question: "What are some secondary compounds found in tree fodder that can reduce feed value?",
+      answer: "Many tree species contain secondary compounds, such as:<br><br><table border='1' style='border-collapse: collapse; width: 100%;'><thead><tr><th>Compound</th><th>Effect</th></tr></thead><tbody><tr><td>Phenolic Compounds</td><td>Can reduce digestibility and feed value.</td></tr><tr><td>Tannins</td><td>Found in species like Cassia siamea and Gliricidia sepium, affecting livestock health.</td></tr><tr><td>Mimosine</td><td>Found in Leucaena fodder, can be toxic.</td></tr><tr><td>Cyanogenic Glucosides</td><td>Found in Acacia species, can be harmful.</td></tr></tbody></table>"
+    },
+    {
+      question: "How can the presence of livestock affect tree health?",
+      answer: "Livestock can negatively impact tree health through:<br><br><table border='1' style='border-collapse: collapse; width: 100%;'><thead><tr><th>Impact</th><th>Description</th></tr></thead><tbody><tr><td>Mechanical Damage</td><td>Browsing and trampling can harm trees.</td></tr><tr><td>Soil Compaction</td><td>Can lead to reduced growth and health of trees.</td></tr></tbody></table>"
+    },
+    {
+      question: "What is the role of shelterbelts in agroforestry?",
+      answer: "Shelterbelts play a crucial role by providing protection for both pasture and animals from strong winds and storms, improving overall productivity."
+    },
+    {
+      question: "What is the significance of understanding tree-animal interactions in agroforestry?",
+      answer: "Understanding tree-animal interactions is essential for managing agroforestry systems effectively, as it helps in optimizing the benefits while minimizing negative impacts."
+    },
+    {
+      question: "What are the advantages of studying tree-crop interactions?",
+      answer: "Advantages of tree-crop interaction studies include:<br><br><table border='1' style='border-collapse: collapse; width: 100%;'><thead><tr><th>Advantage</th><th>Description</th></tr></thead><tbody><tr><td>Choice of Species</td><td>Proper selection of both tree and agricultural crops.</td></tr><tr><td>Design of Agroforestry System</td><td>Arrangement of trees and crops in parallel or concentric rows.</td></tr><tr><td>Management of Agroforestry System</td><td>Determining the degree and timing of management interventions.</td></tr></tbody></table>"
+    },
+    {
+      question: "What is the Land Equivalent Ratio (LER)?",
+      answer: "The Land Equivalent Ratio (LER) indicates the relative land requirements for intercrops versus monocultures. It helps to judge the relative performance of a component of a crop combination compared to sole stands of that species. LER is calculated as:<br><br><table border='1' style='border-collapse: collapse; width: 100%;'><thead><tr><th>Formula</th><th>Description</th></tr></thead><tbody><tr><td>LER = Ci/CS + Ti/TS</td><td>Where Ci is crop yield under intercropping, CS is crop yield under sole cropping, Ti is tree yield under intercropping, and TS is tree yield under sole cropping.</td></tr></tbody></table>"
+    },
+    {
+      question: "How is tree-crop interaction quantified in agroforestry systems?",
+      answer: "Tree-crop interaction can be quantified using the equation:<br><br><table border='1' style='border-collapse: collapse; width: 100%;'><thead><tr><th>Equation</th><th>Description</th></tr></thead><tbody><tr><td>Ysystem = Ytree + Ycrop = Ytree + Ycrop,0 + F - C</td><td>Where Ysystem is the yield of the tree-crop system, Ytree is the yield of tree products, Ycrop is the yield of crop products, Ycrop,0 is the crop yield in monoculture, F is positive effects of trees, and C is negative effects due to competition.</td></tr></tbody></table>"
+    },
+    {
+      question: "What does it mean if F > C in tree-crop interactions?",
+      answer: "If F > C, it indicates a positive interaction, meaning the benefits of trees (F) outweigh the competition effects (C) on crops."
+    },
+    {
+      question: "What does it mean if F < C in tree-crop interactions?",
+      answer: "If F < C, it indicates a negative interaction, meaning the competition effects (C) outweigh the benefits of trees (F) on crops."
+    },
+    {
+      question: "What are some models used to study tree-crop interactions?",
+      answer: "Some models that consider interactions between trees and crops include:<br><br><table border='1' style='border-collapse: collapse; width: 100%;'><thead><tr><th>Model</th><th>Reference</th></tr></thead><tbody><tr><td>WaNuLCAS</td><td>van Noordwijk and Lusiana, 2000</td></tr><tr><td>HyPAR</td><td>Mobbs and Lawson, 1999</td></tr><tr><td>STICS</td><td>Brisson, 1999</td></tr><tr><td>Modelo</td><td>Lecomte, 1996</td></tr></tbody></table>"
+    },
+    {
+      question: "What is the significance of the choice of species in agroforestry?",
+      answer: "The choice of species is crucial as it affects the compatibility and productivity of both trees and crops in an agroforestry system."
+    },
+    {
+      question: "How does the design of an agroforestry system impact its effectiveness?",
+      answer: "The design, whether in parallel rows or concentric arrangements, influences resource use efficiency and overall productivity of the agroforestry system."
+    },
+    {
+      question: "What factors should be considered in the management of agroforestry systems?",
+      answer: "Factors include the degree of management, timing of interventions, and specific needs of both tree and crop species."
+    }
+  ],
+  'concept and classification by nasrin sultana mam': [
+    {
+      question: "What is an agroforestry system?",
+      answer: "An agroforestry system is a specific group of agroforestry practices characterized by the environment, plant species, their arrangement, management, and socio-economic functioning. It integrates crops, trees, and livestock in a way that optimizes land use and enhances productivity."
+  },
+  {
+      question: "What are the main purposes of classifying agroforestry systems?",
+      answer: "The main purposes of classification include providing a practical framework for synthesizing and analyzing information about existing systems and developing new and promising ones. It helps in understanding how different systems are managed and allows for flexibility in regrouping information."
+  },
+  {
+      question: "How does a change in one element of an agroforestry system affect other elements?",
+      answer: "In an agroforestry system, different elements are interrelated. A change in one element, such as the introduction of a new crop, can lead to changes in other elements, like soil health, water usage, and the productivity of livestock."
+  },
+  {
+      question: "What is the significance of agroforestry technology?",
+      answer: "Agroforestry technology refers to innovations or improvements made through scientific intervention to modify existing systems or practices or to develop new ones. These technologies can significantly enhance productivity and sustainability in agroforestry."
+  },
+  {
+      question: "What criteria should a classification scheme for agroforestry systems include?",
+      answer: "A classification scheme should include a logical way of grouping major factors affecting production, indicate management practices, offer flexibility for regrouping information, and be easily understood and handled."
+  },
+  {
+      question: "What is the role of ICRAF in agroforestry classification?",
+      answer: "The International Centre for Research in Agroforestry (ICRAF) conducted a global inventory of agroforestry systems and practices in developing countries between 1982 and 1987. This effort involved systematically collecting and evaluating data on various land-use systems."
+  },
+  {
+      question: "What distinguishes one agroforestry system from another?",
+      answer: "Agroforestry systems differ in structure, composition, age, intensity, technologies, and inputs. Each system has unique arrangements of crops, trees, and animals, leading to distinct interactions and productivity outcomes."
+  },
+  {
+      question: "What is the definition of agroforestry practices?",
+      answer: "Agroforestry practices denote a distinctive arrangement of components in space and time, integrating various agricultural and forestry elements to achieve sustainable land use."
+  },
+  {
+      question: "How do agroforestry systems contribute to sustainable land management?",
+      answer: "Agroforestry systems contribute to sustainable land management by optimizing resource use, enhancing biodiversity, improving soil health, and increasing resilience to environmental stresses."
+  },
+  {
+      question: "What is the importance of understanding agroforestry systems?",
+      answer: "Understanding agroforestry systems is crucial for optimizing resource use, enhancing productivity, and promoting sustainable practices that benefit both the environment and local communities."
+    },
+    {
+      question: "What are the four bases for the classification of agroforestry systems according to Nair (1987)?",
+      answer: "Nair (1987) identified four bases for classifying agroforestry systems:<br><br>1. <b>Structure of the System</b>: This refers to the composition and arrangement of components within the system.<br>2. <b>Function of the System</b>: This pertains to the roles and outputs of the components.<br>3. <b>Socio-economic Scale and Level of Management</b>: This includes the management intensity and commercial goals.<br>4. <b>Ecological Spread</b>: This refers to the ecological zones where the system exists."
+  },
+  {
+      question: "How did Dwivedi (1992) reorganize the classification bases for agroforestry systems?",
+      answer: "Dwivedi (1992) expanded the classification bases into seven categories:<br><br>1. <b>Structure</b><br>2. <b>Physiognomic</b><br>3. <b>Function</b><br>4. <b>Floristic</b><br>5. <b>Socio-economic</b><br>6. <b>History</b><br>7. <b>Ecological</b><br>This reorganization allows for a more comprehensive understanding of agroforestry systems."
+  },
+  {
+      question: "What is the significance of the 'land utilization' basis in the classification of agroforestry systems in Bangladesh?",
+      answer: "In Bangladesh, 'land utilization' is included as a basis for classification, which emphasizes how agroforestry systems are adapted to specific land use patterns. This basis considers the practical application of agroforestry in relation to the land's capabilities and the socio-economic context."
+  },
+  {
+      question: "What does the structural basis of agroforestry classification refer to?",
+      answer: "The structural basis refers to the composition and arrangement of the components within the agroforestry system, including both spatial and temporal arrangements. This aspect is crucial for understanding how different elements interact and function together."
+  },
+  {
+      question: "How is the functional basis of agroforestry systems defined?",
+      answer: "The functional basis refers to the major functions or roles of the components within the system, particularly those provided by woody components. This basis highlights the contributions of different elements to the overall productivity and sustainability of the agroforestry system."
+  },
+  {
+      question: "What does the socio-economic basis of agroforestry classification encompass?",
+      answer: "The socio-economic basis encompasses the level of input management (low input, high input), intensity or scale of management, and the commercial goals of the system (subsistence, commercial, and intermediate). This basis is essential for understanding the economic viability of agroforestry practices."
+  },
+  {
+      question: "What is meant by the ecological basis in agroforestry classification?",
+      answer: "The ecological basis refers to the environmental conditions and ecological suitability of agroforestry systems. It is based on the premise that different ecological conditions, such as arid and semi-arid lands or tropical highlands, require distinct sets of agroforestry systems."
+  },
+  {
+      question: "What does the physiognomic basis of agroforestry classification refer to?",
+      answer: "The physiognomic basis refers to the characteristics of vegetation, such as xeromorphic, mesomorphic, and hydromorphic traits. This classification helps in understanding how different vegetation types adapt to their environments."
+  },
+  {
+      question: "How does the floristic basis contribute to agroforestry classification?",
+      answer: "The floristic basis considers the species composition that is widely adopted in different regions. This basis is important for understanding the diversity and ecological interactions within agroforestry systems."
+  },
+  {
+      question: "What is the historical classification of agroforestry systems?",
+      answer: "Historical classification refers to the evolution of agroforestry systems over time, influenced by the spread of knowledge and practices. This basis helps in understanding how traditional practices have shaped current agroforestry systems."
+  },
+  {
+      question: "How is land use considered in the classification of agroforestry systems in Bangladesh?",
+      answer: "Land use is considered a basis for classification in Bangladesh, focusing on how agroforestry practices are integrated into existing land use patterns. This approach emphasizes the practical application of agroforestry in enhancing land productivity."
+  },
+  {
+    question: "What does the structural basis of agroforestry classification refer to?",
+    answer: "The structural basis refers to the composition of the components, including spatial and temporal arrangements of different components and vertical stratification. It helps in understanding how various elements interact within the agroforestry system."
+},
+{
+    question: "What is the agrisilviculture system?",
+    answer: "The agrisilviculture system refers to the use of land for the production of agricultural crops and woody perennials, either simultaneously or alternately. Examples include intercropping of woody perennials with agricultural crops, improved fallow, shifting cultivation, taungya, alley cropping, and shelterbelts."
+},
+{
+    question: "What are some examples of practices within the agrisilviculture system?",
+    answer: "Examples of practices within the agrisilviculture system include:<br><br>1. Improved fallow<br>2. Shifting cultivation<br>3. Taungya<br>4. Alley cropping (hedgerow intercropping)<br>5. Multipurpose trees and shrubs on farmlands<br>6. Shelterbelts<br>7. Windbreaks and live hedges."
+},
+{
+    question: "What is the silvipasture system?",
+    answer: "The silvipasture system refers to a land management system where forests are managed for the production of wood and for rearing domestic animals. It is characterized by the integration of trees with grasses and is one of the most prominent agroforestry practices."
+},
+{
+    question: "What are some examples of practices within the silvipasture system?",
+    answer: "Examples of practices within the silvipasture system include:<br><br>1. Protein bank<br>2. Trees and shrubs on pasture<br>3. Living fence of fodder trees and hedges."
+},
+{
+    question: "What is the agrisilvipasture system?",
+    answer: "The agrisilvipasture system is a combination of agrisilviculture and silvipasture systems, integrating agricultural crops, grazing lands, and home gardens involving animals."
+},
+{
+    question: "What is apiculture with trees in agroforestry?",
+    answer: "Apiculture with trees involves planting various honey-producing tree species that are frequently visited by honeybees on the boundary, mixed with agricultural crops. The main purpose is the production of honey."
+},
+{
+    question: "What is aquaforestry?",
+    answer: "Aquaforestry is a system where various trees and shrubs preferred by fish are planted around fish ponds. The leaves of these trees are used as forage for fish, with the primary role being fish production and bund stabilization around the ponds."
+},
+{
+    question: "How is agroforestry classified based on the dominance of components?",
+    answer: "Agroforestry systems can be classified based on the dominance of components into the following categories:<br><br>1. Silvoagriculture: Silviculture is the primary aim, with trees as the major component.<br>2. Agrosilviculture: Agriculture is the primary component, with trees as secondary.<br>3. Silvopasture: Trees are the primary component, with pastures as secondary.<br>4. Pastural silviculture: Pasture is the primary component, with trees as secondary.<br>5. Agrisilvopastural system: A combination of crops, trees, and pastures, with agricultural crops dominant.<br>6. Silvoagropasture: A combination of trees, crops, and pastures, with silviculture dominant."
+},
+{
+    question: "What is silvoagriculture?",
+    answer: "Silvoagriculture is an agroforestry system where silviculture is the primary aim of land use. Trees constitute the major component while agricultural crops are integrated with them, such as in shifting cultivation and the taungya system."
+},
+{
+    question: "What is agrosilviculture?",
+    answer: "Agrosilviculture is an agroforestry system where agriculture is the primary component, and trees are secondary. Examples include multipurpose trees on farmland, hedgerow or alley cropping, and intercropping of trees."
+},
+{
+    question: "What is silvopasture?",
+    answer: "Silvopasture is an agroforestry system where trees constitute the primary component of land use, with pastures as secondary. This system is commonly found in grazing lands within forests."
+},
+{
+    question: "What is pastural silviculture?",
+    answer: "Pastural silviculture is an agroforestry system where pasture is the primary component while trees are secondary. This system is typically found in grazing lands."
+},
+{
+    question: "What is the agrisilvopastural system?",
+    answer: "The agrisilvopastural system is a combination of crops, trees, and pastures, where agricultural crops are dominant over trees and pasture, such as in home gardens."
+},
+{
+    question: "What is silvoagropasture?",
+    answer: "Silvoagropasture is an agroforestry system that combines trees, crops, and pastures, with silviculture being dominant over the other components."
+},
+{
+  question: "How can agroforestry systems be classified based on the arrangement of components?",
+  answer: "Agroforestry systems can be classified based on the arrangement of components in three ways:<br><br>1. <b>In Space (Spatial Arrangement)</b>: This involves the physical arrangement of components in a given area.<br>2. <b>In Time (Temporal Sequence)</b>: This refers to the timing of when different components occupy the land.<br>3. <b>Vertical Stratification</b>: This involves the layering of components in different vertical levels."
+},
+{
+  question: "What are the classifications of agroforestry systems based on spatial arrangement?",
+  answer: "Agroforestry systems can be classified based on spatial arrangement into:<br><br>1. <b>Mixed Dense</b>: Different components are arranged together with high density (e.g., home garden).<br>2. <b>Mixed Sparse</b>: Different components are arranged together with low density (e.g., scattered trees on agricultural lands).<br>3. <b>Strip or Boundary Plantation</b>: Trees on the edges of a field or intercropping of trees and crops (e.g., alley cropping)."
+},
+{
+  question: "What are the classifications of agroforestry systems based on temporal sequence?",
+  answer: "Agroforestry systems can be classified based on temporal sequence into:<br><br>1. <b>Coincident</b>: Different crops occupy the land together (e.g., tea/coffee under trees).<br>2. <b>Concomitant</b>: Different components stay together for a certain period (e.g., taungya system).<br>3. <b>Intermittent</b>: Annual crops are grown with perennial ones (e.g., paddy with coconut).<br>4. <b>Interpolated</b>: Different components occupy the space during different times (e.g., home garden).<br>5. <b>Separate</b>: Components occupy space at different times (e.g., improved fallow in shifting cultivation)."
+},
+{
+  question: "What does vertical stratification in agroforestry systems refer to?",
+  answer: "Vertical stratification refers to the layering of components in agroforestry systems. It can be classified into:<br><br>1. <b>Single Layered</b>: Major components grow in one layer (e.g., hedgerow intercropping).<br>2. <b>Double Layered</b>: Components are grown in two layers (e.g., tea/coffee under shade trees).<br>3. <b>Multilayered</b>: Different components are grown in more than two layers (e.g., homestead agroforestry)."
+},
+{
+  question: "What is the functional classification of agroforestry systems?",
+  answer: "Functional classification refers to the major functions or roles of the components in agroforestry systems, usually provided by woody components. The two fundamental attributes are productivity and sustainability. Agroforestry systems can be classified into three main types:<br><br>1. <b>Productive Agroforestry System</b>: Focuses on the production of essential commodities (e.g., intercropping of trees, home gardens).<br>2. <b>Protective Agroforestry System</b>: Aims to protect land and improve climate (e.g., windbreaks, shelterbelts).<br>3. <b>Multipurpose Agroforestry System</b>: Optimizes both productive and protective functions (e.g., hedgerow intercropping, home gardens)."
+},
+{
+  question: "What are the productive functions of agroforestry systems?",
+  answer: "The productive functions of agroforestry systems include:<br><br>1. <b>Food</b><br>2. <b>Fodder</b><br>3. <b>Fuel Wood</b><br>4. <b>Other Woods</b><br>5. <b>Other Products</b><br>These functions are essential for meeting the basic needs of society."
+},
+{
+  question: "What is a protective agroforestry system?",
+  answer: "A protective agroforestry system refers to practices that protect the land, improve climate, reduce wind and water erosion, and enhance soil fertility. Examples include windbreaks and shelterbelts."
+},
+{
+  question: "What is a multipurpose agroforestry system?",
+  answer: "A multipurpose agroforestry system ensures production through optimizing both productive and protective functions. Examples include hedgerow intercropping and home gardens."
+},
+{
+  question: "How can agroforestry systems be classified based on ecological parameters?",
+  answer: "Agroforestry systems can be classified based on ecological parameters into the following categories:<br><br>1. <b>Tropical</b>: Vegetation in extreme climates, such as high temperature and low humidity (e.g., Tropical silvipasture).<br>2. <b>Sub-tropical</b>: Vegetation in suitable climatic conditions (e.g., Agroforestry practices in Bangladesh).<br>3. <b>Temperate</b>: Vegetation in low temperatures (e.g., silvipasture in temperate regions).<br>4. <b>Sub-alpine</b>: Vegetation in low and medium altitudes (e.g., alley cropping in mountainous regions).<br>5. <b>Alpine</b>: Vegetation in high altitudes (e.g., shifting cultivation in high mountainous regions)."
+},
+{
+  question: "What is the hydromorphic agroforestry system?",
+  answer: "The hydromorphic agroforestry system refers to agroforestry in wetlands or waterlogged areas, such as aquasilviculture or scattered trees on paddy fields."
+},
+{
+  question: "What does the xeromorphic agroforestry system refer to?",
+  answer: "The xeromorphic agroforestry system refers to dryland agroforestry in arid and semi-arid areas, such as agroforestry practices in Africa."
+},
+{
+  question: "What is the mesomorphic agroforestry system?",
+  answer: "The mesomorphic agroforestry system refers to agroforestry systems where water is available in optimal quantities, such as agroforestry practices followed in Bangladesh."
+},
+{
+  question: "How can agroforestry systems be classified based on socio-economic considerations?",
+  answer: "Agroforestry systems can be classified based on socio-economic considerations into:<br><br>1. <b>Subsistence Agroforestry System</b>: Aims at meeting the basic needs of small families with limited investment capacity (e.g., shifting cultivation).<br>2. <b>Commercial Agroforestry System</b>: Large-scale production for sale (e.g., tea/coffee under shade trees).<br>3. <b>Intermediate Agroforestry System</b>: A balance between commercial and subsistence systems, practiced on small to medium-sized farms."
+},
+{
+  question: "What is an intensively managed agroforestry system?",
+  answer: "An intensively managed agroforestry system is one that is managed for more production per unit area, such as home gardens or tea gardens."
+},
+{
+  question: "What is an extensively managed agroforestry system?",
+  answer: "An extensively managed agroforestry system includes practices like shifting cultivation and silvipasture, where production is generally lower."
+},
+{
+  question: "What is a low technology agroforestry system?",
+  answer: "A low technology agroforestry system uses primitive technology, as seen in shifting cultivation."
+},
+{
+  question: "What is a high technology agroforestry system?",
+  answer: "A high technology agroforestry system relies on modern technology for the production of forest and agricultural crops, such as tea gardens."
+},
+{
+  question: "What is homestead agroforestry?",
+  answer: "Homestead agroforestry involves the production of multipurpose trees (MPTs) in homestead areas."
+},
+{
+  question: "What is integrated-farm-forestry?",
+  answer: "Integrated-farm-forestry refers to the production of crops, animals, fishes, and trees together in a single system."
+},
+{
+  question: "What is roadside agroforestry?",
+  answer: "Roadside agroforestry involves the production of deep-rooted tall trees with narrow canopies and soil-building grasses or crops along the sides of roads, highways, railways, and embankments."
+},
+{
+  question: "What is public place agroforestry?",
+  answer: "Public place agroforestry involves the production of suitable trees or decorative herbs and vegetables in places like markets, schools, colleges, and universities."
+}
+  ]
   };
 
   // Fisher-Yates shuffle algorithm
