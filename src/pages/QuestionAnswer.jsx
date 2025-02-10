@@ -1,6 +1,9 @@
 import { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import Navbar from '../components/Navbar/Navbar';
+import { getFirestore, doc, setDoc, getDoc } from 'firebase/firestore';
+import { app } from '../firebase';
+import { db } from '../firebase';
 
 function QuestionAnswer() {
   const { courseName, chapterName } = useParams();
@@ -8,6 +11,15 @@ function QuestionAnswer() {
   const [showAnswer, setShowAnswer] = useState(false);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [shuffledQuestions, setShuffledQuestions] = useState([]);
+  const [cardStates, setCardStates] = useState({});
+  
+  // Add these constants for intervals (in minutes)
+  const INTERVALS = {
+    AGAIN: 1,
+    HARD: 6,
+    GOOD: 10,
+    EASY: 1440  // 24 hours in minutes
+  };
 
   const questions = {
     'soil classification': [
@@ -1705,6 +1717,96 @@ function QuestionAnswer() {
     );
   };
 
+  // Function to handle difficulty selection
+  const handleDifficultySelect = async (difficulty) => {
+    console.log('Button clicked:', difficulty);
+    try {
+      if (!currentQuestion) {
+        console.error('No current question found');
+        return;
+      }
+
+      const now = new Date();
+      const cardState = cardStates[currentQuestion.question] || {
+        interval: 0,
+        repetitions: 0,
+        easeFactor: 2.5,
+        nextReview: now
+      };
+
+      // Calculate new interval based on difficulty
+      let newInterval;
+      let newEaseFactor = cardState.easeFactor;
+      
+      switch(difficulty) {
+        case 'AGAIN':
+          newInterval = 1; // 1 minute
+          newEaseFactor = Math.max(1.3, cardState.easeFactor - 0.2);
+          break;
+        case 'HARD':
+          newInterval = 6; // 6 minutes
+          newEaseFactor = Math.max(1.3, cardState.easeFactor - 0.15);
+          break;
+        case 'GOOD':
+          newInterval = cardState.interval === 0 ? 
+            10 : // 10 minutes
+            Math.round(cardState.interval * cardState.easeFactor);
+          break;
+        case 'EASY':
+          newInterval = 1440; // 1 day in minutes
+          newEaseFactor = cardState.easeFactor + 0.15;
+          break;
+        default:
+          newInterval = cardState.interval;
+      }
+
+      // Calculate next review time
+      const nextReview = new Date(now.getTime() + newInterval * 60000);
+
+      // Create new states
+      const newStates = {
+        ...cardStates,
+        [currentQuestion.question]: {
+          interval: newInterval,
+          repetitions: cardState.repetitions + 1,
+          easeFactor: newEaseFactor,
+          nextReview: nextReview
+        }
+      };
+
+      console.log('Saving new state:', newStates);
+
+      // Update local state
+      setCardStates(newStates);
+
+      // Save to Firebase
+      try {
+        const userDoc = doc(db, 'users', 'userId', 'cardStates', chapterName);
+        await setDoc(userDoc, newStates);
+        console.log('Successfully saved to Firebase');
+      } catch (firebaseError) {
+        console.error('Firebase save error:', firebaseError);
+      }
+
+      // Move to next question
+      handleNextQuestion();
+    } catch (error) {
+      console.error('Error in handleDifficultySelect:', error);
+    }
+  };
+
+  // Load card states from Firebase
+  useEffect(() => {
+    const loadCardStates = async () => {
+      const userDoc = doc(db, 'users', 'userId', 'cardStates', chapterName);
+      const docSnap = await getDoc(userDoc);
+      if (docSnap.exists()) {
+        setCardStates(docSnap.data());
+      }
+    };
+    loadCardStates();
+  }, [chapterName]);
+
   return (
     <div className="question-page">
       <Navbar />
@@ -1727,6 +1829,50 @@ function QuestionAnswer() {
               </div>
               <p className="card-hint">Click to {showAnswer ? 'see question' : 'reveal answer'}</p>
             </div>
+            
+            {showAnswer && (
+              <div className="difficulty-buttons" onClick={(e) => e.stopPropagation()}>
+                <button 
+                  className="difficulty-button again"
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    handleDifficultySelect('AGAIN');
+                  }}
+                >
+                  Again (1m)
+                </button>
+                
+                <button 
+                  className="difficulty-button hard"
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    handleDifficultySelect('HARD');
+                  }}
+                >
+                  Hard (6m)
+                </button>
+                
+                <button 
+                  className="difficulty-button good"
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    handleDifficultySelect('GOOD');
+                  }}
+                >
+                  Good (10m)
+                </button>
+                
+                <button 
+                  className="difficulty-button easy"
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    handleDifficultySelect('EASY');
+                  }}
+                >
+                  Easy (1d)
+                </button>
+              </div>
+            )}
             
             <div className="navigation-buttons">
               <button 
