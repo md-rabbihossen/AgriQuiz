@@ -12,6 +12,7 @@ function QuestionAnswer() {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [shuffledQuestions, setShuffledQuestions] = useState([]);
   const [cardStates, setCardStates] = useState({});
+  const [dueQuestions, setDueQuestions] = useState([]);
   
   // Add these constants for intervals (in minutes)
   const INTERVALS = {
@@ -244,7 +245,7 @@ function QuestionAnswer() {
       {
         question: "What are the key characteristics of Agroforestry according to modern definitions?",
         answer: "The key characteristics include:\n- Integration of trees, crops, and/or animals\n- Scientific soundness\n- Ecological desirability\n- Practical feasibility\n- Social acceptability\n- Sustainable land management\n- Increased overall production"
-      }     
+      }
     ],
     
     'land evaluation': [
@@ -505,7 +506,7 @@ function QuestionAnswer() {
       {
         "question": "What is vegetative apomixis?",
         "answer": "Vegetative apomixis is a type of vegetative propagation where buds or bulbils form in place of flowers in the inflorescence. Example: Onion."
-      }      
+      }
     ],
     'soil taxonomy- a comprehensive system': [
       {
@@ -1807,103 +1808,144 @@ function QuestionAnswer() {
     loadCardStates();
   }, [chapterName]);
 
+  // Add this function after your existing state declarations
+  const isCardDue = (cardState) => {
+    if (!cardState || !cardState.nextReview) return true;
+    return new Date() >= new Date(cardState.nextReview);
+  };
+
+  // Add this function after isCardDue
+  const getDueQuestions = () => {
+    return shuffledQuestions.filter(question => 
+      isCardDue(cardStates[question.question])
+    );
+  };
+
+  // Add this useEffect to update due cards when cardStates changes
+  useEffect(() => {
+    const currentDue = getDueQuestions();
+    setDueQuestions(currentDue);
+  }, [cardStates]); // Run whenever cardStates changes
+
+  const handleFinishSession = async () => {
+    try {
+      const userDoc = doc(db, 'users', 'userId', 'cardStates', chapterName);
+      await setDoc(userDoc, cardStates);
+      navigate(`/course/${courseName}/chapter/${chapterName}`);
+    } catch (error) {
+      console.error('Error saving session:', error);
+    }
+  };
+
   return (
     <div className="question-page">
       <Navbar />
       <div className="question-container">
-        <h2>{decodeURIComponent(chapterName)}</h2>
-        <h3>Question & Answer</h3>
-        
-        {currentQuestion ? (
-          <div className="flashcard">
-            <div className="card" onClick={() => setShowAnswer(!showAnswer)}>
+        <div className="header-controls">
+          <button 
+            className="finish-session-btn"
+            onClick={handleFinishSession}
+          >
+            Finish Session
+          </button>
+          <div className="progress-indicator">
+            Due: {dueQuestions.length}
+          </div>
+        </div>
+
+        {dueQuestions.length > 0 ? (
+          <div className="flashcard-container">
+            <div 
+              className={`card ${showAnswer ? 'revealed' : ''}`} 
+              onClick={() => setShowAnswer(!showAnswer)}
+            >
               <div className="card-content">
                 {showAnswer ? (
-                  <div 
-                    className="answer" 
-                    dangerouslySetInnerHTML={{ __html: currentQuestion.answer }}
-                  />
+                  <div className="answer-content">
+                    <div className="answer-label">Answer</div>
+                    <div 
+                      className="answer-text"
+                      dangerouslySetInnerHTML={{ __html: currentQuestion.answer }}
+                    />
+                  </div>
                 ) : (
-                  <p className="question">{currentQuestion.question}</p>
+                  <div className="question-content">
+                    <div className="question-label">Question</div>
+                    <p className="question-text">{currentQuestion.question}</p>
+                  </div>
                 )}
               </div>
-              <p className="card-hint">Click to {showAnswer ? 'see question' : 'reveal answer'}</p>
+              <div className="card-footer">
+                <span className="hint-text">
+                  {showAnswer ? 'Click to hide answer' : 'Click to reveal answer'}
+                </span>
+                <span className="timer-indicator"></span>
+              </div>
             </div>
             
             {showAnswer && (
-              <div className="difficulty-buttons" onClick={(e) => e.stopPropagation()}>
+              <div className="difficulty-buttons">
                 <button 
-                  className="difficulty-button again"
-                  onClick={(e) => {
-                    e.stopPropagation();
-                    handleDifficultySelect('AGAIN');
-                  }}
+                  className="difficulty-btn again"
+                  onClick={(e) => handleDifficultySelect('AGAIN')}
                 >
-                  Again (1m)
+                  <span className="label">Again</span>
+                  <span className="time">1m</span>
                 </button>
                 
                 <button 
-                  className="difficulty-button hard"
-                  onClick={(e) => {
-                    e.stopPropagation();
-                    handleDifficultySelect('HARD');
-                  }}
+                  className="difficulty-btn hard"
+                  onClick={(e) => handleDifficultySelect('HARD')}
                 >
-                  Hard (6m)
+                  <span className="label">Hard</span>
+                  <span className="time">5m</span>
                 </button>
                 
                 <button 
-                  className="difficulty-button good"
-                  onClick={(e) => {
-                    e.stopPropagation();
-                    handleDifficultySelect('GOOD');
-                  }}
+                  className="difficulty-btn good"
+                  onClick={(e) => handleDifficultySelect('GOOD')}
                 >
-                  Good (10m)
+                  <span className="label">Good</span>
+                  <span className="time">10m</span>
                 </button>
                 
                 <button 
-                  className="difficulty-button easy"
-                  onClick={(e) => {
-                    e.stopPropagation();
-                    handleDifficultySelect('EASY');
-                  }}
+                  className="difficulty-btn easy"
+                  onClick={(e) => handleDifficultySelect('EASY')}
                 >
-                  Easy (1d)
+                  <span className="label">Easy</span>
+                  <span className="time">1d</span>
                 </button>
               </div>
             )}
             
-            <div className="navigation-buttons">
+            <div className="navigation-controls">
               <button 
-                className="nav-button"
+                className="nav-btn prev"
                 onClick={handlePrevQuestion}
                 disabled={currentQuestionIndex === 0}
               >
-                Previous
+                ← Previous
               </button>
-              <span className="question-counter">
-                {currentQuestionIndex + 1} / {shuffledQuestions.length}
-              </span>
-              {currentQuestionIndex === shuffledQuestions.length - 1 ? (
-                <button 
-                  className="nav-button finish-button"
-                  onClick={() => navigate(`/course/${courseName}/chapter/${chapterName}`)}
-                >
-                  Finish
-                </button>
-              ) : (
-                <button 
-                  className="nav-button"
-                  onClick={handleNextQuestion}
-                >
-                  Next
-                </button>
-              )}
+              <button 
+                className="nav-btn next"
+                onClick={handleNextQuestion}
+                disabled={currentQuestionIndex === dueQuestions.length - 1}
+              >
+                Next →
+              </button>
             </div>
           </div>
         ) : (
-          <p className="no-questions">No questions available for this chapter yet.</p>
+          <div className="no-cards">
+            <p className="empty-state">No due cards</p>
+            <button 
+              className="return-button"
+              onClick={() => navigate(`/course/${courseName}/chapter/${chapterName}`)}
+            >
+              Return to Chapter
+            </button>
+          </div>
         )}
       </div>
     </div>
